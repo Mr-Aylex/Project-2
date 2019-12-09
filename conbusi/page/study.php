@@ -170,9 +170,9 @@
             </div>
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="more_close_btn text-center">
+                    <!--<div class="more_close_btn text-center">
                         <a href="case_details.html" class="boxed-btn3-line">More Cases</a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -180,7 +180,7 @@
     <!-- /case_study_area  -->
 
     <!-- Information_area  -->
-    <div class="Information_area overlay">
+    <!--<div class="Information_area overlay">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-8">
@@ -192,7 +192,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- /Information_area  end -->
 
     <!-- footer start -->
