@@ -12,8 +12,8 @@
   <body class="fond">
     <?php include "header.php" ?>
 
-    <form class="box" action="..\traitement\traitement_conformation.php" method="post">
-      <h1>Connexion</h1>
+    <form class="box" action="..\traitement\traitement_confirmation.php" method="post">
+      <h1>Réinitialiser mot de passe</h1>
 
       <label class="label" >Entrez votre nouveau mot de passe : </label>
       <div class="inputbox">
