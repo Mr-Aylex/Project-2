@@ -59,100 +59,100 @@
             <div class="row">
                     <div class="col-xl-12">
                         <div class="portfolio-menu text-center">
-                            <button class="active" data-filter="*">All</button>
-                            <button data-filter=".cat1">Finance</button>
-                            <button data-filter=".cat2">Startup</button>
-                            <button data-filter=".cat3">Business</button>
-                            <button data-filter=".cat4">Travel</button>
+                            <button class="active" data-filter="*">Tout</button>
+                            <button data-filter=".cat1">Bac Technologique</button>
+                            <button data-filter=".cat2">Bac Pro</button>
+                            <button data-filter=".cat3">Secourisme</button>
+                            <button data-filter=".cat4">BTS</button>
                         </div>
                     </div>
                 </div>
             <div class="row grid">
-                <div class="col-xl-4 grid-item cat1 cat3">
+                <div class="col-xl-4 grid-item cat1">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/1.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Bac STI2D</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat2 cat1">
+                <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/2.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Bac Pro TU</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat3 cat2 cat4">
+                <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/3.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Bac Pro SN</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat1 cat2">
+                <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/4.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Bac Pro MEI</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat4 cat3">
+                <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/5.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">3ème Prepa Pro</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat1 cat3 cat2 cat4">
+                <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/6.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="bts_sio_slam.php">BTS SIO option SLAM</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat1 cat3 cat2">
+                <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/7.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">BTS SIO option SISR</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat3">
+                <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/8.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">BTS CPRP</a></h3>
                         </div>
                     </div>
                 </div>
@@ -162,8 +162,8 @@
                             <img src="../img/case/9.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Formation SST</a></h3>
                         </div>
                     </div>
                 </div>
