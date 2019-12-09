@@ -68,7 +68,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="services.php">Entreprise</a></li>
-                                        <li><a href="study.php">Formation</a></li>
+                                        <li><a href="formation.php">Formation</a></li>
                                         <li><a href="#">Informations <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="blog.php"> Documents </a></li>

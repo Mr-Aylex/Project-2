@@ -227,7 +227,7 @@
     <!-- /Information_area  end -->
 
     <!-- footer start -->
-    <footer class="footer">
+    <!--<footer class="footer">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
@@ -251,19 +251,7 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-3">
-                      <!--   <div class="footer_widget">
-                           <h3 class="footer_title">
-                                    Services
-                            </h3>
-                            <ul>
-                                <li><a href="#">Marketing & SEO</a></li>
-                                <li><a href="#"> Startup</a></li>
-                                <li><a href="#">Finance solution</a></li>
-                                <li><a href="#">Food</a></li>
-                                <li><a href="#">Travel</a></li>
-                            </ul>
 
-                        </div>-->
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
@@ -278,31 +266,14 @@
                                             <li>  <img href="https://www.facebook.com/robertschumandugny" style='margin-left:-40px;'src="../img/banner/facebook.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="https://www.facebook.com/robertschumandugny">  Facebook</a></li>
 
 
-                                        <!--<li>
-                                            <a href="#">
-                                                <i class="ti-twitter-alt"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>-->
+
 
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                             <div class="footer_widget">
-                                  <!--  <h3 class="footer_title">
-                                            Subscribe
-                                    </h3>
-                                    <form action="#" class="newsletter_form">
-                                        <input type="text" placeholder="Enter your mail">
-                                        <button type="submit">Subscribe</button>
-                                    </form>
-                                    <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
-                                </div>-->
+
                     </div>
                 </div>
             </div>
@@ -313,15 +284,16 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="index.php" target="_blank">Tous droits réservés</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
+    <?php include "footer.php" ?>
     <!--/ footer end  -->
 
     <!-- link that opens popup -->
