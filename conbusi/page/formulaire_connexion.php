@@ -24,7 +24,7 @@
   </head>
   <body class="fond">
 
-    <form class="box" action="..\traitement\traitement_connexion.php" method="post">
+    <form class="box" action="../traitement/traitement_connexion.php" method="post">
       <h1>Connexion</h1>
 
       <label class="label" >Entrez votre adresse mail : </label>

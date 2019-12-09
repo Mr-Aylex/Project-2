@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!--  <link rel="stylesheet" href="../CSS/formulaire2.css">-->
-        <link rel="stylesheet" href="../CSS/formulaire2.css">
+    <link rel="stylesheet" href="../css/formulaire_inscription.css">
     <title>Inscription</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
@@ -21,7 +21,7 @@
   <body class="fond">
     <?php include "header.php" ?>
 
-      <form class="box" action="..\traitement\traitement_incription_parent.php" method="post">
+      <form class="box" action="../traitement/traitement_inscription_parent.php" method="post">
         <h1>Inscription</h1>
         <label class="label" for="">Nom</label>
         <div class="inputbox">
