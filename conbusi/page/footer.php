@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-3 col-md-6 col-lg-3">
                     <div class="footer_widget">
-                          <div id="fils">
+                          <div style="margin-top:-150px;">
                         <div class="footer_logo">
                             <a href="#">
                                 <img style="padding-top:20px;"src="../img/logo.png" height="80px" width="100px" alt="">
@@ -21,12 +21,26 @@
 
                     </div>
                 </div>
+
+                <div style="margin-left:200px;margin-top:-100px;" >
+                    <div class="footer_widget">
+                        <h3 class="">
+                                Liens utiles : 
+                        </h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#"> Contact</a></li>
+                            <li><a href="#">Appointment</a></li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div class="col-xl-2 col-md-6 col-lg-3">
 
                 </div>
-                <div class="col-xl-2 col-md-6 col-lg-2">
-                    <div class="footer_widget">
-                        <h3 style="margin-left:-35px;" class="footer_title">Lien utile :</h3>
+                <div class="col-xl-2 col-md-6 col-lg-2" style="margin-left:900px;margin-top:-150px;">
+
                         <ul>
 
                             <li><img href="https://0931573e.index-education.net/pronote/" style='margin-left:-40px;'src="../img/banner/pronote.png" height="40px " width="40px" alt=""><a style="margin-left:10px;" href="https://0931573e.index-education.net/pronote/">  Pronote</a></li>
@@ -42,6 +56,8 @@
                         </ul>
                     </div>
                 </div>
+
+
                 <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="footer_widget">
 

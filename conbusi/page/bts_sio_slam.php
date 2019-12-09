@@ -109,5 +109,7 @@
         <img src="#" alt="image">
       </div>
     </div>
+
+    <?php include "footer.php" ?>
   </body>
 </html>

@@ -42,7 +42,9 @@
                   <div class="row">
                       <div class="col-xl-5 col-md-5 ">
                           <div class="header_left">
-                              <p>Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
+                            <p>    <a href="index.php">
+                                    <img style="margin-left:-160px; margin-top:-9px;" src="../img/logo.png" width="80px" height="50px" alt="">
+                                </a>Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
                           </div>
                       </div>
                       <div class="col-xl-7 col-md-7">
@@ -75,9 +77,6 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.php">
-                                        <img src="../img/logo.png" height="80px" width="100px" alt="">
-                                    </a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-7">
@@ -92,7 +91,7 @@
                                               </ul>
                                           </li>
                                           <li><a href="services.php">Entreprise</a></li>
-                                          <li><a href="study.php">Formation</a></li>
+                                          <li><a href="formation.php">Formation</a></li>
                                           <li><a href="#">Informations <i class="ti-angle-down"></i></a>
                                               <ul class="submenu">
                                                   <li><a href="blog.php"> Documents </a></li>
@@ -284,49 +283,11 @@
          </div>
      </div>
     <!-- /Information_area  end -->
-
+<?php
+include "footer.php"
+?>
     <!-- footer start -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img src="../img/logo.png" height="80px" width="100px" alt="">
-                                </a>
-                            </div>
 
-
-                                                          E-mail : administration@lyceerobertschuman.com
-
-                                                        Numéro : 01 48 37 74 26<br>
-                                                Adressse : 5 avenue du Général de Gaulle<br>
-                                                Ville : 93440 Dugny
-
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
                     <!--<div class="col-xl-2 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
@@ -367,24 +328,7 @@
                                     <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
                                 </div>
                     </div>-->
-                </div>
-            </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="index.php" target="_blank">Tous droits réservés</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+
     <!--/ footer end  -->
 
     <!-- link that opens popup -->
