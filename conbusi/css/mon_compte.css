@@ -1,0 +1,17 @@
+.fond{
+  background-color: #1B5C77;
+  margin-top: 200px;
+}
+.element h4{
+
+  color: white;
+}
+.element h6{
+  padding:8px;
+  width: 260px;
+  border-style: solid;
+  color: white;
+}
+.box{
+  margin-left: 40px;
+}

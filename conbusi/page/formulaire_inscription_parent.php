@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
   <head>
+    <?php $mon_compte=0 ?>
+    <?php include "header.php" ?>
     <meta charset="utf-8">
     <!--  <link rel="stylesheet" href="../CSS/formulaire2.css">-->
     <link rel="stylesheet" href="../css/formulaire_inscription.css">
@@ -91,7 +92,6 @@
     </style>
   </head>
   <body class="fond">
-    <?php include "header.php" ?>
 
       <form class="box" action="../traitement/traitement_inscription_parent.php" method="post">
 

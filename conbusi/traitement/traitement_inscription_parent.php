@@ -49,7 +49,7 @@ else {
         header('Location: ..\page\formulaire_inscription_parent.php');
       }
       else {
-        $req = $bdd->prepare('INSERT INTO profil_parent(nom, prenom, mail, numero, profession, adresse, mot_de_passe) VALUES(:nom, :prenom, :mail, :profession, :numero, :adresse, :mdp)');
+        $req = $bdd->prepare('INSERT INTO profil_parent(nom, prenom,  numero, mail, profession, adresse, mot_de_passe) VALUES(:nom, :prenom,  :numero, :mail, :profession, :adresse, :mdp)');
         $req->execute(array(
           'nom'=>$nom,
           'prenom'=>$prenom,

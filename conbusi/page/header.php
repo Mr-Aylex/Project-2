@@ -89,7 +89,7 @@
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="Appointment">
                               <?php
-                              if (empty($_SESSION)) {?>
+                              if (empty($_SESSION) and $mon_compte==0) {?>
                                 <div class="book_btn d-none d-lg-block">
                                     <a  href="formulaire_connexion.php">Se connecter</a>
                                 </div>
@@ -98,6 +98,11 @@
                                   <div class="book_btn d-none d-lg-block">
                                       <a  href="../traitement/se_deconnecter.php">Se déconnecter</a>
                                   </div>
+                              <?php }
+                              elseif($mon_compte==2){?>
+                                <div class="book_btn d-none d-lg-block">
+                                    <a  href="formulaire_inscription_parent.php">S'Inscrire</a>
+                                    </div>
                               <?php }
                               else {?>
                                 <div class="book_btn d-none d-lg-block">

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
   <head>
+    <?php $mon_compte=2 ?>
+    <?php include "header.php" ?>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/magnific-popup.css">
@@ -104,7 +105,6 @@ label{
   <body class="fond">
 
 
-<?php include "header.php" ?>
 
     <form class="box" action="../traitement/traitement_connexion.php" method="post">
 
