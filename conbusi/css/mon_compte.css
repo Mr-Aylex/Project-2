@@ -7,9 +7,11 @@
   color: white;
 }
 .element h6{
+  margin-left: 2px;
   padding:8px;
   width: 260px;
   border-style: solid;
+  border-radius: 5px;
   color: white;
 }
 .box{

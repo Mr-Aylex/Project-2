@@ -47,5 +47,20 @@
          <h6><?php echo $donne['profession'] ?></h6>
        </div>
      </div>
+     <?php $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
+     $reponse->execute(array('id'=>$_SESSION['id']));
+     $donnee=$reponse->fetch(); ?>
+     <div class="box">
+         <?php if (empty($donnee)) {?>
+           <div class="">
+             <a href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
+           </div>
+         <?php }
+          else {?>
+            <div class="">
+              <a href="profil_eleve.php">Voir les profiles de mes enfants</a>
+            </div>
+          <?php } ?>
+     </div>
   </body>
 </html>
