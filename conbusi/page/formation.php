@@ -59,100 +59,100 @@
             <div class="row">
                     <div class="col-xl-12">
                         <div class="portfolio-menu text-center">
-                            <button class="active" data-filter="*">All</button>
-                            <button data-filter=".cat1">Finance</button>
-                            <button data-filter=".cat2">Startup</button>
-                            <button data-filter=".cat3">Business</button>
-                            <button data-filter=".cat4">Travel</button>
+                            <button class="active" data-filter="*">Tout</button>
+                            <button data-filter=".cat1">Bac Technologique</button>
+                            <button data-filter=".cat2">Bac Pro</button>
+                            <button data-filter=".cat3">Secourisme</button>
+                            <button data-filter=".cat4">BTS</button>
                         </div>
                     </div>
                 </div>
             <div class="row grid">
-                <div class="col-xl-4 grid-item cat1 cat3">
+                <div class="col-xl-4 grid-item cat1">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/1.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Bac STI2D</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat2 cat1">
+                <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/2.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Bac Pro TU</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat3 cat2 cat4">
+                <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/3.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Bac Pro SN</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat1 cat2">
+                <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/4.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Bac Pro MEI</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat4 cat3">
+                <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/5.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">3ème Prepa Pro</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat1 cat3 cat2 cat4">
+                <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/6.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="bts_sio_slam.php">BTS SIO option SLAM</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat1 cat3 cat2">
+                <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/7.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">BTS SIO option SISR</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 grid-item cat3">
+                <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
                             <img src="../img/case/8.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">BTS CPRP</a></h3>
                         </div>
                     </div>
                 </div>
@@ -162,17 +162,17 @@
                             <img src="../img/case/9.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <span>Finance Solution</span>
-                            <h3><a href="#">Consumer Products Consulting</a></h3>
+                            <span>#</span>
+                            <h3><a href="#">Formation SST</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="more_close_btn text-center">
+                    <!--<div class="more_close_btn text-center">
                         <a href="case_details.html" class="boxed-btn3-line">More Cases</a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -180,7 +180,7 @@
     <!-- /case_study_area  -->
 
     <!-- Information_area  -->
-    <div class="Information_area overlay">
+    <!--<div class="Information_area overlay">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-8">
@@ -192,107 +192,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- /Information_area  end -->
 
     <!-- footer start -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img src="../img/footer_logo.png" alt="">
-                                </a>
-                            </div>
-                            <p>
-                                <a href="#">conbusi@support.com</a> <br>
-                                +10 873 672 6782 <br>
-                                600/D, Green road, NewYork
-                            </p>
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Services
-                            </h3>
-                            <ul>
-                                <li><a href="#">Marketing & SEO</a></li>
-                                <li><a href="#"> Startup</a></li>
-                                <li><a href="#">Finance solution</a></li>
-                                <li><a href="#">Food</a></li>
-                                <li><a href="#">Travel</a></li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Useful Links
-                            </h3>
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#"> Contact</a></li>
-                                <li><a href="#">Appointment</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Subscribe
-                            </h3>
-                            <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="submit">Subscribe</button>
-                            </form>
-                            <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
-                                luckily.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<?php include "footer.php" ?>
     <!--/ footer end  -->
 
     <!-- link that opens popup -->

@@ -18,11 +18,17 @@
                 <div class="row">
                     <div class="col-xl-5 col-md-5 ">
                         <div class="header_left">
+<<<<<<< HEAD
                           <a href="index.php">
                               <img style="margin-left:-50px; margin-top:-5px;" src="../img/logo.png" width="50px" height="60px" alt="">
 
                             <p>Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
                               </a>
+=======
+                            <p>    <a href="index.php">
+                                    <img style="margin-left:-160px; margin-top:-9px;" src="../img/logo.png" width="80px" height="50px" alt="">
+                                </a>Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
+>>>>>>> ffb6a8fa22abaabad8d04077bbbf34df018794d5
                         </div>
                     </div>
                     <div class="col-xl-7 col-md-7">
@@ -70,7 +76,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="services.php">Entreprise</a></li>
-                                        <li><a href="study.php">Formation</a></li>
+                                        <li><a href="formation.php">Formation</a></li>
                                         <li><a href="#">Informations <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="blog.php"> Documents </a></li>

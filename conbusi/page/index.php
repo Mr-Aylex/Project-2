@@ -113,82 +113,6 @@
     </div>
     <!-- slider_area_end -->
 
-    <!-- service_area_start -->
-<!--     <div class="service_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center mb-50">
-                        <h3>What we Do?</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/1.svg" alt="">
-                        </div>
-                        <h3>Marketing & SEO Agency</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/2.svg" alt="">
-                        </div>
-                        <h3>Startup Agency</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/3.svg" alt="">
-                        </div>
-                        <h3>Corporate Business</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/4.svg" alt="">
-                        </div>
-                        <h3>Finance Solution</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/5.svg" alt="">
-                        </div>
-                        <h3>Food & Restaurant</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single_service text-center">
-                        <div class="service_icon">
-                            <img src="img/svg_icon/6.svg" alt="">
-                        </div>
-                        <h3>Travel Agency </h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                        <a href="#" class="learn_more">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  service_area_end -->
-
     <!-- about_info_area start  -->
     <div class="about_info_area">
         <div class="container">
@@ -284,320 +208,8 @@
     </div>
     <!-- /counter_area  -->
 
-    <!-- case_study_area  -->
-    <!--     <div class="case_study_area">
-        <div class="container">
-            <div class="border_bottom">
-                    <div class="row">
-                            <div class="col-xl-12">
-                                <div class="section_title text-center mb-40">
-                                    <h3>Case Study</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="case_active owl-carousel">
-                                        <div class="single_case">
-                                                <div class="case_thumb">
-                                                        <img src="img/case/1.png" alt="">
-                                                    </div>
-                                            <div class="case_heading">
-                                                    <span>Finance Solution</span>
-                                                    <h3><a href="#">Consumer Products Consulting</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="single_case">
-                                                <div class="case_thumb">
-                                                        <img src="img/case/2.png" alt="">
-                                                    </div>
-                                            <div class="case_heading">
-                                                    <span>Finance Solution</span>
-                                                    <h3><a href="#">Consumer Products Consulting</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="single_case">
-                                                <div class="case_thumb">
-                                                        <img src="img/case/3.png" alt="">
-                                                    </div>
-                                            <div class="case_heading">
-                                                    <span>Finance Solution</span>
-                                                    <h3><a href="#">Consumer Products Consulting</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="single_case">
-                                                <div class="case_thumb">
-                                                        <img src="img/case/1.png" alt="">
-                                                    </div>
-                                            <div class="case_heading">
-                                                    <span>Finance Solution</span>
-                                                    <h3><a href="#">Consumer Products Consulting</a></h3>
-                                            </div>
-                                        </div>
-                                </div>
 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="more_close_btn text-center">
-                                    <a href="#" class="boxed-btn3-line">More Cases</a>
-                                </div>
-                            </div>
-                        </div>
-            </div>
-        </div>
-    </div>
-  /case_study_area  -->
-
-    <!-- accordion  -->
-      <!--   <div class="accordion_area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="accordion_thumb">
-                            <img src="img/banner/accordion.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="faq_ask">
-                            <h3>Frequently ask</h3>
-                                <div id="accordion">
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwo">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                            Adieus who direct esteem <span>It esteems luckily?</span>
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                            Who direct esteem It esteems?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                            Duis consectetur feugiat auctor?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="">
-                                                <div class="card-body">Esteem spirit temper too say adieus who direct esteem esteems luckily or picture placing drawing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       accordion  -->
-
-      <!--   <div class="testimonial_area overlay ">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_carousel">
-                                <div class="single_testmonial text-center">
-                                        <div class="quote">
-                                            <img src="img/svg_icon/quote.svg" alt="">
-                                        </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                                        <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="img/case/testmonial.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
-                                        </div>
-                                    </div>
-                        </div>
-                        <div class="single_carousel">
-                                <div class="single_testmonial text-center">
-                                        <div class="quote">
-                                            <img src="img/svg_icon/quote.svg" alt="">
-                                        </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                                        <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="img/case/testmonial.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
-                                        </div>
-                                    </div>
-                        </div>
-                        <div class="single_carousel">
-                                <div class="single_testmonial text-center">
-                                        <div class="quote">
-                                            <img src="img/svg_icon/quote.svg" alt="">
-                                        </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                                        <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="img/case/testmonial.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
-                                        </div>
-                                    </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-  team_area  -->
-      <!--   <div class="team_area">
-            <div class="container">
-                <div class="border_bottom">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="section_title mb-40 text-center">
-                                <h3>
-                                        Expert Team
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single_team">
-                                <div class="team_thumb">
-                                    <img src="img/team/3.png" alt="">
-                                </div>
-                                <div class="team_info text-center">
-                                    <h3>Milani Mou</h3>
-                                    <p>Photographer</p>
-                                    <div class="social_link">
-                                        <ul>
-                                            <li><a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single_team">
-                                <div class="team_thumb">
-                                    <img src="img/team/2.png" alt="">
-                                </div>
-                                <div class="team_info text-center">
-                                    <h3>Jasmine Pinky</h3>
-                                    <p>Photographer</p>
-                                    <div class="social_link">
-                                        <ul>
-                                            <li><a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single_team">
-                                <div class="team_thumb">
-                                    <img src="img/team/1.png" alt="">
-                                </div>
-                                <div class="team_info text-center">
-                                    <h3>Piya Zosoldos</h3>
-                                    <p>Photographer</p>
-                                    <div class="social_link">
-                                        <ul>
-                                            <li><a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     /team_area  -->
-    <!-- formulaire -->
-      <!--   <div class="contact_form_quote">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="form_wrap">
-                            <h3>Get Free Quote</h3>
-                            <form action="#">
-                                <input type="text" placeholder="Your Name" >
-                                <input type="email" placeholder="Email" >
-                                <textarea name="#" id="" cols="30" rows="10" placeholder="Message" ></textarea>
-                                <button class="boxed-btn3">Send</button>
-                            </form>
-                    </div>
-                </div>
-                <div class="col-xl-6 offset-xl-1 col-lg-6">
-                    <div class="contact_thumb">
-                        <img src="img/banner/contact_thumb.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   Information_area  -->
+   <!--Information_area  -->
 
    <div style="background-color:white; width:100px; height:200px ;"> </div>
     <div class="Information_area overlay">
@@ -615,7 +227,7 @@
     <!-- /Information_area  end -->
 
     <!-- footer start -->
-    <footer class="footer">
+    <!--<footer class="footer">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
@@ -639,19 +251,7 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                          <!--  <h3 class="footer_title">
-                                    Services
-                            </h3>
-                            <ul>
-                                <li><a href="#">Marketing & SEO</a></li>
-                                <li><a href="#"> Startup</a></li>
-                                <li><a href="#">Finance solution</a></li>
-                                <li><a href="#">Food</a></li>
-                                <li><a href="#">Travel</a></li>
-                            </ul>-->
 
-                        </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
@@ -666,31 +266,14 @@
                                             <li>  <img href="https://www.facebook.com/robertschumandugny" style='margin-left:-40px;'src="../img/banner/facebook.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="https://www.facebook.com/robertschumandugny">  Facebook</a></li>
 
 
-                                        <!--<li>
-                                            <a href="#">
-                                                <i class="ti-twitter-alt"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>-->
+
 
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                             <div class="footer_widget">
-                                  <!--  <h3 class="footer_title">
-                                            Subscribe
-                                    </h3>
-                                    <form action="#" class="newsletter_form">
-                                        <input type="text" placeholder="Enter your mail">
-                                        <button type="submit">Subscribe</button>
-                                    </form>
-                                    <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
-                                </div>-->
+
                     </div>
                 </div>
             </div>
@@ -701,15 +284,16 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="index.php" target="_blank">Tous droits réservés</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
+    <?php include "footer.php" ?>
     <!--/ footer end  -->
 
     <!-- link that opens popup -->

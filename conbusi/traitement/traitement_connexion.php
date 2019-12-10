@@ -19,7 +19,7 @@ if($connexion == true){
     $_SESSION['id']=$connexion['id'];
     $_SESSION['nom']=$connexion['nom'];
     $_SESSION['prenom']=$connexion['prenom'];
-  header("Location: ..\index.php");
+  header("Location: ../page/index.php");
 }
 
 else{

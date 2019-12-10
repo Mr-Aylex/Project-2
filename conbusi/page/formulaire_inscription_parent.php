@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!--  <link rel="stylesheet" href="../CSS/formulaire2.css">-->
-        <link rel="stylesheet" href="../CSS/formulaire2.css">
+    <link rel="stylesheet" href="../css/formulaire_inscription.css">
     <title>Inscription</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
@@ -17,19 +17,98 @@
     <link rel="stylesheet" href="../css/slick.css">
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../../CSS/formulaire.css">
+
+    <style>
+
+    .box{
+
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      width:800px;
+      padding:20px;
+      padding:20px 30px;
+      background-color:rgba(0,0,0,.8);
+      box-sizing:border-box;
+      box-shadow: 0 15px 25px rgba(0,0,0,.5);
+      border-radius: 10px;
+
+
+    }
+
+    a{
+    color:#1B9CFC;
+    }
+
+    .box .inputbox{
+      position: relative;
+    }
+
+    .box .inputbox input{
+      width:100%;
+      padding:9px 0;
+      font-size:12px ;
+      color:white;
+      letter-spacing: 1px ;
+      margin-bottom: 30px;
+      outline:none;
+      background:transparent;
+      border: 0;
+      outline: 0;
+      border-bottom: 1px solid white;
+      font-size: 1.4rem;
+
+    }
+
+
+
+    .box .inputbox label {
+      position:absolute;
+      top:0;
+      left:0;
+      font-size: 9px;
+      color:#1B9CFC;
+      pointer-events:none;
+      transition:.5s;
+    }
+
+    label{
+      top:5px
+      left:0;
+      color:#1B9CFC;
+      font-size: 18px;
+    }
+
+    .box input[type="submit"] {
+      background: transparent;
+      border :none;
+      outline:none;
+      color:white;
+      background:#1B9CFC;
+      padding:10px 20px;
+      cursor:pointer;
+      border-radius:5px ;
+    }
+    </style>
   </head>
   <body class="fond">
     <?php include "header.php" ?>
 
-      <form class="box" action="..\traitement\traitement_incription_parent.php" method="post">
-        <h1>Inscription</h1>
-        <label class="label" for="">Nom</label>
+      <form class="box" action="../traitement/traitement_inscription_parent.php" method="post">
+
+        <table>
+        <h1 style="color:#1B9CFC;text-align:center;">Inscription</h1>
+        <tr>
+        <td>
+        <label  style="color:#1B9CFC;text-align:center;">Nom</label>
         <div class="inputbox">
           <input type="text" name="nom" placeholder="Nom"/>
         </div>
 
 
-<label class="label" for="">Prenom</label>
+<label style="color:#1B9CFC;text-align:center;">Prenom</label>
 <div class="inputbox">
 
   <input type="text" name="prenom" placeholder="Prenom"/>
@@ -37,43 +116,45 @@
 
 
 
-<label class="label"  for="">Mail</label>
+<label   style="color:#1B9CFC;text-align:center;">Mail</label>
 <div class="inputbox">
   <input type="text" name="mail"  placeholder="Mail"value=""/>
 </div>
 
 
-<label class="label" for="">Adresse</label>
+<label  style="color:#1B9CFC;text-align:center;">Adresse</label>
 <div class="inputbox">
 
   <input type="text" name="adresse" placeholder="Adresse">
 </div>
-
-
-    <label class="label"  for="">Profession</label>
-    <div class="inputbox">
+</td>
+<td >
+    <label  style="color:#1B9CFC;text-align:center;">Profession</label>
+    <div class="inputbox" style="margin-left:200px;">
       <input type="text" name="profession" placeholder="Profession"/>
     </div>
 
 
-        <label class="label" for="">Numéro de téléphone</label>
-        <div class="inputbox">
+        <label  style="color:#1B9CFC;text-align:center;">Numéro de téléphone</label>
+        <div class="inputbox" style="margin-left:200px;">
           <input type="text" name="numero" placeholder="Numéro"/>
         </div>
 
 
 
-        <label class="label" for="">Mot de passe</label>
-        <div class="inputbox">
+        <label  style="color:#1B9CFC;text-align:center;">Mot de passe</label>
+        <div class="inputbox" style="margin-left:200px;">
           <input type="password" name="mdp" placeholder="Mot de passe"/>
         </div>
 
 
 
-        <div class="inputbox">
+        <div class="inputbox" style="margin-left:200px;">
           <input type="submit" value="S'inscrire"/>
         </div>
-
+</td>
+</tr>
+</table>
       </form>
     </form>
   </body>
