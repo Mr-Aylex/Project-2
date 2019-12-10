@@ -1,3 +1,4 @@
+<?php $mon_compte=0 ?>
 <?php session_start();?>
 
 <!DOCTYPE html>

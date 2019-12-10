@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="../css/formulaire_inscription_eleve.css">

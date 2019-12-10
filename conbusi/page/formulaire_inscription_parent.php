@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">

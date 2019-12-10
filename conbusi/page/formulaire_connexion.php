@@ -1,5 +1,5 @@
-
 <!DOCTYPE html>
+<?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -152,6 +152,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micro
         </div>
     </div>
 
-    
+
   </body>
 </html>

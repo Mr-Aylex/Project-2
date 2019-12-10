@@ -1,4 +1,5 @@
 <!doctype html>
+<?php $mon_compte=0 ?>
 <html class="no-js" lang="zxx">
 
 <head>
