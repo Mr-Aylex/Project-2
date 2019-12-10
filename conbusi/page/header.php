@@ -22,7 +22,7 @@
                           <a href="index.php">
 
 
-                            <p>                <img style="margin-left:-60px; margin-top:5px;" src="../img/logo.png" width="50px" height="50px" alt="">  Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
+                            <p><img style="margin-left:-60px; margin-top:5px;" src="../img/logo.png" width="50px" height="50px" alt="">  Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
                               </a>
 
 
@@ -88,16 +88,22 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="Appointment">
-                              <?php if (empty($_SESSION)) {?>
+                              <?php
+                              if (empty($_SESSION)) {?>
                                 <div class="book_btn d-none d-lg-block">
                                     <a  href="formulaire_connexion.php">Se connecter</a>
                                 </div>
                               <?php }
+                                elseif($mon_compte==1){?>
+                                  <div class="book_btn d-none d-lg-block">
+                                      <a  href="../traitement/se_deconnecter.php">Se déconnecter</a>
+                                  </div>
+                              <?php }
                               else {?>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a  href="../traitement/se_deconnecter.php">Se deconnecter</a>
+                                    <a  href="mon_compte.php">Mon Compte</a>
                                 </div>
-                              <?php } ?>
+                              <?php }?>
                             </div>
                         </div>
                         <div class="col-12">

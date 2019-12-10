@@ -8,7 +8,8 @@ else {
   $prenom=$_POST['prenom'];
   $age=$_POST['age'];
   $classe=$_POST['classe'];
-  $id_parent=$_SESSION['id']
+  $id_parent=$_SESSION['id'];
+  var_dump($_POST);
   try
   {
     $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
@@ -17,21 +18,24 @@ else {
   {
     die('Erreur:'.$e->getMessage());
   }
-  $req = $bdd->prepare('SELECT nom, prenom FROM profil_parent WHERE nom=:nom, prenom=:prenom');
+  $req = $bdd->prepare('SELECT nom, prenom FROM profil_eleve WHERE nom=:nom AND prenom=:prenom');
   $req->execute(array(
-          'nom'=>$_POST['nom'],
-          'prenom'=>$_POST['prenom']));
+          'nom'=>$nom,
+          'prenom'=>$prenom));
+
   $donne=$req->fetch();
   if ($donne==true) {
     header('Location: ..\page\formulaire_inscription_eleve.php');
   }
   else {
-    $req = $bdd->prepare('INSERT INTO profil_parent(nom, prenom, age, classe) VALUES(:nom, :prenom, :age)');
+    $req = $bdd->prepare('INSERT INTO profil_eleve(nom, prenom, age, classe, id_parent) VALUES(:nom, :prenom, :age, :classe, :id_parent)');
     $req->execute(array(
       'nom'=>$nom,
       'prenom'=>$prenom,
-      'age'=>$age));
-      header("Location: ..\conbusi\index.php");
+      'age'=>$age,
+      'classe'=>$classe,
+      'id_parent'=>$id_parent));
+      header("Location: ..\page\index.php");
   }
 }
  ?>

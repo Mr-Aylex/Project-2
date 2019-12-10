@@ -1,16 +1,17 @@
+
 <!DOCTYPE html>
-<?php session_start() ?>
-<?php if (empty($_SESSION)) {
-  header("Location: formulaire_connexion.php");
-} else {?>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="../css/formulaire_inscription_eleve.css">
+    <?php include "header.php" ?>
+    <?php if (empty($_SESSION)) {
+      header("Location: formulaire_connexion.php");
+    } else {?>
     <meta charset="utf-8">
-      <link rel="stylesheet" href="../CSS/formulaire2.css">
+
     <title>Inscription</title>
   </head>
   <body class="fond">
-    <?php include "header.php" ?>
     <form class="box" action="..\traitement\traitement_inscription_eleve.php" method="post">
       <div class="g">
 
@@ -43,8 +44,10 @@
             }
             $reponse=$bdd->query('SELECT nom_classe FROM classe');
             $donne = $reponse->fetchall();
+
             foreach ($donne as $key => $value) {
-                  echo "<option value=". $value['nom_classe'] . ">".$value['nom_classe']."</option>";
+                $trans=array(" "=>"_");
+                  echo "<option value=". strtr($value['nom_classe'],$trans) . ">".$value['nom_classe']."</option>";
             } ?>
           </select>
         </div>

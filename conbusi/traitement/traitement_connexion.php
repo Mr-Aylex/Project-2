@@ -23,7 +23,7 @@ if($connexion == true){
 }
 
 else{
-  header("Location: formulaire_connexion.php");
+  header("Location: ../page/formulaire_connexion.php");
 }
 
 ?>

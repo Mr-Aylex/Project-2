@@ -1,0 +1,8 @@
+.fond{
+  background-image: url(../img/banner/dev3.jpg);
+  margin-top: 200px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

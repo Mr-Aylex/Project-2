@@ -71,7 +71,7 @@
                 <div class="col-xl-4 grid-item cat1">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/1.png" alt="">
+                            <img src="../img/case/sti2d.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <span>#</span>
@@ -82,7 +82,7 @@
                 <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/2.png" alt="">
+                            <img src="../img/case/tu.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <span>#</span>
@@ -93,7 +93,7 @@
                 <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/3.png" alt="">
+                            <img src="../img/case/sn.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <span>#</span>
@@ -104,7 +104,7 @@
                 <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/4.png" alt="">
+                            <img src="../img/case/mei.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <span>#</span>
@@ -115,7 +115,7 @@
                 <div class="col-xl-4 grid-item cat2">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/5.png" alt="">
+                            <img src="../img/case/prepa_pro.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <span>#</span>
@@ -126,7 +126,7 @@
                 <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/6.png" alt="">
+                            <img src="../img/case/slam.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <span>#</span>
@@ -137,7 +137,7 @@
                 <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/7.png" alt="">
+                            <img src="../img/case/sisr.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <span>#</span>
@@ -148,7 +148,7 @@
                 <div class="col-xl-4 grid-item cat4">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/8.png" alt="">
+                            <img src="../img/case/cprp.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <span>#</span>
