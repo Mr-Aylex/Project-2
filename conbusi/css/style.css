@@ -4175,15 +4175,15 @@ h3 {
 
 /* line 36, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_emergency_contact.scss */
 .emergency_bg_1 {
-  background-image: url(../img/banner/emergency-1.png);
+  background-image: url(../img//emergency-1.png);
 }
 
 /* line 39, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_emergency_contact.scss */
 .emergency_bg_2 {
-  background-image: url(../img/banner/emergency-2.png);
+  background-image: url(../img//emergency-2.png);
 }
 
-/*=================== contact banner start ====================*/
+/*=================== contact  start ====================*/
 /* line 3, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact.scss */
 .dropdown .dropdown-menu {
   -webkit-transition: all 0.3s;

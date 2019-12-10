@@ -64,9 +64,9 @@
                     <div class="about_text">
                         <h4>Voyage scolaire</h4>
                         <p>Les activités pratiquées à l’occasion d’une sortie scolaire viennent nécessairement en appui des programmes. Elles s’intègrent au projet d’école et au projet pédagogique de la classe. Chaque sortie, quelle qu’en soit la durée, nourrit un projet d’apprentissages, souvent pluridisciplinaire, au travers d’un programme minutieusement préparé dans lequel le nombre des sujets d’étude ou des activités pratiquées peuvent durer jusqu’à une semaine.</p>
-                            <a href="#" class="boxed-btn3">Archives voyage scolaire 2016-2017</a>
+                            <a href="archive2016_2017.php" class="boxed-btn3">Archives voyage scolaire 2016-2017</a>
                             <div style="color:white; width:400px; height:50px;"></div>
-                            <a href="#" class="boxed-btn3">Archives voyage scolaire 2018</a>
+                            <a href="archive_2018.php" class="boxed-btn3">Archives voyage scolaire 2018</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">

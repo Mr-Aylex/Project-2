@@ -22,11 +22,7 @@
     <style>
 
     .box{
-
-      position:absolute;
-      top:50%;
-      left:50%;
-      transform:translate(-50%,-50%);
+      margin-top:150px;
       width:800px;
       padding:20px;
       padding:20px 30px;
@@ -129,20 +125,20 @@
 </div>
 </td>
 <td >
-    <label  style="color:#1B9CFC;text-align:center;">Profession</label>
+    <label  style="color:#1B9CFC;margin-left:140px;">Profession</label>
     <div class="inputbox" style="margin-left:200px;">
       <input type="text" name="profession" placeholder="Profession"/>
     </div>
 
 
-        <label  style="color:#1B9CFC;text-align:center;">Numéro de téléphone</label>
+        <label  style="color:#1B9CFC;margin-left:140px;">Numéro de téléphone</label>
         <div class="inputbox" style="margin-left:200px;">
           <input type="text" name="numero" placeholder="Numéro"/>
         </div>
 
 
 
-        <label  style="color:#1B9CFC;text-align:center;">Mot de passe</label>
+        <label  style="color:#1B9CFC;margin-left:110px;">Mot de passe</label>
         <div class="inputbox" style="margin-left:200px;">
           <input type="password" name="mdp" placeholder="Mot de passe"/>
         </div>
@@ -155,8 +151,10 @@
 </td>
 </tr>
 </table>
+
+
       </form>
-    </form>
+
   </body>
   <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
   <script src="../js/vendor/jquery-1.12.4.min.js"></script>
