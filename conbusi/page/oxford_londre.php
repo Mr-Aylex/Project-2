@@ -26,6 +26,64 @@
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <style>
+
+    @keyframes masuperanimation {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(150px);
+    }
+
+    100% {
+        transform: translateX(150px) rotate(30deg);
+    }
+}
+
+
+@keyframes masuperanimation2 {
+0% {
+    transform: translateX(0px);
+}
+
+50% {
+    transform: translateX(150px);
+}
+
+100% {
+    transform: translateX(150px) rotate(30deg);
+}
+}
+
+.div
+{
+    margin: 100px;
+    width: 300px;
+    height: 100px;
+    background-image:url("../img/banner/londre_6.jpg");
+}
+
+.div:hover
+{
+    animation: masuperanimation 2s; /* On utilise "ma super animation" définie plus tôt */
+}
+
+
+.div2
+{
+    margin: 100px;
+    width: 300px;
+    height: 100px;
+    background-image:url("../img/banner/londre_7.jpg");
+}
+
+.div2:hover
+{
+    animation: masuperanimation2 2s; /* On utilise "ma super animation" définie plus tôt */
+}
+    </style>
 </head>
 
 <body>
@@ -43,12 +101,12 @@
     <div >
 
     </diV>
-    <div class="bradcam_area" style="background-image: url(../voyage2.jpg);">
+    <div class="bradcam_area" style="background-image: url(../img/banner/londre_8.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="bradcam_text">
-                            <h3>Sortie - Voyage</h3>
+                            <h3>Londre et Oxford</h3>
                         </div>
                     </div>
                 </div>
@@ -62,27 +120,102 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_text">
-                        <h4>Voyage scolaire</h4>
+                        <h4></h4>
 
                         <p>
+"Après départ matinal, le lundi 7 Mars à  7h00 de notre Lycée, nous sommes arrivés à Londres vers 14h30. Nous avons visité une partie de la ville à pied : Buckingham Palace, Saint James Ppark,  10 Downing Street, Westminster Abbey, et enfin les maisons du parlement et  Big Ben.
 
-
-Les activités pratiquées à l’occasion d’une sortie scolaire viennent nécessairement en appui des programmes. Elles s’intègrent au projet d’école et au projet pédagogique de la classe. Chaque sortie, quelle qu’en soit la durée, nourrit un projet d’apprentissages, souvent pluridisciplinaire, au travers d’un programme minutieusement préparé dans lequel le nombre des sujets d’étude ou des activités pratiquées peuvent durer jusqu’à une semaine.
-
+Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le car pour rejoindre nos familles d’accueil. Nous avons ensuite fait une mini croisière sur la tamise.".
                         </p>
-
-                            <div style="color:white; width:400px; height:50px;"></div>
-                            <a href="archive_2018.php" class="boxed-btn3">Archives voyage scolaire 2018</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
-                    <div class="about_thumb">
-                        <img style="height:300px; width:600px; border-radius:12px; margin-left:200px;"src="../img/banner/voyage.jpg" alt="">
+                    <div style="  background-size: cover;
+                      background-position: center center;
+                      padding: 280px 0 150px 0;
+                      background-repeat: no-repeat;
+                      position: relative;
+                      z-index: 0;
+                      border-radius:12px;" class="about_thumb div">
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+    <div class="col-xl-6 col-lg-6" style="margin-left:60px;">
+        <div class="about_thumb">
+            <div class="carroussel1" style="margin-top:60px;">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/londre_9.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/tour.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/londre_10.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div style="margin-left:-200px;margin-top:-250px;">
+            <p style="margin-top:-100px;margin-left:900px;">" Le mardi 8 Mars, nous sommes allés à Oxford visiter Christchurch College et la ville avec deux guides très sympathiques".</p>
+        </div>
+
+
+
+
+        <div class="about_info_area plus_padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about_text">
+                            <h4></h4>
+
+                            <p>"Le jeudi 10 Mars, avant notre retour en France, nous avons eu l’occasion de manger un breakfast typiquement anglais et nous avons visité la cathédrale de Canterbury
+
+                              ".
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div style="  background-size: cover;
+                          background-position: center center;
+                          padding: 280px 0 150px 0;
+                          background-repeat: no-repeat;
+                          position: relative;
+                          z-index: 0;
+                          border-radius:12px;" class="about_thumb div2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
     <!-- /about_info_area end  -->
 
     <!-- counter_area  -->
@@ -90,57 +223,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
     <!-- /counter_area  -->
 
     <!-- service_area_start -->
-    <div class="service_area minus_padding " >
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="section_title text-center mb-50">
-                            <h3>Voyage Scolaire 2016-2017</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="single_service text-center">
-                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../les_carroz.jpg);">
 
-                            </div>
-                            <h3>Les Carroz d'Araches Mars </h3>
-                            <p>2017</p>
-                            <a href="carroz_araches.php" class="learn_more">Lire plus...</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="single_service text-center">
-                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../Brest.jpg);">
-                            </div>
-                            <h3>Brest</h3>
-                            <p>2017</p>
-                            <a href="Brest.php" class="learn_more">Lire plus...</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="single_service text-center">
-                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../san_francisco.jpg);">
-                            </div>
-                            <h3>San franciso</h3>
-                            <p>2016</p>
-                            <a href="san_francisco.php" class="learn_more">Lire plus...</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="single_service text-center">
-                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../oxford1.jpg);">
-                                <img src="../img/svg_icon/6.svg" alt="">
-                            </div>
-                            <h3>Oxford et Londres </h3>
-                            <p>2016</p>
-                            <a href="oxford_londre.php" class="learn_more">Lire plus...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- service_area_end -->
 
     <!-- team_area  -->
@@ -148,7 +231,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
     <!-- /team_area  -->
 
     <!-- Information_area  -->
-    <div style="background-color:white; width:100px; height:100px ;"> </div>
+    <div style="background-color:white; width:100px; height:300px ;"> </div>
      <div class="overlay" style="background-image:url(../img/banner/information.jpg);
      background-size: cover;
      background-position: center center;

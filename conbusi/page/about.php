@@ -81,48 +81,7 @@
     <!-- /about_info_area end  -->
 
     <!-- counter_area  -->
-    <div class="counter_area counter_bg_1 overlay_03">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3">
-                    <div class="single_counter text-center">
-                        <div class="counter_icon">
-                            <img src="../img/svg_icon/group.svg" alt="">
-                        </div>
-                        <h3> <span class="counter">200</span> <span> +</span> </h3>
-                        <p>Team Members</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3">
-                    <div class="single_counter text-center">
-                        <div class="counter_icon">
-                            <img src="../img/svg_icon/cart.svg" alt="">
-                        </div>
-                        <h3> <span class="counter">97</span> <span>%</span> </h3>
-                        <p>Business Success</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3">
-                    <div class="single_counter text-center">
-                        <div class="counter_icon">
-                            <img src="../img/svg_icon/heart.svg" alt="">
-                        </div>
-                        <h3> <span class="counter">5628</span></h3>
-                        <p>Happy Client</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3">
-                    <div class="single_counter text-center">
-                        <div class="counter_icon">
-                            <img src="../img/svg_icon/respect.svg" alt="">
-                        </div>
-                        <h3> <span class="counter">5637</span> </h3>
-                        <p>Business Done</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- /counter_area  -->
 
     <!-- service_area_start -->
@@ -143,7 +102,7 @@
                             </div>
                             <h3>Angleterre</h3>
                             <p>2019</p>
-                            <a href="#" class="learn_more">Lire plus...</a>
+                            <a href="angleterre.php" class="learn_more">Lire plus...</a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
@@ -153,7 +112,7 @@
                             </div>
                             <h3>Normandie</h3>
                             <p>2019</p>
-                            <a href="#" class="learn_more">Lire plus...</a>
+                            <a href="normandie.php" class="learn_more">Lire plus...</a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
@@ -163,7 +122,7 @@
                             </div>
                             <h3>Les Carroz d'Araches Mars </h3>
                             <p>2017</p>
-                            <a href="#" class="learn_more">Lire plus...</a>
+                            <a href="carroz_araches.php" class="learn_more">Lire plus...</a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
@@ -172,16 +131,16 @@
                             </div>
                             <h3>Brest</h3>
                             <p>2017</p>
-                            <a href="#" class="learn_more">Lire plus...</a>
+                            <a href="Brest.php" class="learn_more">Lire plus...</a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../san_francisco.jpg);">
+                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../img/banner/san_francisco.jpg);">
                             </div>
                             <h3>San franciso</h3>
                             <p>2016</p>
-                            <a href="#" class="learn_more">Lire plus...</a>
+                            <a href="san_francisco.php" class="learn_more">Lire plus...</a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
@@ -191,7 +150,7 @@
                             </div>
                             <h3>Oxford et Londres </h3>
                             <p>2016</p>
-                            <a href="#" class="learn_more">Lire plus...</a>
+                            <a href="oxford_londre.php" class="learn_more">Lire plus...</a>
                         </div>
                     </div>
                 </div>
@@ -200,128 +159,10 @@
         <!-- service_area_end -->
 
     <!-- team_area  -->
-    <div class="team_area minus_padding">
-            <div class="container">
-                <div class="border_bottom">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="section_title mb-40 text-center">
-                                <h3>
-                                        Expert Team
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single_team">
-                                <div class="team_thumb">
-                                    <img src="../img/team/3.png" alt="">
-                                </div>
-                                <div class="team_info text-center">
-                                    <h3>Milani Mou</h3>
-                                    <p>Photographer</p>
-                                    <div class="social_link">
-                                        <ul>
-                                            <li><a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single_team">
-                                <div class="team_thumb">
-                                    <img src="../img/team/2.png" alt="">
-                                </div>
-                                <div class="team_info text-center">
-                                    <h3>Jasmine Pinky</h3>
-                                    <p>Photographer</p>
-                                    <div class="social_link">
-                                        <ul>
-                                            <li><a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single_team">
-                                <div class="team_thumb">
-                                    <img src="../img/team/1.png" alt="">
-                                </div>
-                                <div class="team_info text-center">
-                                    <h3>Piya Zosoldos</h3>
-                                    <p>Photographer</p>
-                                    <div class="social_link">
-                                        <ul>
-                                            <li><a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="#">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     <!-- /team_area  -->
 
-    <div class="contact_form_quote">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="form_wrap">
-                            <h3>Get Free Quote</h3>
-                            <form action="#">
-                                <input type="text" placeholder="Your Name" >
-                                <input type="email" placeholder="Email" >
-                                <textarea name="#" id="" cols="30" rows="10" placeholder="Message" ></textarea>
-                                <button class="boxed-btn3">Send</button>
-                            </form>
-                    </div>
-                </div>
-                <div class="col-xl-6 offset-xl-1 col-lg-6">
-                    <div class="contact_thumb">
-                        <img src="../img/banner/contact_thumb.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Information_area  -->
     <div style="background-color:white; width:100px; height:200px ;"> </div>
