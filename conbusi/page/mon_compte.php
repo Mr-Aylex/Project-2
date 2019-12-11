@@ -54,13 +54,13 @@
      <div class="box">
          <?php if (empty($donnee)) {?>
            <div class="">
-             <a href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
+             <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
            </div>
          <?php }
           else {?>
             <div class="">
-              <a href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
-              <h5>Voir les profiles de mes enfants</h6>
+              <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
+              <h5 class="text">Voir les profiles de mes enfants</h6>
             </div>
 
      </div>
@@ -81,7 +81,7 @@
        <div class="">
          <form class="" action="profil_eleve.php" method="post">
 
-           <select class="" name="id">
+           <select class="custum-select" name="id">
              <?php
              foreach ($donnee as $key => $value) {
                echo "<option value=". $value['id']. ">".$value['nom']." ".$value['prenom']."</option>";

@@ -1,5 +1,7 @@
 .fond{
-  background-color: #1B5C77;
+  background-image: url(../img/banner/inscription.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
   margin-top: 200px;
 }
 .element h4{
@@ -14,6 +16,20 @@
   border-radius: 5px;
   color: white;
 }
+.text{
+  color: white;
+  font-size: 15px;
+}
 .box{
-  margin-left: 40px;
+  margin: 0 auto;
+  width: 300px;
+}
+.custum-select{
+  background-color:#298AD8;
+  top: 14px;
+  right: 10px;
+  border: 6px solid transparent;
+  border-radius: 10px;
+  color: white;
+  outline: none;
 }
