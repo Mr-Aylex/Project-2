@@ -92,6 +92,7 @@ h6 a {
 /* line 54, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 ul {
   margin: 0px;
+  margin-right: 20px;
   padding: 0px;
 }
 
@@ -996,7 +997,7 @@ h3 {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#5db2ff',GradientType=1 );
   /* IE6-9 */
-  padding: 13px 26px;
+  padding: 5px;
   font-size: 14px;
   font-weight: 400;
   border: 1px solid transparent;
@@ -1009,7 +1010,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 113, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
   .header-area .main-header-area .Appointment .book_btn a {
-    padding: 12px 20px;
+    padding: 3px 5px;
   }
 }
 

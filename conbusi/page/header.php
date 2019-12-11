@@ -101,13 +101,16 @@
                                   </div>
                               <?php }
                               elseif($mon_compte==2){?>
-                                <div class="book_btn d-none d-lg-block">
+                                  <div class="book_btn d-none d-lg-block">
                                     <a  href="formulaire_inscription_parent.php">S'Inscrire</a>
-                                    </div>
+                                  </div>
                               <?php }
                               else {?>
                                 <div class="book_btn d-none d-lg-block">
                                     <a  href="mon_compte.php">Mon Compte</a>
+                                </div>
+                                <div class="book_btn d-none d-lg-block">
+                                    <a  href="../traitement/se_deconnecter.php">Se déconnecter</a>
                                 </div>
                               <?php }?>
                             </div>
