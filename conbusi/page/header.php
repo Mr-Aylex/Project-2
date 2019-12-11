@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="../css/slick.css">
 <link rel="stylesheet" href="../css/slicknav.css">
 <link rel="stylesheet" href="../css/style.css">
+<script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
 <header>
     <div class="header-area ">
         <div class="header-top_area d-none d-lg-block">
@@ -65,14 +66,14 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="index.php">Menu</a></li>
-                                        <li><a href="#">Vie <i class="ti-angle-down"></i></a>
+                                        <li><i class="fas fa-home" style="color:#1B9CFC;"></i> <a class="active" href="index.php">Menu</a></li>
+                                        <li><i class="fas fa-chart-line" style="color:#1B9CFC;"></i><a href="#">Vie <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                    <li><a href="case_details.php">Projet</a></li>
-                                                    <li><a href="about.php">Voyage</a></li>
+                                                    <li><i class="fas fa-project-diagram" style="color:#1B9CFC;"></i><a href="case_details.php">Projet</a></li>
+                                                    <li><i class="fas fa-route" style="color:#1B9CFC;" ></i><a href="about.php">Voyage</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="services.php">Entreprise</a></li>
+                                        <li><i class="fas fa-building"style="color:#1B9CFC;"></i><a href="services.php">Entreprise</a></li>
                                         <li><a href="formation.php">Formation</a></li>
                                         <li><a href="#">Informations <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">

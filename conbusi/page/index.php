@@ -8,7 +8,7 @@
     <title>Acceuil</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -59,7 +59,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Lycée <br>
+                                <h3><i class="fas fa-graduation-cap"></i>Lycée <br>
                                         Robert Schuman</h3>
                                 <div class="video_service_btn">
                                 </div>
@@ -73,7 +73,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Lycée <br>
+                                <h3><i class="fas fa-graduation-cap"></i>Lycée <br>
                                         Robert Schuman</h3>
                                 <div class="video_service_btn">
                                 </div>
@@ -87,7 +87,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Lycée <br>
+                                <h3><i class="fas fa-graduation-cap"></i>Lycée <br>
                                         Robert Schuman</h3>
                                 <div class="video_service_btn">
                                 </div>
@@ -101,7 +101,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3>Lycée<br>
+                                <h3><i class="fas fa-graduation-cap"></i>Lycée<br>
                                         Robert Schuman</h3>
                                 <div class="video_service_btn">
                                 </div>
