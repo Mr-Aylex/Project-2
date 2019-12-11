@@ -59,9 +59,38 @@
          <?php }
           else {?>
             <div class="">
-              <a href="profil_eleve.php">Voir les profiles de mes enfants</a>
+              <a href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
+              <h5>Voir les profiles de mes enfants</h6>
             </div>
-          <?php } ?>
+
      </div>
+     <div class="box">
+       <?php
+       try
+       {
+         $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
+       }
+       catch(Exception $e)
+       {
+         die('Erreur:'.$e->getMessage());
+       }
+       $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
+       $reponse->execute(array('id'=>$_SESSION['id']));
+       $donnee=$reponse->fetchall();
+       ?>
+       <div class="">
+         <form class="" action="profil_eleve.php" method="post">
+
+           <select class="" name="id">
+             <?php
+             foreach ($donnee as $key => $value) {
+               echo "<option value=". $value['id']. ">".$value['nom']." ".$value['prenom']."</option>";
+             } ?>
+           </select>
+           <input type="submit" name="" value="Choisir">
+         </form>
+       </div>
+     </div>
+     <?php } ?>
   </body>
 </html>
