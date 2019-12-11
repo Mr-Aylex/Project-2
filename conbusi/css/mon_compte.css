@@ -33,3 +33,9 @@ background-size: cover;
   color: white;
   outline: none;
 }
+.boutton{
+  background-color: white;
+  color: #298AD8;
+  width: 100px;
+  border-radius: 10px;
+}

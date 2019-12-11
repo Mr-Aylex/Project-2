@@ -41,7 +41,7 @@
         <h4>Classe</h4>
         <h6><?php echo strtr($donnee['classe'],$trans) ?></h6>
       </div>
-      <div class="boutton">
+      <div class="">
         <a class="text"href="mon_compte.php">Retour</a>
       </div>
     </div>

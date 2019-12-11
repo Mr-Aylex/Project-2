@@ -87,7 +87,7 @@
                echo "<option value=". $value['id']. ">".$value['nom']." ".$value['prenom']."</option>";
              } ?>
            </select>
-           <input type="submit" name="" value="Choisir">
+           <input class="boutton"type="submit" name="" value="Choisir">
          </form>
        </div>
      </div>
