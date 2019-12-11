@@ -8,6 +8,7 @@ header("Location: formulaire_connexion.php");
 <?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/formulaire_inscription_eleve.css">
     <?php include "header.php";?>
 

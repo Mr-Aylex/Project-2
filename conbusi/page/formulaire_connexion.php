@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="utf-8">
-
+<script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../CSS/formulaire.css">
 
     <title></title>

@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="../css/slick.css">
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -80,28 +81,29 @@
                                 <div class="logo">
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-7">
+                            <div class="">
                                 <div class="main-menu  d-none d-lg-block">
-                                  <nav>
-                                      <ul id="navigation">
-                                          <li><a class="active" href="index.php">Menu</a></li>
-                                          <li><a href="#">Vie <i class="ti-angle-down"></i></a>
-                                              <ul class="submenu">
-                                                      <li><a href="case_details.php">Projet</a></li>
-                                                      <li><a href="about.php">Voyage</a></li>
-                                              </ul>
-                                          </li>
-                                          <li><a href="services.php">Entreprise</a></li>
-                                          <li><a href="formation.php">Formation</a></li>
-                                          <li><a href="#">Informations <i class="ti-angle-down"></i></a>
-                                              <ul class="submenu">
-                                                  <li><a href="blog.php"> Documents </a></li>
-                                                  <li><a href="single-blog.php">Date</a></li>
-                                              </ul>
-                                          </li>
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><i class="fas fa-home" style="color:#1B9CFC;"></i> <a class="active" href="index.php">Menu</a></li>
+                                            <li><i class="fas fa-heart"  style="color:#1B9CFC;"></i> <a href="#">Vie <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                        <li><a href="case_details.php"><i class="fas fa-project-diagram" style="color:#1B9CFC;"></i> Projet</a></li>
+                                                        <li><a href="about.php"> <i class="fas fa-route" style="color:#1B9CFC;" ></i>  Voyage</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><i class="fas fa-building"style="color:#1B9CFC;"></i> <a href="services.php">Entreprise</a></li>
+                                            <li><i class="far fa-archway"style="color:#1B9CFC;"></i> <a href="formation.php">Formation</a></li>
+                                            <li><i class="fas fa-info"style="color:#1B9CFC;"></i> <a href="#">Informations <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.php"><i class="fas fa-file-upload"style="color:#1B9CFC;"></i> Documents </a></li>
+                                                    <li><a href="single-blog.php"><i class="fas fa-table"style="color:#1B9CFC;"></i> Date</a></li>
+                                                </ul>
+                                            </li>
+                                            <!--<li><a href="..\page\formulaire_inscription_eleve.php">Inscrire son enfant</a></li>-->
 
-                                      </ul>
-                                  </nav>
+                                        </ul>
+                                    </nav>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">

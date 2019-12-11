@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../../CSS/formulaire.css">
+<script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
 
     <style>
 
