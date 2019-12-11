@@ -1,4 +1,6 @@
 <!doctype html>
+<?php session_start() ?>
+<?php $mon_compte=0 ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -26,7 +28,23 @@
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <style>
+
+    .h3{
+      padding-left:8px;
+      margin-right:200px;
+      width:500px;
+    }
+    .h3:hover{
+      transition: 0.25s;
+
+      border :2px solid white;
+      border-radius:50px;
+    }
+    </style>
 </head>
+
 
 <body>
     <!--[if lte IE 9]>
@@ -48,7 +66,10 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="bradcam_text">
-                            <h3>Sortie - Voyage</h3>
+                          <div class="h3">
+                                    <h3>  Sortie-Voyage</h3>
+                          </div>
+
                         </div>
                     </div>
                 </div>

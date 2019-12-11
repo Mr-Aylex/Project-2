@@ -1,3 +1,5 @@
+<script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
+
 <footer class="footer">
     <div class="footer_top">
         <div class="container">
@@ -11,12 +13,31 @@
                             </a>
                         </div>
 
+<ul>
+  <li>
+    <i class="fas fa-envelope"></i>   <p>  E-mail : administration@lyceerobertschuman.com   </p>
+  </li>
 
-                        E-mail : administration@lyceerobertschuman.com
+<li>
+  <i class="fas fa-phone-alt"></i>    <p>
+     Numéro : 01 48 37 74 26
+  </p>
+</li>
 
-                      Numéro : 01 48 37 74 26<br>
-              Adressse : 5 avenue du Général de Gaulle<br>
-              Ville : 93440 Dugny
+<li>
+  <p>  <i class="fas fa-phone-alt"></i>  Adressse : 5 avenue du Général de Gaulle </p>
+</li>
+
+
+<li>
+<i class="fas fa-city"></i>  <p>
+     Ville : 93440 Dugny
+</p>
+
+</li>
+
+</ul>
+
                         </div>
 
                     </div>
@@ -25,7 +46,7 @@
                 <div style="margin-left:200px;margin-top:-100px;" >
                     <div class="footer_widget">
                         <h3 class="">
-                                Liens utiles : 
+                                Liens utiles :
                         </h3>
                         <ul>
                             <li><a href="#">About</a></li>
