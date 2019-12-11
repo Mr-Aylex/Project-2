@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <?php session_start() ?>
     <?php $mon_compte=2 ?>
     <?php include "header.php" ?>
     <link rel="stylesheet" href="../css/bootstrap.min.css">

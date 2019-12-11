@@ -1,4 +1,4 @@
-<?php session_start() ?>
+
 <link rel="stylesheet" href="../css/bootstrap.min.css">
 <link rel="stylesheet" href="../css/owl.carousel.min.css">
 <link rel="stylesheet" href="../css/magnific-popup.css">

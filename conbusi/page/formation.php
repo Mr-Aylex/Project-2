@@ -1,4 +1,5 @@
 <!doctype html>
+<?php session_start() ?>
 <?php $mon_compte=0 ?>
 <html class="no-js" lang="zxx">
 

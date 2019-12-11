@@ -21,10 +21,13 @@
       $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
       $reponse->execute(array('id'=>$_SESSION['id']));
       $donnee=$reponse->fetchall();
-      var_dump($donnee);
+      //var_dump($donnee);
+      for ($i=0; $i != sizeof($donnee) ; $i++) {
+        echo ;
+      }
       ?>
       <div class="">
-        
+
       </div>
     </div>
   </body>

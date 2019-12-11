@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <?php $mon_compte=1 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

@@ -1,17 +1,21 @@
-
+<?php session_start();
+if (empty($_SESSION)) {
+header("Location: formulaire_connexion.php");
+  }
+  else {
+    ?>
 <!DOCTYPE html>
 <?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="../css/formulaire_inscription_eleve.css">
-    <?php include "header.php" ?>
-    <?php if (empty($_SESSION)) {
-      header("Location: formulaire_connexion.php");
-    } else {?>
+    <?php include "header.php";?>
+
     <meta charset="utf-8">
 
     <title>Inscription</title>
   </head>
+
   <body class="fond">
     <form class="box" action="..\traitement\traitement_inscription_eleve.php" method="post">
       <div class="g">
