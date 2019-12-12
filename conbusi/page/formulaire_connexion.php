@@ -1,8 +1,8 @@
 <!DOCTYPE html>
+<?php session_start() ?>
+<?php $mon_compte=2 ?>
 <html lang="en" dir="ltr">
   <head>
-    <?php session_start() ?>
-    <?php $mon_compte=2 ?>
     <?php include "header.php" ?>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
@@ -16,100 +16,14 @@
     <link rel="stylesheet" href="../css/slick.css">
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/formulaire_connexion.css">
     <meta charset="utf-8">
 <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../CSS/formulaire.css">
 
     <title></title>
-<style>
-
-
-
-
-.box{
-  margin-top:400px;
-  margin-left:600px ;
-  transform:translate(-50%,-50%);
-  width:400px;
-  padding:20px;
-  padding:20px 30px;
-  background-color:rgba(0,0,0,.8);
-  box-sizing:border-box;
-  box-shadow: 0 15px 25px rgba(0,0,0,.5);
-  border-radius: 10px;
-
-
-}
-
-a{
-color:#1B9CFC;
-}
-h1{
-  margin:0 0 30px;
-  padding:0;
-  color:#1B9CFC;
-  text-align:center;
-}
-.box .inputbox{
-  position: relative;
-}
-
-.box .inputbox input{
-  width:100%;
-  padding:20px 0;
-  font-size:12px ;
-  color:white;
-  letter-spacing: 1px ;
-  margin-bottom: 30px;
-  outline:none;
-  background:transparent;
-  border: 0;
-  outline: 0;
-  border-bottom: 1px solid white;
-  font-size: 1.4rem;
-  color: #ccc;
-}
-
-
-
-.box .inputbox label {
-  position:absolute;
-  top:0;
-  left:0;
-  font-size: 12px;
-  color:#fff;
-  pointer-events:none;
-  transition:.5s;
-}
-
-label{
-  top:5px
-  left:0;
-  color:#1B9CFC;
-  font-size: 18px;
-}
-
-.box input[type="submit"] {
-  background: transparent;
-  border :none;
-  outline:none;
-  color:white;
-  background:#1B9CFC;
-  padding:10px 20px;
-  cursor:pointer;
-  border-radius:5px ;
-}
-
-</style>
   </head>
-
   <body class="fond">
-
-
-
     <form class="box" action="../traitement/traitement_connexion.php" method="post">
-
-
       <h1 style="color:#1B9CFC;">Connexion</h1>
 
       <label style="color:#1B9CFC;" >Entrez votre adresse mail : </label>

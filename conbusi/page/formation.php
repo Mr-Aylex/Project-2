@@ -122,7 +122,7 @@
                         </div>
                         <div class="case_heading">
                             <span>#</span>
-                            <h3><a href="#">3ème Prepa Pro</a></h3>
+                            <h3><a href="3eme_prepa_pro.php">3ème Prepa Pro</a></h3>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                         </div>
                         <div class="case_heading">
                             <span>#</span>
-                            <h3><a href="#">BTS SIO option SISR</a></h3>
+                            <h3><a href="bts_sio_sisr.php">BTS SIO option SISR</a></h3>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="case_heading">
                             <span>#</span>
-                            <h3><a href="#">BTS CPRP</a></h3>
+                            <h3><a href="BTS_CPRP.php">BTS CPRP</a></h3>
                         </div>
                     </div>
                 </div>
