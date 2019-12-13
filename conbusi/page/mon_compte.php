@@ -47,50 +47,51 @@
          <h4>Métier</h4>
          <h6><?php echo $donne['profession'] ?></h6>
        </div>
-     </div>
-     <?php $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
-     $reponse->execute(array('id'=>$_SESSION['id']));
-     $donnee=$reponse->fetch(); ?>
-     <div class="box">
+       <?php $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
+       $reponse->execute(array('id'=>$_SESSION['id']));
+       $donnee=$reponse->fetch(); ?>
+       <div class="">
          <?php if (empty($donnee)) {?>
            <div class="">
              <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
            </div>
          <?php }
-          else {?>
-            <div class="">
-              <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
-              <h5 class="text">Voir les profiles de mes enfants</h6>
-            </div>
+         else {?>
+           <div class="">
+             <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
+             <h5 class="text">Voir les profiles de mes enfants</h6>
+             </div>
 
-     </div>
-     <div class="box">
-       <?php
-       try
-       {
-         $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
-       }
-       catch(Exception $e)
-       {
-         die('Erreur:'.$e->getMessage());
-       }
-       $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
-       $reponse->execute(array('id'=>$_SESSION['id']));
-       $donnee=$reponse->fetchall();
-       ?>
-       <div class="">
-         <form class="" action="profil_eleve.php" method="post">
+             <div class="">
+               <?php
+               try
+               {
+                 $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
+               }
+               catch(Exception $e)
+               {
+                 die('Erreur:'.$e->getMessage());
+               }
+               $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
+               $reponse->execute(array('id'=>$_SESSION['id']));
+               $donnee=$reponse->fetchall();
+               ?>
+               <div class="">
+                 <form class="" action="profil_eleve.php" method="post">
 
-           <select class="custum-select" name="id">
-             <?php
-             foreach ($donnee as $key => $value) {
-               echo "<option value=". $value['id']. ">".$value['nom']." ".$value['prenom']."</option>";
-             } ?>
-           </select>
-           <input class="boutton"type="submit" name="" value="Choisir">
-         </form>
-       </div>
+                   <select class="custum-select" name="id">
+                     <?php
+                     foreach ($donnee as $key => $value) {
+                       echo "<option value=". $value['id']. ">".$value['nom']." ".$value['prenom']."</option>";
+                     } ?>
+                   </select>
+                   <input class="boutton"type="submit" name="" value="Choisir">
+                 </form>
+               </div>
+             </div>
+           </div>
      </div>
      <?php } ?>
   </body>
+  <?php include "footer.php" ?>
 </html>

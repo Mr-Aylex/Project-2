@@ -1,8 +1,9 @@
 .fond{
   background-image: url(../img/banner/inscription.jpg);
   background-repeat: no-repeat;
-background-size: cover;
+  background-size: cover;
   margin-top: 200px;
+  height: 4000px;
 }
 .element h4{
 
@@ -19,10 +20,12 @@ background-size: cover;
 .text{
   color: white;
   font-size: 15px;
+
 }
 .box{
   margin: 0 auto;
   width: 300px;
+  height:650px;
 }
 .custum-select{
   background-color:#298AD8;

@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="../css/slick.css">
 <link rel="stylesheet" href="../css/slicknav.css">
 <link rel="stylesheet" href="../css/style.css">
+
 <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
 <header>
     <div class="header-area ">

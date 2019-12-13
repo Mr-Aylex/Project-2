@@ -1,9 +1,15 @@
-
-.box{;
-  transform:translate(-50%,-50%);
+.fond{
+  font-family: sans-serif;
+  background-image:url(../img/banner/dev3.jpg);
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*
+.box{
   width:400px;
   margin: 500px;
-  width: 400px;
   padding:20px 30px;
   background-color:rgba(0,0,0,.8);
   box-sizing:border-box;
@@ -69,12 +75,4 @@ label{
   padding:10px 20px;
   cursor:pointer;
   border-radius:5px ;
-}
-.fond{
-  font-family: sans-serif;
-  background-image:url(../img/banner/dev3.jpg);
-  height: 750px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+}*/
