@@ -1311,6 +1311,7 @@ h3 {
 .header-area .header-top_area .header_right.d-flex {
   display: flex;
   justify-content: flex-end;
+  margin-top: 14px;
 }
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
@@ -1565,6 +1566,7 @@ h3 {
 /* line 55, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
 .case_study_area .single_case .case_thumb {
   overflow: hidden;
+  height:200px;
 }
 
 /* line 58, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */

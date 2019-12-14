@@ -3,7 +3,6 @@
 <?php $mon_compte=2 ?>
 <html lang="en" dir="ltr">
   <head>
-    <?php include "header.php" ?>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/magnific-popup.css">
@@ -22,6 +21,7 @@
 
     <title></title>
   </head>
+  <?php include "header.php" ?>
   <body class="fond">
     <form class="box" action="../traitement/traitement_connexion.php" method="post">
       <h1 style="color:#1B9CFC;">Connexion</h1>
@@ -43,29 +43,18 @@
       <div>
         <input type="submit" value="Connexion"/>
       </div>
-
-
       <div>
         <a style="color:#1B9CFC;"href="mot_de_passe_oublie.php">Mot de passe oublié?</a>
 
         <a style="color:#1B9CFC;" href="formulaire_inscription_parent.php">Inscription</a>
       </div>
     </form>
-
-
-
-
-
     <div class="copy-right_text">
         <div class="container">
             <div class="footer_border"></div>
             <div class="row">
                 <div class="col-xl-12">
-                    <p class="copy_right text-center">
 
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="index.php" target="_blank">Tous droits réservés</a>
-
-                    </p>
                 </div>
             </div>
         </div>
@@ -73,4 +62,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micro
 
 
   </body>
+  <?php include "footer.php" ?>
 </html>

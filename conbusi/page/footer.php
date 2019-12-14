@@ -55,11 +55,11 @@
       <div class="footer_border"></div>
       <div class="row">
         <div class="col-xl-12">
-          <p class="copy_right text-center">
+          <!--<p class="copy_right text-center">
 
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="index.php" target="_blank">Tous droits réservés</a>
 
-          </p>
+          </p>-->
         </div>
       </div>
     </div>
