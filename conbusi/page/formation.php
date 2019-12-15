@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Consulting</title>
+    <title>Nos Formations</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
-
+<?php include "header.php" ?>
 <body>
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -97,7 +97,7 @@
                             <img src="../img/case/sn.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="#">Bac Pro SN</a></h3>
+                            <h3><a href="bac_pro_sn.php">Bac Pro SN</a></h3>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                             <img src="../img/case/mei.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="#">Bac Pro MEI</a></h3>
+                            <h3><a href="bac_pro_mei.php">Bac Pro MEI</a></h3>
                         </div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                             <img src="../img/case/9.png" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="#">Formation SST</a></h3>
+                            <h3><a href="formation_sst.php">Formation SST</a></h3>
                         </div>
                     </div>
                 </div>

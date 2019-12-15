@@ -1,6 +1,6 @@
+<!DOCTYPE html>
 <?php session_start() ?>
 <?php $mon_compte=0 ?>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -90,7 +90,7 @@ L’enseignement professionnel n’est pas une spécialisation, il s’appuie su
           <li>Visite du site AIRBUS HELICOPTERS et séances de formation aux comportements professionnels par une responsable de l’entreprise.</li>
         </ul>
       </div>
-      
+
     </div>
 
     <?php include "footer.php" ?>

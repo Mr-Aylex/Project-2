@@ -131,14 +131,14 @@
                     <div class="carroussel1" style="margin-top:60px;">
                       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/inscription.jpg" alt="First slide">
+                          <div class="carousel-item active"style="border-radius:12px;width:670; height:400px;">
+                            <img class="d-block w-100" class="image" src="../img/banner/inscription.jpg" alt="First slide">
                           </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/mecanique.jpg" alt="Second slide">
+                          <div class="carousel-item"style="border-radius:12px;width:670; height:400px;">
+                            <img class="d-block w-100"  class="image" src="../img/banner/mecanique.jpg" alt="Second slide">
                           </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" style="border-radius:12px;width:670; height:300px;" class="image" src="../img/banner/avion.jpg" alt="Third slide">
+                          <div class="carousel-item"style="border-radius:12px;width:670; height:400px;">
+                            <img class="d-block w-100"  class="image" src="../img/banner/avion.jpg" alt="Third slide">
                           </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
