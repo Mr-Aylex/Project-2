@@ -87,7 +87,7 @@
                             <img src="../img/case/tu.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="#">Bac Pro TU</a></h3>
+                            <h3><a href="bac_pro_tu.php">Bac Pro TU</a></h3>
                         </div>
                     </div>
                 </div>
