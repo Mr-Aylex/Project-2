@@ -12,7 +12,7 @@ $req = $bdd->array("mot_de_passe"=>$confirmation, "mail"=>$mail);
 $req->fetch();
 
 if($req == true){
-  echo "Votre mot de passe a bien ete modifier";
+    header("Location: index.php");
 }
 else{
   header("Location: confirmation_mot_de_passe_oublie.php");
