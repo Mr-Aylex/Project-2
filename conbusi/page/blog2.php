@@ -62,11 +62,11 @@
                     <div class="blog_left_sidebar">
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0"  style="width:800px; height:500px;" src="../img/banner/telechargement.jpg" alt="">
-                                <a href="../Portefeuille-de-Competences.pdf" class="blog_item_date">
-                                    <h3>Télécharger</h3>
-                                    <p>BTS SLAM</p>
-                                        <p>Portefeuille de compétence</p>
+                                <img class="card-img rounded-0"  style="width:600px; height:500px;" src="../img/banner/Bac-pro.jpg" alt="">
+                                <a href="../Bac_pro.pdf" class="blog_item_date">
+                                    <h3>Telecharger</h3>
+                                    <p>Bac Pro</p>
+                                        <p>Convention de Scolarité</p>
                                 </a>
                             </div>
 
@@ -75,11 +75,11 @@
 
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" style="width:800px; height:500px;"src="../img/banner/SISR.jpg" alt="">
-                                <a href="../Portefeuille-de-Competences-SISR.pdf" class="blog_item_date">
+                                <img class="card-img rounded-0" style="width:600px; height:400px;"src="../img/banner/STI2D.jpg" alt="">
+                                <a href="../STI2D.pdf" class="blog_item_date">
                                     <h3>Télécharger</h3>
-                                    <p>BTS SISR</p>
-                                  <p>Portefeuille de compétence</p>
+                                    <p>STI2D</p>
+                                  <p>Convention de Scolarité</p>
                                 </a>
                             </div>
 
@@ -97,14 +97,11 @@
                                         <i class="ti-angle-left"></i>
                                     </a>
                                 </li>
-                                <li class="page-item">
-                                    <a href="blog.php" class="page-link">1</a>
-                                </li>
                                 <li class="page-item active">
                                     <a href="blog2.php" class="page-link">2</a>
                                 </li>
                                 <li class="page-item">
-                                    <a href="#" class="page-link" aria-label="Next">
+                                    <a href="blog.php" class="page-link" aria-label="Next">
                                         <i class="ti-angle-right"></i>
                                     </a>
                                 </li>
