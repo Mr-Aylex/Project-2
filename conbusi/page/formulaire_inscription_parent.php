@@ -26,7 +26,7 @@
 <style media="screen">
 .fond{
   background-image: url(../img/banner/dev3.jpg);
-  height: 700px;
+  height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
