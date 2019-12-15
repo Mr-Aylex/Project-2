@@ -1,5 +1,6 @@
 <!doctype html>
-<?php session_start() ?>
+<?php session_start();
+ $mon_compte=0;  ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -174,8 +175,8 @@
         </div>
 
 
-        <div style="margin-left:-200px;margin-top:-250px;">
-            <p style="margin-top:-100px;margin-left:900px;">"Ce  voyage d’étude à San Francisco, à la découverte de la Silicon Valley et de son écosystème, a permis aux apprentis de découvrir  une région au  travers d’un programme de visites d’entreprises conçu en lien avec le domaine d’étude, comment Apple, Facebook, Google, Cisco mais également des entrepreneurs français installés à San Francisco qui ont construit leur succès.".</p>
+        <div style="margin-left:1050px; margin-top:-200px;">
+            <p>"Ce  voyage d’étude à San Francisco, à la découverte de la Silicon Valley et de son écosystème, a permis aux apprentis de découvrir  une région au  travers d’un programme de visites d’entreprises conçu en lien avec le domaine d’étude, comment Apple, Facebook, Google, Cisco mais également des entrepreneurs français installés à San Francisco qui ont construit leur succès.".</p>
         </div>
 
 

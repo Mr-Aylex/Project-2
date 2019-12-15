@@ -1,4 +1,6 @@
 <!doctype html>
+<?php session_start() ?>
+<?php $mon_compte=0 ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -144,7 +146,7 @@ Cet après midi nous sommes allés à Canterbury. Nous avons visité la cathédr
 
 
 
-    <div class="col-xl-6 col-lg-6" style="margin-left:60px;">
+    <div class="col-xl-6 col-lg-6" style="margin-left:40px; margin-right:20px;">
         <div class="about_thumb">
             <div class="carroussel1" style="margin-top:60px;">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -171,11 +173,11 @@ Cet après midi nous sommes allés à Canterbury. Nous avons visité la cathédr
             </div>
           </div>
         </div>
-
-
-        <div style="margin-left:-200px;margin-top:-250px;">
-            <p style="margin-top:-100px;margin-left:900px;">"Mercredi 19 Avril: Nous sommes allés à Rochester pour visiter les ruines du château. Puis nous avons fait un peu de shopping avant de manger tous ensemble sous le soleil!".</p>
+        <div style="margin-left:1050px; margin-top:-200px">
+          <p style="">"Mercredi 19 Avril: Nous sommes allés à Rochester pour visiter les ruines du château. Puis nous avons fait un peu de shopping avant de manger tous ensemble sous le soleil!".</p>
         </div>
+
+
 
 
 

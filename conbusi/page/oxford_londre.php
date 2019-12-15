@@ -1,5 +1,6 @@
 <!doctype html>
-<?php session_start() ?>
+<?php session_start();
+ $mon_compte=0;  ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -176,8 +177,8 @@ Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le
         </div>
 
 
-        <div style="margin-left:-200px;margin-top:-250px;">
-            <p style="margin-top:-100px;margin-left:900px;">" Le mardi 8 Mars, nous sommes allés à Oxford visiter Christchurch College et la ville avec deux guides très sympathiques".</p>
+        <div style="margin-left:1050px; margin-top:-200px;">
+            <p>" Le mardi 8 Mars, nous sommes allés à Oxford visiter Christchurch College et la ville avec deux guides très sympathiques".</p>
         </div>
 
 

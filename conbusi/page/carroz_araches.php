@@ -1,4 +1,6 @@
 <!doctype html>
+<?php session_start();
+ $mon_compte=0;  ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -174,8 +176,8 @@
         </div>
 
 
-        <div style="margin-left:-200px;margin-top:-250px;">
-            <p style="margin-top:-100px;margin-left:900px;">Après la visite, nous sommes retournés au ski et pour déjeuner, un barbecue en altitude nous attendait. Concernant le ski, comme pour les autres journées, les élèves étaient divisés en trois groupes, toujours sous un temps magnifique.</p>
+        <div style="margin-left:1050px; margin-top:-200px">
+            <p>Après la visite, nous sommes retournés au ski et pour déjeuner, un barbecue en altitude nous attendait. Concernant le ski, comme pour les autres journées, les élèves étaient divisés en trois groupes, toujours sous un temps magnifique.</p>
         </div>
 
 

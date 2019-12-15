@@ -1,4 +1,5 @@
 <!doctype html>
+<?php $mon_compte=0 ?>
 <?php session_start() ?>
 <html class="no-js" lang="zxx">
 
@@ -126,7 +127,12 @@
                         <p>
 "Mardi 02 Avril 2019
 
-Ce matin, en raison d’un problème de car, nous avons quitté le lycée avec une heure et demi de retard. Après avoir déjeuné sur le trajet, nous nous sommes rendus directement au parc West adventure de Reviers. Au programme : parcours d’accrobranche et tyroliennes géantes ! Ceux qui étaient fatigués ont joué avec Gus, le chien du gérant (et oui ). Après quatre heures à crapahuter dans les arbres, nous avons repris la route vers Seignolles, où nous logeons. Nous nous sommes installés,  puis avons dîné. Ensuite, nous avons eu un temps libre : nous avons joué au loup (et oui bis ). Mais vous vous demandez sans doute quel temps nous avons eu ? Miraculeusement, après une arrivée sous la grêle, le soleil a pointé son nez, et nous a accompagné jusqu’à la fin de journée. Pourvu que ça dure !".
+Ce matin, en raison d’un problème de car, nous avons quitté le lycée avec une heure et demi de retard.
+ Après avoir déjeuné sur le trajet, nous nous sommes rendus directement au parc West adventure de Reviers. Au programme : parcours d’accrobranche et tyroliennes géantes !
+  Ceux qui étaient fatigués ont joué avec Gus, le chien du gérant (et oui ). Après quatre heures à crapahuter dans les arbres, nous avons repris la route vers Seignolles,
+   où nous logeons. Nous nous sommes installés,  puis avons dîné. Ensuite, nous avons eu un temps libre : nous avons joué au loup (et oui bis ).
+    Mais vous vous demandez sans doute quel temps nous avons eu ? Miraculeusement, après une arrivée sous la grêle, le soleil a pointé son nez, et nous a
+     accompagné jusqu’à la fin de journée. Pourvu que ça dure !".
                         </p>
                     </div>
                 </div>
@@ -176,8 +182,8 @@ Ce matin, en raison d’un problème de car, nous avons quitté le lycée avec u
         </div>
 
 
-        <div style="margin-left:-200px;margin-top:-250px;">
-            <p style="margin-top:-100px;margin-left:900px;">"Mercredi 03 Avril 2019
+        <div style="margin-left:1050px; margin-top:-300px;">
+            <p style="">"Mercredi 03 Avril 2019
 Aujourd’hui, nous avons passé la matinée au gîte. Après le petit déjeuner, nous avons rédigé nos carnets de voyage, puis nous avons monté et décoré nos cerfs-volants. Le concours du plus beau cerf-volant a été remporté haut la main par Nowal, sous les applaudissements de ses camarades. Malgré la pluie et le froid, nous avons fait voler nos engins un long moment dans le parc. Après le déjeuner, nous nous sommes rendus au mémorial de Caen. Avant d’entrer, les élèves de 3e jaune ont présenté à ceux de l’autre classe la sculpture ”Non-Violence”, étudiée en classe. Puis, en groupe, nous avons visité le musée. Nous avons dû ouvrir l’oeil pour pouvoir compléter le livret pédagogique fourni par le Mémorial ! Au moment de descendre dans le bunker, une énorme averse de grêle s’est abattue sur le site. L’occasion, une fois la visite achevée, de se livrer à une mini bataille de boules de neige, histoire de se défouler un peu. Nous avons ensuite assisté à la projection d’un film sur le débarquement. Enfin, nous avons participé à un atelier, ”Une famille pendant la guerre”. Nous devions, en nous aidant de documents et d’objets d’époque, reconstituer la vie quotidienne d’une famille française tout au long de la Deuxième guerre mondiale. Nous rentrons au gîte, puis dînons. Ce soir, nous nous couchons tôt, car nous reprenons nos aventures aux aurores demain matin. En espérant que le temps soit plus clément qu’aujourd’hui !".</p>
         </div>
 

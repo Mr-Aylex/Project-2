@@ -1,4 +1,6 @@
 <!doctype html>
+<?php session_start();
+ $mon_compte=0;  ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -176,10 +178,12 @@ Après avoir déposé nos affaires à l’auberge de jeunesse, nous sommes retou
         </div>
 
 
-        <div style="margin-left:-200px;margin-top:-250px;">
-            <p style="margin-top:-100px;margin-left:900px;">"Après un départ en Train depuis de la gare Montparnasse, nous sommes arrivés à Brest en début d’après-midi sous les nuages mais la douceur était au RDV ainsi qu’une grève des transports en commun.
+        <div style="margin-left:1050px; margin-top:-200px">
+            <p>"Après un départ en Train depuis de la gare Montparnasse, nous sommes arrivés à Brest en début d’après-midi
+               sous les nuages mais la douceur était au RDV ainsi qu’une grève des transports en commun.
 
-Après avoir déposé nos affaires à l’auberge de jeunesse, nous sommes retournés sur le centre-ville de Brest pour y découvrir les principaux moments. Nous avions un questionnaire à remplir et nous devions nous prendre en Selfie devant certains d’entre eux.".</p>
+Après avoir déposé nos affaires à l’auberge de jeunesse, nous sommes retournés sur le centre-ville de Brest pour y découvrir les principaux moments.
+ Nous avions un questionnaire à remplir et nous devions nous prendre en Selfie devant certains d’entre eux.".</p>
         </div>
 
 
