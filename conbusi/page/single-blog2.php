@@ -62,10 +62,10 @@
                     <div class="blog_left_sidebar">
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0"  style="width:800px; height:500px;" src="../img/banner/slam_calendrier.jpg" alt="">
+                                <img class="card-img rounded-0"  style="width:800px; height:500px;" src="../img/banner/cprp_calendrier.png" alt="">
                                 <a href="../calendrier_bts_SLAM.pdf" class="blog_item_date">
                                     <h3>Télécharger</h3>
-                                    <p>BTS SLAM</p>
+                                    <p>BTS CPRP</p>
                                         <p>Calendrier</p>
                                 </a>
                             </div>
@@ -73,18 +73,7 @@
 
                         </article>
 
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" style="width:800px; height:500px;"src="../img/banner/sisr_calendrier.jpg" alt="">
-                                <a href="../calendrier_bts_SISR.pdf" class="blog_item_date">
-                                    <h3>Télécharger</h3>
-                                    <p>BTS SISR</p>
-                                    <p>Calendrier</p>
-                                </a>
-                            </div>
 
-
-                        </article>
 
 
 
@@ -98,10 +87,7 @@
                                     </a>
                                 </li>
                                 <li class="page-item">
-                                    <a href="single_blog.php" class="page-link">1</a>
-                                </li>
-                                <li class="page-item active">
-                                    <a href="single-blog2.php" class="page-link">2</a>
+                                    <a href="single-blog.php" class="page-link">2</a>
                                 </li>
                                 <li class="page-item">
                                     <a href="#" class="page-link" aria-label="Next">
@@ -247,6 +233,3 @@
          }
 
         });
-    </script>
-</body>
-</html>
