@@ -6,26 +6,24 @@
       <div class="row">
         <div class="col-xl-3 col-md-6 col-lg-3">
           <div class="footer_widget">
-            <div style="margin-top:-150px;">
-              <div class="footer_logo">
-                <a href="#">
-                  <img style="padding-top:20px;"src="../img/logo.png" height="80px" width="100px" alt="">
-                </a>
-              </div>
-              <ul>
+            <div style="margin-top:-100px; margin-left:100px;">
+
+
+     <h3 style="width:1000px;margin-left:0px;">Contactez-nous :</h3></img>
+
                 <li>
-                  <i class="fas fa-envelope"></i>   <p>  E-mail : administration@lyceerobertschuman.com   </p>
+                    <p style="width:1000px;"><i class="fas fa-envelope"></i>   E-mail : administration@lyceerobertschuman.com   </p>
                 </li>
                 <li>
-                  <i class="fas fa-phone-alt"></i>    <p>
+                  <p style="width:1000px;">  <i class="fas fa-phone-alt"></i>
                     Numéro : 01 48 37 74 26
                   </p>
                 </li>
                 <li>
-                  <p>  <i class="fas fa-phone-alt"></i>  Adressse : 5 avenue du Général de Gaulle </p>
+                  <p  style="width:1000px;">  <i class="fas fa-phone-alt"></i>  Adressse : 5 avenue du Général de Gaulle </p>
                 </li>
                 <li>
-                  <i class="fas fa-city"></i>  <p>
+                 <p style="width:1000px;">   <i class="fas fa-city"></i>
                     Ville : 93440 Dugny
                   </p>
                 </li>
@@ -33,10 +31,10 @@
             </div>
           </div>
         </div>
-        <div style="margin-left:200px;margin-top:-100px;" >
+        <div style="margin-left:-200px;margin-top:-50px;" >
           <div class="footer_widget">
             <div class="col-xl-2 col-md-6 col-lg-2" style="margin-left:900px;margin-top:-150px;">
-              <h3 class="">
+              <h3 class="" style="margin-left:-40px; width:1000px;">
                 Liens utiles :
               </h3>
               <ul>
@@ -55,11 +53,11 @@
       <div class="footer_border"></div>
       <div class="row">
         <div class="col-xl-12">
-          <!--<p class="copy_right text-center">
+          <p class="copy_right text-center">
 
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="index.php" target="_blank">Tous droits réservés</a>
 
-          </p>-->
+          </p>
         </div>
       </div>
     </div>
