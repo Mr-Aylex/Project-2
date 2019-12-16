@@ -166,7 +166,7 @@
                             <div class="media post_item">
                                 <img style="width:50px; height:50px;"src="../img/banner/voyagenormandie.jpg" alt="post">
                                 <div class="media-body">
-                                    <a href="normand.php">
+                                    <a href="normandie.php">
                                         <h3>Voyage en Normandie</h3>
                                     </a>
                                     <p>04 avril  2019</p>
@@ -184,7 +184,7 @@
                             <div class="media post_item">
                                 <img style="width:50px; height:50px;" src="../img/banner/association.jpg" alt="post">
                                 <div class="media-body">
-                                    <a href="single-blog.html">
+                                    <a href="single-blog.php">
                                         <h3>Association des anciens élèves</h3>
                                     </a>
                                     <p>24 juin 2016</p>

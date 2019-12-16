@@ -39,14 +39,14 @@
          <h4>Adresse Mail</h4>
          <div class="h6">
            <h6><?php echo $donne['mail'] ?></h6>
-           <a href="#">Modifier</a>
+           <a href="modification_mail.php">Modifier</a>
          </div>
        </div>
        <div class="element">
          <h4>Adresse</h4>
          <div class="h6">
            <h6><?php echo $donne['adresse'] ?></h6>
-           <a href="#">Modifier</a>
+           <a href="modification_adresse.php">Modifier</a>
          </div>
        </div>
        <div class="element">
@@ -108,6 +108,7 @@
            </div>
      </div>
      <?php } ?>
+
   </body>
-  <?php include "footer.php" ?>
+
 </html>
