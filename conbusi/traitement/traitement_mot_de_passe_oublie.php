@@ -1,5 +1,7 @@
 <?php
+session_start();
 $mailto = $_POST["mail"];
+$_SESSION['mail']=$mailto;
 try {
   $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
 }
@@ -19,7 +21,7 @@ require '../../vendor/autoload.php';
 $mail = new PHPMailer(true);
 try {
     //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
@@ -34,14 +36,15 @@ if(isset($connexion)){
   if(isset($mail)){
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Modification de mot de passe';
-    $mail->Body    = "<a href='http://localhost/Projet_Site/Projet-1/conbusi/page/confirmation_mot_de_passe_oublie.php'>Réinitialiser mot de passe</a>";
+    $mail->Body    = "<a href='http://localhost/Projet_Site/Project-2/conbusi/page/confirmation_mot_de_passe_oublie.php'>Réinitialiser mot de passe</a>";
     $mail->AltBody = 'This is the body in plain text for non-HTML mail client';
     $mail->send();
-    echo 'Message has been sent';
+    header("Location: ../page/index.php");
+
 }
 }
 else{
-  header("Location: mot_de_passe_oublie.php");
+  header("Location: ../page/mot_de_passe_oublie.php");
 }
 }
  catch (Exception $e) {

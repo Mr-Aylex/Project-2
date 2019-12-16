@@ -1,21 +1,20 @@
 <?php
-
-
-$mail = $_POST["mail"];
-
-$confirmation = $_POST["mot_de_passe"];
-
-
+session_start();
+$mail=$_SESSION['mail'];
 $bdd = new PDO("mysql:host=localhost;dbname=projet_site_lycee;",'root','');
-$bdd->prepare('UPDATE profil_parent SET mot_de_passe=:mot_de_passe WHERE mail=:mail');
-$req = $bdd->array("mot_de_passe"=>$confirmation, "mail"=>$mail);
-$req->fetch();
+
+$mdp = md5($_POST['password']);
+
+$confirmation = md5($_POST['mot_de_passe']);
+
+$req = $bdd->prepare('UPDATE profil_parent SET mot_de_passe=:mot_de_passe WHERE mail=:mail');
+$req->execute(array("mot_de_passe"=>$confirmation, "mot_de_passe"=>$mdp, "mail"=>$mail));
 
 if($req == true){
-    header("Location: index.php");
+      header("Location: ../page/index.php");
 }
 else{
-  header("Location: confirmation_mot_de_passe_oublie.php");
+    header("Location: ../page/confirmation_mot_de_passe_oublie.php");
 }
 
 

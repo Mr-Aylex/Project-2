@@ -6,15 +6,21 @@
     <meta charset="utf-8">
 
         <link rel="stylesheet" href="../../CSS/formulaire.css">
-    <title></title>
+    <title>Mot de passe oublié</title>
 <style>
+.fond{
+  font-family: sans-serif;
+  background-image:url(../img/banner/mot_de_passe.jpg);
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 
 .box{
-
-  position:absolute;
-  top:50%;
-  left:50%;
+  margin-left: 600px;
+  margin-top:400px;
   transform:translate(-50%,-50%);
   width:400px;
   padding:20px;

@@ -3,6 +3,7 @@
 <head>
   <?php $mon_compte=0 ?>
   <?php include "header.php" ?>
+
   <meta charset="utf-8">
   <!--  <link rel="stylesheet" href="../CSS/formulaire2.css">-->
   <link rel="stylesheet" href="../css/formulaire_inscription.css">
@@ -34,6 +35,7 @@
 }
 
 .box{
+  margin-left:-400px;
   padding-top: 200px;
   width:900px;
   height: 550px;
@@ -51,9 +53,7 @@ a{
 color:#1B9CFC;
 }
 
-.box .inputbox{
-  position: relative;
-}
+
 
 .box .inputbox input{
   width:100%;
@@ -161,11 +161,12 @@ label{
           </div>
         </td>
       </tr>
+
     </table>
 
 
   </form>
 
 </body>
-<?php //include "footer.php" ?>
+
 </html>
