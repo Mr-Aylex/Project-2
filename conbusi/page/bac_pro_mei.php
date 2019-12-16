@@ -7,11 +7,15 @@
     <title></title>
   </head>
   <?php include "header.php" ?>
+  <link rel="stylesheet" href="../css/page_formations.css">
   <body>
+    <div class="banner">
+      <img src="..\img\banner\Atelier.jpg" alt="">
+    </div>
     <div class="">
       <h2>BAC PRO M.E.I</h2>
       <h3>(Maintenance des Équipements Industriels)</h3>
-      <div class="">
+      <div class="elements">
         <h3>Objectifs de la formation</h3>
         <p>Le technicien en maintenance déploie son activité dans 3 domaines : la maintenance préventive,
            corrective et amélioratrice sur des systèmes automatisés (électrique, automatique, hydraulique, pneumatique, mécanique).
@@ -27,14 +31,14 @@
           <li>de la mise en œuvre des procédures d’intervention, le compte-rendu…</li>
         </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Poursuite d’études</h3>
         <p>Il est possible de préparer un BTS (Diplôme BAC+2) puis une licence dans le domaine du Génie Maintenance.
           Exemples : BTS Maintenance des Systèmes (MS), BTS Conception et réalisation de systèmes automatiques (CRSA),
           BTS Fluides Energie Environnement
           (FEE), BTS Assistant technique d’ingénieur (ATI), BTS TC (Technico- Commercial),  Licence professionnelle…</p>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Les débouchés</h3>
         <p>Différentes perspectives professionnelles s’offrent aux titulaires d’un BAC PRO MEI telles que :</p>
         <ul>
@@ -43,7 +47,7 @@
           <li>Ascensoriste, Electromécanicien(ne)…</li>
         </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Les projets de l’établissement</h3>
         <ul>
           <li>Simulation d’intervention</li>
@@ -52,7 +56,7 @@
         <p>Chaque année, les élèves conçoivent et mettent en œuvre des améliorations
          sur des systèmes fournis par nos partenaires industriels.</p>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Contenu de la formation – Epreuves</h3>
       </div>
     </div>

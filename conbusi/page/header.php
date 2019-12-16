@@ -91,7 +91,7 @@
         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
           <div class="Appointment">
             <?php
-            if (empty($_SESSION) and $mon_compte==0) {?>
+            if (empty($_SESSION['id']) and $mon_compte==0) {?>
               <div class="book_btn d-none d-lg-block">
                 <a  href="formulaire_connexion.php">Se connecter</a>
               </div>

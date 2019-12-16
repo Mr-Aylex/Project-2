@@ -1,0 +1,30 @@
+.banner img{
+  width: 100%;
+  height: 600px;
+}
+h2{
+  margin: 10px auto;
+  width: 300px;
+}
+#st{
+  margin: 4px auto;
+  width: 1100px;
+}
+.elements{
+  margin: 9px;
+  border-radius: 10px;
+  border: solid rgba(171, 178, 184, 0.5);
+}
+.elements h3{
+  padding-top: 20px;
+  padding-left: 10px;
+  color: grey;
+}
+.elements p{
+  padding-left: 15px;
+  width: 1000px;
+}
+.elements ul {
+  padding-left: 20px;
+  color: #666E74;
+}

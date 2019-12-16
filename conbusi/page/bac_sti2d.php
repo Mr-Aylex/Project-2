@@ -7,10 +7,14 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+  <link rel="stylesheet" href="../css/page_formations.css">
   <body>
+    <div class="banner">
+      <img src="..\img\banner\STI2D.jpg" alt="" style="height: 500px">
+    </div>
     <div class="">
       <h2>BAC STI2D</h2>
-      <div class="">
+      <div class="elements">
         <h3>Objectifs de la formation</h3>
         <p>Le bac technologique STI2D s’adresse à ceux qui s’intéressent à l’ingénierie industrielle, à l’innovation technologique et à la préservation de l’environnement.
            Il prépare à la poursuite d’études scientifiques et technologiques industrielles en BTS, DUT, classes préparatoires technologies et sciences industrielles (TSI),
@@ -34,13 +38,13 @@
            <p>Les différents supports utilisés sont les systèmes didactiques d’expérimentation des procédés (usinage, impression en 3D, mise en forme),
               les équipements de mesures (métrologie) et d’ informatiques (progiciels de simulation et de réalité virtuelle)</p>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Poursuite d’études</h3>
         <p>Le titulaire du BAC STI2D sera détenteur de compétences étendues qui lui permettront d’accéder à la diversité des formations scientifiques de l’enseignement supérieur telles
            que : BTS et DUT principalement mais aussi écoles d’ingénieur,
            classes préparatoires technologiques et sciences industrielles (TSI) ou  encore licence informatique à l’université.</p>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Les débouchés</h3>
         <p>Munis d’un bon bagage scientifique et technologique,
            les métiers dans le secteur de l’industrie, des nouvelles technologies, ou du développement durable sont souvent préconisés.
@@ -51,7 +55,7 @@
                  <li>Profil ITEC : Concepteur de produits industriels, désigner industriel, domoticien, responsable qualité, plasturgiste, chargé d’affaires.</li>
             </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Les projets de première</h3>
         <ul>
           <li>Module SATELLITE D OBSERVATION : Etude d’une « maquette de satellite » en PARTENARIAT AVEC AIRBUS HELICOPTERS
@@ -61,7 +65,7 @@
           <li>Etude mécanique et informatique du robot NAO.</li>
         </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Le projet de Terminale</h3>
         <p>Au cours de l’année de terminale, les élèves développent un projet par équipe de 3 à 5 élèves.
            Au travers de ce projet, les élèves doivent s’organiser pour apporter une solution technique à un problème posé. L’équipe doit planifier les principales phases
@@ -71,7 +75,7 @@
           panneau solaire automatisé, bassin aquatique pour l’implantation d’un éco-système,
            robot ramasseur de balles, véhicules radio commandés solaires…</p>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Les enseignements (environ 35 heures) – Examen</h3>
       </div>
     </div>

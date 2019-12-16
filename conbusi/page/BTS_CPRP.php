@@ -7,13 +7,15 @@
     <title></title>
     <?php include "header.php" ?>
   </head>
+  <link rel="stylesheet" href="../css/page_formations.css">
   <body>
+    <img src="..\img\case\cprp.jpg" alt="">
     <div class="">
       <h2>BTS CPRP</h2>
-      <h3>(Conception de Processus de Réalisation de Produits)</h3>
+      <h3 id="st">(Conception de Processus de Réalisation de Produits)</h3>
     </div>
     <div class="">
-      <div class="">
+      <div class="elements">
         <h3>Objectifs de cette formation</h3>
         <p>Production Unitaire ou Production Sérielle</p>
         <p>Le technicien supérieur CPRP est un spécialiste des procédés de fabrication de pièces mécaniques, notamment par usinage. Ces pièces peuvent être destinées à des machines industrielles ou à des biens de consommation pour le grand public.
@@ -25,7 +27,7 @@ Le titulaire du BTS peut concevoir les processus de fabrication et intervenir to
           <li>Offrir aux futurs diplômés de réelles possibilités de poursuite d’études après le BTS. Plus de 50% d’entre eux poursuivent leurs cursus.</li>
         </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Formation en entreprise</h3>
         <p>contrat de professionnalisation sur les deux années</p>
         <p>Les élèves effectuent leurs deux années en contrat de professionnalisation (7 jours école / 7 jours entreprise)  en partenariat avec nos entreprises :</p>
@@ -39,7 +41,7 @@ Le titulaire du BTS peut concevoir les processus de fabrication et intervenir to
           </li>
         </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Poursuite d'études</h3>
         <p>Le titulaire du BTS CPRP aura acquis des compétences qui lui permettront
            d’accéder à des formations de l’enseignement supérieur telles que : licence Professionnelle
@@ -47,7 +49,7 @@ Le titulaire du BTS peut concevoir les processus de fabrication et intervenir to
              informatique industrielle et productique, licence Professionnelle Commerce  spécialité commerce et ventes appliqués aux
               industries , classe préparatoire ATS ingénierie industrielle, école d’ingénieurs (en Génie Industriel ENSAM, Ingénieur 2000, …).</p>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Démarche et Moyens Pédagogiques</h3>
         <p>Afin de répondre à un public très large, nous proposons un dispositif qui rendra plus homogène les compétences des élèves en personnalisant les parcours.</p>
         <ul>
@@ -70,11 +72,11 @@ Le titulaire du BTS peut concevoir les processus de fabrication et intervenir to
           <li>Une préparation spécifique dans chaque matière pour l’examen</li>
         </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>A quels élèves le BTS CPRP s’adresse-t-il ?</h3>
         <p>Le BTS CPRP vise les personnes titulaires d’un baccalauréat technologique STI2D, d’un baccalauréat général S ou d’un
            baccalauréat professionnel (TU) et ayant la volonté de poursuivre leurs études afin de devenir technicien supérieur.</p>
-      <div class="">
+      <div class="elements">
         <h3>Les débouchés</h3>
         <p>Le contexte professionnel du titulaire du brevet de technicien supérieur en Ingénierie des Procédés Avancés de Production
            dépend de l’importance des productions assurées par l’entreprise:</p>
@@ -99,7 +101,7 @@ Le titulaire du BTS peut concevoir les processus de fabrication et intervenir to
           <li>Ingénieur Production</li>
         </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Prérequis et Enseignements</h3>
         <p>Les prérequis pour cette formation sont :</p>
         <ul>
@@ -111,13 +113,13 @@ Le titulaire du BTS peut concevoir les processus de fabrication et intervenir to
           <li>Avoir des connaissances en DAO, CAO et CFAO</li>
         </ul>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Répartition des heures de Formation</h3>
         <table>
 
         </table>
       </div>
-      <div class="">
+      <div class="elements">
         <h3>Contenu de la formations – Examens</h3>
         <ul>
           <li>L’évaluation de la formation se fait en contrôle continu sur deux semestres</li>
