@@ -5,9 +5,11 @@
   <head>
     <meta charset="utf-8">
     <title>Entreprise</title>
+    <?php include "header.php" ?>
+    <link rel="stylesheet" href="../css/formulaire_inscription_eleve.css">
   </head>
-  <body>
-    <form class="box" action="index.html" method="post">
+  <body class="fond">
+    <form class="box" action="..\traitement\traitement_entreprise.php" method="post">
       <div class="el">
         <label for="">Nom de l'entreprise</label>
         <input type="text" name="nom" value="">
@@ -25,7 +27,7 @@
       </div>
       <div class="">
         <label for="">Pour quelle formation ?</label>
-        <select class="" name="">
+        <select class="" name="formation">
           <?php try
           {
             $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
@@ -42,6 +44,9 @@
                 echo "<option value=". strtr($value['nom_classe'],$trans) . ">".$value['nom_classe']."</option>";
           } ?>
         </select>
+      </div>
+      <div class="">
+        <input type="submit" name="" value="Envoyer">
       </div>
     </form>
   </body>
