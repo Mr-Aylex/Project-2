@@ -25,39 +25,55 @@
      <div class="box">
        <div class="element">
          <h4>Nom</h4>
-         <h6><?php echo $donne['nom'] ?></h6>
+         <div class="h6">
+           <h6><?php echo $donne['nom'] ?></h6>
+         </div>
        </div>
        <div class="element">
          <h4>Prenom</h4>
-         <h6><?php echo $donne['prenom'] ?></h6>
+         <div class="h6">
+           <h6><?php echo $donne['prenom'] ?></h6>
+         </div>
        </div>
        <div class="element">
          <h4>Adresse Mail</h4>
-         <h6><?php echo $donne['mail'] ?></h6>
+         <div class="h6">
+           <h6><?php echo $donne['mail'] ?></h6>
+           <a href="#">Modifier</a>
+         </div>
        </div>
        <div class="element">
          <h4>Adresse</h4>
-         <h6><?php echo $donne['adresse'] ?></h6>
+         <div class="h6">
+           <h6><?php echo $donne['adresse'] ?></h6>
+           <a href="#">Modifier</a>
+         </div>
        </div>
        <div class="element">
          <h4>numéro de téléphone</h4>
-         <h6><?php echo $donne['numero'] ?></h6>
+         <div class="h6">
+           <h6><?php echo $donne['numero'] ?></h6>
+           <a href="#">Modifier</a>
+         </div>
        </div>
        <div class="element">
          <h4>Métier</h4>
-         <h6><?php echo $donne['profession'] ?></h6>
+         <div class="h6">
+           <h6><?php echo $donne['profession'] ?></h6>
+           <a href="#">Modifier</a>
+         </div>
        </div>
        <?php $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
        $reponse->execute(array('id'=>$_SESSION['id']));
        $donnee=$reponse->fetch(); ?>
        <div class="">
          <?php if (empty($donnee)) {?>
-           <div class="">
+           <div class="lien">
              <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
            </div>
          <?php }
          else {?>
-           <div class="">
+           <div class="lien">
              <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
              <h5 class="text">Voir les profiles de mes enfants</h6>
              </div>
