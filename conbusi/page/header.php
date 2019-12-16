@@ -74,7 +74,7 @@
                     <li><a href="about.php"> <i class="fas fa-route" style="color:#1B9CFC;" ></i>  Voyage</a></li>
                   </ul>
                 </li>
-                <li><i class="fas fa-building"style="color:#1B9CFC;"></i> <a href="services.php">Entreprise</a></li>
+                <li><i class="fas fa-building"style="color:#1B9CFC;"></i> <a href="entreprise.php">Entreprise</a></li>
                 <li><i class="far fa-archway"style="color:#1B9CFC;"></i> <a href="formation.php">Formation</a></li>
                 <li><i class="fas fa-info"style="color:#1B9CFC;"></i> <a href="#">Informations <i class="ti-angle-down"></i></a>
                   <ul class="submenu">
@@ -94,6 +94,9 @@
             if (empty($_SESSION['id']) and $mon_compte==0) {?>
               <div class="book_btn d-none d-lg-block">
                 <a  href="formulaire_connexion.php">Se connecter</a>
+              </div>
+              <div class="book_btn d-none d-lg-block">
+                <a  href="formulaire_inscription_parent.php">S'Inscrire</a>
               </div>
             <?php }
             elseif($mon_compte==1){?>
