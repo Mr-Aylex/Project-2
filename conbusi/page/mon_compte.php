@@ -53,14 +53,14 @@
          <h4>numéro de téléphone</h4>
          <div class="h6">
            <h6><?php echo $donne['numero'] ?></h6>
-           <a href="#">Modifier</a>
+           <a href="modification_numero.php">Modifier</a>
          </div>
        </div>
        <div class="element">
          <h4>Métier</h4>
          <div class="h6">
            <h6><?php echo $donne['profession'] ?></h6>
-           <a href="#">Modifier</a>
+           <a href="modification_metier">Modifier</a>
          </div>
        </div>
        <?php $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
