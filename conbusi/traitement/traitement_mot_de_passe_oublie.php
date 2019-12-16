@@ -1,7 +1,7 @@
 <?php
 session_start();
-$mailto = $_POST["mail"];
-$_SESSION['mail']=$mailto;
+$mailto = $_POST['mail'];
+$_SESSION['mail']=$_POST['mail'];
 try {
   $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
 }
