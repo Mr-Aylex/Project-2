@@ -1,16 +1,16 @@
 
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/owl.carousel.min.css">
-<link rel="stylesheet" href="../css/magnific-popup.css">
-<link rel="stylesheet" href="../css/font-awesome.min.css">
-<link rel="stylesheet" href="../css/themify-icons.css">
-<link rel="stylesheet" href="../css/nice-select.css">
-<link rel="stylesheet" href="../css/flaticon.css">
-<link rel="stylesheet" href="../css/gijgo.css">
-<link rel="stylesheet" href="../css/animate.css">
-<link rel="stylesheet" href="../css/slick.css">
-<link rel="stylesheet" href="../css/slicknav.css">
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/magnific-popup.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/font-awesome.min.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/themify-icons.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/nice-select.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/flaticon.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/gijgo.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/animate.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/slick.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/slicknav.css">
+<link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/style.css">
 
 <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
 <header>
@@ -21,10 +21,10 @@
           <div class="col-xl-5 col-md-5 ">
             <div class="header_left">
 
-              <a href="index.php">
+              <a href="/Projet_Site/Project-2/conbusi/page/index.php">
 
 
-                <p><img style="margin-left:-60px; margin-top:5px;" src="../img/logo.png" width="75px" height="50px" alt="">Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
+                <p><img style="margin-left:-60px; margin-top:5px;" src="/Projet_Site/Project-2/conbusi/img/logo.png" width="75px" height="50px" alt="">Bienvenue sur le site du lycée privée et UFA Robert Schuman</p>
               </a>
 
 
@@ -67,19 +67,19 @@
           <div class="main-menu  d-none d-lg-block">
             <nav>
               <ul id="navigation">
-                <li><i class="fas fa-home" style="color:#1B9CFC;"></i> <a class="active" href="index.php">Menu</a></li>
+                <li><i class="fas fa-home" style="color:#1B9CFC;"></i> <a class="active" href="/Projet_Site/Project-2/conbusi/page/index.php">Menu</a></li>
                 <li><i class="fas fa-heart"  style="color:#1B9CFC;"></i> <a href="#">Vie <i class="ti-angle-down"></i></a>
                   <ul class="submenu">
-                    <li><a href="case_details.php"><i class="fas fa-project-diagram" style="color:#1B9CFC;"></i> Projet</a></li>
-                    <li><a href="about.php"> <i class="fas fa-route" style="color:#1B9CFC;" ></i>  Voyage</a></li>
+                    <li><a href="/Projet_Site/Project-2/conbusi/page/case_details.php"><i class="fas fa-project-diagram" style="color:#1B9CFC;"></i> Projet</a></li>
+                    <li><a href="/Projet_Site/Project-2/conbusi/page/voyage.php"> <i class="fas fa-route" style="color:#1B9CFC;" ></i>  Voyage</a></li>
                   </ul>
                 </li>
-                <li><i class="fas fa-building"style="color:#1B9CFC;"></i> <a href="entreprise.php">Entreprise</a></li>
-                <li><i class="far fa-archway"style="color:#1B9CFC;"></i> <a href="formation.php">Formation</a></li>
+                <li><i class="fas fa-building"style="color:#1B9CFC;"></i> <a href="/Projet_Site/Project-2/conbusi/page/entreprise.php">Entreprise</a></li>
+                <li><i class="far fa-archway"style="color:#1B9CFC;"></i> <a href="/Projet_Site/Project-2/conbusi/page/formation.php">Formation</a></li>
                 <li><i class="fas fa-info"style="color:#1B9CFC;"></i> <a href="#">Informations <i class="ti-angle-down"></i></a>
                   <ul class="submenu">
-                    <li><a href="blog.php"><i class="fas fa-file-upload"style="color:#1B9CFC;"></i> Documents </a></li>
-                    <li><a href="single-blog.php"><i class="fas fa-table"style="color:#1B9CFC;"></i> Date</a></li>
+                    <li><a href="/Projet_Site/Project-2/conbusi/page/blog.php"><i class="fas fa-file-upload"style="color:#1B9CFC;"></i> Documents </a></li>
+                    <li><a href="/Projet_Site/Project-2/conbusi/page/single-blog.php"><i class="fas fa-table"style="color:#1B9CFC;"></i> Date</a></li>
                   </ul>
                 </li>
                 <!--<li><a href="..\page\formulaire_inscription_eleve.php">Inscrire son enfant</a></li>-->
@@ -93,28 +93,28 @@
             <?php
             if (empty($_SESSION['id']) and $mon_compte==0) {?>
               <div class="book_btn d-none d-lg-block">
-                <a  href="formulaire_connexion.php">Se connecter</a>
+                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire_connexion.php">Se connecter</a>
               </div>
               <div class="book_btn d-none d-lg-block">
-                <a  href="formulaire_inscription_parent.php">S'Inscrire</a>
+                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire_inscription_parent.php">S'Inscrire</a>
               </div>
             <?php }
             elseif($mon_compte==1){?>
               <div class="book_btn d-none d-lg-block">
-                <a  href="../traitement/se_deconnecter.php">Se déconnecter</a>
+                <a  href="/Projet_Site/Project-2/conbusi/traitement/se_deconnecter.php">Se déconnecter</a>
               </div>
             <?php }
             elseif($mon_compte==2){?>
               <div class="book_btn d-none d-lg-block">
-                <a  href="formulaire_inscription_parent.php">S'Inscrire</a>
+                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire_inscription_parent.php">S'Inscrire</a>
               </div>
             <?php }
             else {?>
               <div class="book_btn d-none d-lg-block">
-                <a  href="mon_compte.php">Mon Compte</a>
+                <a  href="/Projet_Site/Project-2/conbusi/page/mon_compte.php">Mon Compte</a>
               </div>
               <div class="book_btn d-none d-lg-block">
-                <a  href="../traitement/se_deconnecter.php">Se déconnecter</a>
+                <a  href="/Projet_Site/Project-2/conbusi/traitement/se_deconnecter.php">Se déconnecter</a>
               </div>
             <?php }?>
           </div>

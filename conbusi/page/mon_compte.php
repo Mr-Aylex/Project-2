@@ -39,28 +39,28 @@
          <h4>Adresse Mail</h4>
          <div class="h6">
            <h6><?php echo $donne['mail'] ?></h6>
-           <a href="modification_mail.php">Modifier</a>
+           <a href="/Projet_Site/Project-2/conbusi/page/modification_parent/modification_mail.php">Modifier</a>
          </div>
        </div>
        <div class="element">
          <h4>Adresse</h4>
          <div class="h6">
            <h6><?php echo $donne['adresse'] ?></h6>
-           <a href="modification_adresse.php">Modifier</a>
+           <a href="/Projet_Site/Project-2/conbusi/page/modification_parent/modification_adresse.php">Modifier</a>
          </div>
        </div>
        <div class="element">
          <h4>numéro de téléphone</h4>
          <div class="h6">
            <h6><?php echo $donne['numero'] ?></h6>
-           <a href="modification_numero.php">Modifier</a>
+           <a href="/Projet_Site/Project-2/conbusi/page/modification_parent/modification_numero.php">Modifier</a>
          </div>
        </div>
        <div class="element">
          <h4>Métier</h4>
          <div class="h6">
            <h6><?php echo $donne['profession'] ?></h6>
-           <a href="modification_metier">Modifier</a>
+           <a href="/Projet_Site/Project-2/conbusi/page/modification_parent/modification_metier">Modifier</a>
          </div>
        </div>
        <?php $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');

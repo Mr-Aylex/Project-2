@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -53,7 +53,7 @@
 
     <!-- header-start -->
     <header>
-        <?php include "header.php" ?>
+        <?php include "../header.php" ?>
     </header>
     <!-- header-end -->
 
@@ -61,7 +61,7 @@
     <div >
 
     </diV>
-    <div class="bradcam_area" style="background-image: url(../voyage2.jpg);">
+    <div class="bradcam_area" style="background-image: url(../../voyage2.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -98,7 +98,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_thumb">
-                        <img style="height:300px; width:600px; border-radius:12px; margin-left:200px;"src="../img/banner/voyage.jpg" alt="">
+                        <img style="height:300px; width:600px; border-radius:12px; margin-left:200px;"src="../../img/banner/voyage.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
                 <div class="row">
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../les_carroz.jpg);">
+                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../../les_carroz.jpg);">
 
                             </div>
                             <h3>Les Carroz d'Araches Mars </h3>
@@ -133,7 +133,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../Brest.jpg);">
+                            <div class="" style="width:300px; margin-left:-15px; height:100px; background-image:url(../../Brest.jpg);">
                             </div>
                             <h3>Brest</h3>
                             <p>2017</p>
@@ -142,7 +142,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../san_francisco.jpg);">
+                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../../san_francisco.jpg);">
                             </div>
                             <h3>San franciso</h3>
                             <p>2016</p>
@@ -151,8 +151,8 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../oxford1.jpg);">
-                                <img src="../img/svg_icon/6.svg" alt="">
+                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../../oxford1.jpg);">
+                                <img src="../../img/svg_icon/6.svg" alt="">
                             </div>
                             <h3>Oxford et Londres </h3>
                             <p>2016</p>
@@ -170,7 +170,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
 
     <!-- Information_area  -->
     <div style="background-color:white; width:100px; height:100px ;"> </div>
-     <div class="overlay" style="background-image:url(../img/banner/information.jpg);
+     <div class="overlay" style="background-image:url(../../img/banner/information.jpg);
      background-size: cover;
      background-position: center center;
      padding: 180px 0 150px 0;
@@ -191,40 +191,9 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
     <!-- /Information_area  end -->
 
     <!-- footer start -->
-  <?php include "footer.php" ?>
+  <?php include "../footer.php" ?>
     <!--/ footer end  -->
 
-    <!-- link that opens popup -->
-
-
-    <!-- JS here -->
-    <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/owl.carousel.min.js"></script>
-    <script src="../js/isotope.pkgd.min.js"></script>
-    <script src="../js/ajax-form.js"></script>
-    <script src="../js/waypoints.min.js"></script>
-    <script src="../js/jquery.counterup.min.js"></script>
-    <script src="../js/imagesloaded.pkgd.min.js"></script>
-    <script src="../js/scrollIt.js"></script>
-    <script src="../js/jquery.scrollUp.min.js"></script>
-    <script src="../js/wow.min.js"></script>
-    <script src="../js/nice-select.min.js"></script>
-    <script src="../js/jquery.slicknav.min.js"></script>
-    <script src="../js/jquery.magnific-popup.min.js"></script>
-    <script src="../js/plugins.js"></script>
-    <script src="../js/gijgo.min.js"></script>
-    <script src="../js/slick.min.js"></script>
-    <!--contact js-->
-    <script src="../js/contact.js"></script>
-    <script src="../js/jquery.ajaxchimp.min.js"></script>
-    <script src="../js/jquery.form.js"></script>
-    <script src="../js/jquery.validate.min.js"></script>
-    <script src="../js/mail-script.js"></script>
-
-    <script src="../js/main.js"></script>
 </body>
 
 </html>

@@ -64,7 +64,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/Brest_2.jpg");
+    background-image:url("../img/banner/londre_6.jpg");
 }
 
 .div:hover
@@ -78,7 +78,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/Brest_3.jpg");
+    background-image:url("../img/banner/londre_7.jpg");
 }
 
 .div2:hover
@@ -95,7 +95,7 @@
 
     <!-- header-start -->
     <header>
-        <?php include "header.php" ?>
+        <?php include "../header.php" ?>
     </header>
     <!-- header-end -->
 
@@ -103,12 +103,12 @@
     <div >
 
     </diV>
-    <div class="bradcam_area" style="background-image: url(../img/banner/Brest_7.jpg);">
+    <div class="bradcam_area" style="background-image: url(../img/banner/londre_8.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="bradcam_text">
-                            <h3>Brest</h3>
+                            <h3>Londre et Oxford</h3>
                         </div>
                     </div>
                 </div>
@@ -125,10 +125,9 @@
                         <h4></h4>
 
                         <p>
-"Après un départ en Train depuis de la gare Montparnasse, nous sommes arrivés à Brest en début d’après-midi sous les nuages mais la douceur était au RDV ainsi qu’une grève des transports en commun.
+"Après départ matinal, le lundi 7 Mars à  7h00 de notre Lycée, nous sommes arrivés à Londres vers 14h30. Nous avons visité une partie de la ville à pied : Buckingham Palace, Saint James Ppark,  10 Downing Street, Westminster Abbey, et enfin les maisons du parlement et  Big Ben.
 
-Après avoir déposé nos affaires à l’auberge de jeunesse, nous sommes retournés sur le centre-ville de Brest pour y découvrir les principaux moments. Nous avions un questionnaire à remplir et nous devions nous prendre en Selfie devant certains d’entre eux."
-
+Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le car pour rejoindre nos familles d’accueil. Nous avons ensuite fait une mini croisière sur la tamise.".
                         </p>
                     </div>
                 </div>
@@ -155,13 +154,13 @@ Après avoir déposé nos affaires à l’auberge de jeunesse, nous sommes retou
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/Brest_4.jpg" alt="First slide">
+                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/londre_9.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/Bres_5.jpg" alt="Second slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/tour.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/Brest_6.jpg" alt="Third slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/londre_10.jpg" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -178,12 +177,8 @@ Après avoir déposé nos affaires à l’auberge de jeunesse, nous sommes retou
         </div>
 
 
-        <div style="margin-left:1050px; margin-top:-200px">
-            <p>"Après un départ en Train depuis de la gare Montparnasse, nous sommes arrivés à Brest en début d’après-midi
-               sous les nuages mais la douceur était au RDV ainsi qu’une grève des transports en commun.
-
-Après avoir déposé nos affaires à l’auberge de jeunesse, nous sommes retournés sur le centre-ville de Brest pour y découvrir les principaux moments.
- Nous avions un questionnaire à remplir et nous devions nous prendre en Selfie devant certains d’entre eux.".</p>
+        <div style="margin-left:1050px; margin-top:-200px;">
+            <p>" Le mardi 8 Mars, nous sommes allés à Oxford visiter Christchurch College et la ville avec deux guides très sympathiques".</p>
         </div>
 
 
@@ -196,8 +191,7 @@ Après avoir déposé nos affaires à l’auberge de jeunesse, nous sommes retou
                         <div class="about_text">
                             <h4></h4>
 
-                            <p>"
-Cette après midi, visite du musée la marine de Brest. La guide nous a parlé de l’histoire de la marine Française jusqu’au XVIIIième siècle. Le musée de la Marine fait partie des très rares vestiges de l’avant-guerre. Elle nous a également raconté l’importance du rôle joué par les bagnards dans la construction de certains navires marchands ainsi que leurs conditions de vie.
+                            <p>"Le jeudi 10 Mars, avant notre retour en France, nous avons eu l’occasion de manger un breakfast typiquement anglais et nous avons visité la cathédrale de Canterbury
 
                               ".
                             </p>

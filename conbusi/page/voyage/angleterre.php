@@ -1,6 +1,6 @@
 <!doctype html>
-<?php session_start();
- $mon_compte=0;  ?>
+<?php session_start() ?>
+<?php $mon_compte=0 ?>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -11,25 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/magnific-popup.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/themify-icons.css">
-    <link rel="stylesheet" href="../css/nice-select.css">
-    <link rel="stylesheet" href="../css/flaticon.css">
-    <link rel="stylesheet" href="../css/gijgo.css">
-    <link rel="stylesheet" href="../css/animate.css">
-    <link rel="stylesheet" href="../css/slick.css">
-    <link rel="stylesheet" href="../css/slicknav.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
     <style>
-
     @keyframes masuperanimation {
     0% {
         transform: translateX(0px);
@@ -64,7 +49,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/londre_6.jpg");
+    background-image:url("../../img/banner/londre_2.jpg");
 }
 
 .div:hover
@@ -78,7 +63,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/londre_7.jpg");
+    background-image:url("../../img/banner/londre_1.jpg");
 }
 
 .div2:hover
@@ -87,6 +72,7 @@
 }
     </style>
 </head>
+<?php include "../header.php" ?>
 
 <body>
     <!--[if lte IE 9]>
@@ -94,21 +80,21 @@
         <![endif]-->
 
     <!-- header-start -->
-    <header>
-        <?php include "header.php" ?>
-    </header>
+
+
+
     <!-- header-end -->
 
     <!-- bradcam_area  -->
     <div >
 
     </diV>
-    <div class="bradcam_area" style="background-image: url(../img/banner/londre_8.jpg);">
+    <div class="bradcam_area" style="background-image: url(../../img/banner/angleterre.jpeg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="bradcam_text">
-                            <h3>Londre et Oxford</h3>
+                            <h3>Angleterre</h3>
                         </div>
                     </div>
                 </div>
@@ -124,10 +110,8 @@
                     <div class="about_text">
                         <h4></h4>
 
-                        <p>
-"Après départ matinal, le lundi 7 Mars à  7h00 de notre Lycée, nous sommes arrivés à Londres vers 14h30. Nous avons visité une partie de la ville à pied : Buckingham Palace, Saint James Ppark,  10 Downing Street, Westminster Abbey, et enfin les maisons du parlement et  Big Ben.
-
-Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le car pour rejoindre nos familles d’accueil. Nous avons ensuite fait une mini croisière sur la tamise.".
+                        <p>"Mardi 18 Avril: Pour ce premier jour, nous sommes partis à 7h00 ce matin. La traversée s’est très bien passée.  Il fait un temps magnifique, grand soleil mais un peu de vent.  Pourvu que ça dure toute la semaine!
+Cet après midi nous sommes allés à Canterbury. Nous avons visité la cathédrale et fait un tour dans la ville.".
                         </p>
                     </div>
                 </div>
@@ -148,19 +132,19 @@ Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le
 
 
 
-    <div class="col-xl-6 col-lg-6" style="margin-left:60px;">
+    <div class="col-xl-6 col-lg-6" style="margin-left:40px; margin-right:20px;">
         <div class="about_thumb">
             <div class="carroussel1" style="margin-top:60px;">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/londre_9.jpg" alt="First slide">
+                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../../img/banner/londre.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/tour.jpg" alt="Second slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../../img/banner/londre_3.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/londre_10.jpg" alt="Third slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../../img/banner/angleterre_2.jpg" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -175,11 +159,11 @@ Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le
             </div>
           </div>
         </div>
-
-
-        <div style="margin-left:1050px; margin-top:-200px;">
-            <p>" Le mardi 8 Mars, nous sommes allés à Oxford visiter Christchurch College et la ville avec deux guides très sympathiques".</p>
+        <div style="margin-left:1050px; margin-top:-200px">
+          <p style="">"Mercredi 19 Avril: Nous sommes allés à Rochester pour visiter les ruines du château. Puis nous avons fait un peu de shopping avant de manger tous ensemble sous le soleil!".</p>
         </div>
+
+
 
 
 
@@ -191,8 +175,7 @@ Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le
                         <div class="about_text">
                             <h4></h4>
 
-                            <p>"Le jeudi 10 Mars, avant notre retour en France, nous avons eu l’occasion de manger un breakfast typiquement anglais et nous avons visité la cathédrale de Canterbury
-
+                            <p>"Jeudi 20 Avril: Nous nous sommes levés très tôt ce matin pour prendre un authentique petit déjeuner anglais. C’était très bon et nous avons même pu faire une partie de billard !!
                               ".
                             </p>
                         </div>
@@ -234,7 +217,7 @@ Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le
 
     <!-- Information_area  -->
     <div style="background-color:white; width:100px; height:300px ;"> </div>
-     <div class="overlay" style="background-image:url(../img/banner/information.jpg);
+     <div class="overlay" style="background-image:url(../../img/banner/information.jpg);
      background-size: cover;
      background-position: center center;
      padding: 180px 0 150px 0;
@@ -262,33 +245,8 @@ Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le
 
 
     <!-- JS here -->
-    <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/owl.carousel.min.js"></script>
-    <script src="../js/isotope.pkgd.min.js"></script>
-    <script src="../js/ajax-form.js"></script>
-    <script src="../js/waypoints.min.js"></script>
-    <script src="../js/jquery.counterup.min.js"></script>
-    <script src="../js/imagesloaded.pkgd.min.js"></script>
-    <script src="../js/scrollIt.js"></script>
-    <script src="../js/jquery.scrollUp.min.js"></script>
-    <script src="../js/wow.min.js"></script>
-    <script src="../js/nice-select.min.js"></script>
-    <script src="../js/jquery.slicknav.min.js"></script>
-    <script src="../js/jquery.magnific-popup.min.js"></script>
-    <script src="../js/plugins.js"></script>
-    <script src="../js/gijgo.min.js"></script>
-    <script src="../js/slick.min.js"></script>
-    <!--contact js-->
-    <script src="../js/contact.js"></script>
-    <script src="../js/jquery.ajaxchimp.min.js"></script>
-    <script src="../js/jquery.form.js"></script>
-    <script src="../js/jquery.validate.min.js"></script>
-    <script src="../js/mail-script.js"></script>
 
-    <script src="../js/main.js"></script>
+
 </body>
 
 </html>

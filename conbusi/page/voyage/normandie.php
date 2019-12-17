@@ -64,7 +64,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/normandie_2.jpg");
+    background-image:url("../../img/banner/normandie_2.jpg");
 }
 
 .div:hover
@@ -78,7 +78,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/normandie_3.jpg");
+    background-image:url("../../img/banner/normandie_3.jpg");
 }
 
 .div2:hover
@@ -95,7 +95,7 @@
 
     <!-- header-start -->
     <header>
-        <?php include "header.php" ?>
+        <?php include "../header.php" ?>
     </header>
     <!-- header-end -->
 

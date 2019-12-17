@@ -64,7 +64,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/carroz.jpg");
+    background-image:url("../img/banner/silicon_valley_2.jpg");
 }
 
 .div:hover
@@ -78,7 +78,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/carroz_7.jpg");
+    background-image:url("../img/banner/silicon_valley.png");
 }
 
 .div2:hover
@@ -95,7 +95,7 @@
 
     <!-- header-start -->
     <header>
-        <?php include "header.php" ?>
+        <?php include "../header.php" ?>
     </header>
     <!-- header-end -->
 
@@ -103,12 +103,12 @@
     <div >
 
     </diV>
-    <div class="bradcam_area" style="background-image: url(../img/banner/carroz_2.jpg);">
+    <div class="bradcam_area" style="background-image: url(../img/banner/san_francisco.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="bradcam_text">
-                            <h3>Les Carroz araches</h3>
+                            <h3>San francisco</h3>
                         </div>
                     </div>
                 </div>
@@ -125,8 +125,7 @@
                         <h4></h4>
 
                         <p>
-"Après une nuit en car de Dugny jusqu’aux Carroz d’Araches, un petit déjeuner était prévu à l’auberge de Jeunesse. Ensuite, nous avons pris possession de nos chambres, nous avons récupéré le matériel pour aller skier et nous avons rejoints les pistes. Le déjeuner s’est effectué en haut des pistes. Le soleil était au RDV."
-
+"A l’heure de la mondialisation, il est devenu incontournable pour l’étudiant de maîtriser parfaitement l’anglais, de développer sa compétence interculturelle ainsi que d’élargir sa vision du monde en s’immergeant dans une nouvelle culture.".
                         </p>
                     </div>
                 </div>
@@ -153,13 +152,13 @@
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/carroz_6.jpg" alt="First slide">
+                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/cisco.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/carroz_3.jpg" alt="Second slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/silicon_valley_3.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/carroz_4.jpg" alt="Third slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/stanford.jpg" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -176,8 +175,8 @@
         </div>
 
 
-        <div style="margin-left:1050px; margin-top:-200px">
-            <p>Après la visite, nous sommes retournés au ski et pour déjeuner, un barbecue en altitude nous attendait. Concernant le ski, comme pour les autres journées, les élèves étaient divisés en trois groupes, toujours sous un temps magnifique.</p>
+        <div style="margin-left:1050px; margin-top:-200px;">
+            <p>"Ce  voyage d’étude à San Francisco, à la découverte de la Silicon Valley et de son écosystème, a permis aux apprentis de découvrir  une région au  travers d’un programme de visites d’entreprises conçu en lien avec le domaine d’étude, comment Apple, Facebook, Google, Cisco mais également des entrepreneurs français installés à San Francisco qui ont construit leur succès.".</p>
         </div>
 
 
@@ -190,10 +189,18 @@
                         <div class="about_text">
                             <h4></h4>
 
-                            <p>
-    "Les débutants se sont perfectionnés sur la piste coin coin et une piste verte qui était un peu plus difficile. Les moyens ont été sur la piste bleue et les plus expérimentés sur les pistes rouges.
+                            <p>"
+                              “Un grand Merci à toute l’équipe pédagogique d’avoir mis ça en place. Ce fut une vraie réussite.
+                              D’un point de vue professionnel, cela m’a beaucoup apporté de voir un système de fonctionnement différent au nôtre à travers les rencontres avec des PDG, et/ou grandes personnalités que ce soit chez Cisco ou DOZ. Des rencontres très enrichissantes et surtout motivantes pour se donner de nouveaux objectifs.
 
-Le beau temps était au RDV. Quelques nuages nous cachaient la vue mais cela ne nous a pas empêché de passer une très bonne journée avec nos professeurs et les moniteurs."
+                              D’un point humain, j’ai pu rencontré, une culture bien différente du nôtre. Un cadre de vie à découvrir selon moi. “
+
+                              ".
+
+                              <strong>
+                                Florian Paris
+                                Bts 2ème année
+                              </strong>
                             </p>
                         </div>
                     </div>

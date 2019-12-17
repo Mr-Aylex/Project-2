@@ -27,21 +27,21 @@
     <div class="box">
       <div class="element">
         <h4>Nom</h4>
-        <h6><?php echo $donnee['nom'] ?></h6>
+        <h6 class="h6"><?php echo $donnee['nom'] ?></h6>
       </div>
       <div class="element">
         <h4>Prenom</h4>
-        <h6><?php echo $donnee['prenom'] ?></h6>
+        <h6 class="h6"><?php echo $donnee['prenom'] ?></h6>
       </div>
       <div class="element">
         <h4>Age</h4>
-        <h6><?php echo $donnee['age'] ?></h6>
+        <h6 class="h6"><?php echo $donnee['age'] ?></h6>
         <a href="modification_age.php">Modifier</a>
       </div>
       <div class="element">
         <h4>Classe</h4>
-        <h6><?php echo strtr($donnee['classe'],$trans) ?></h6>
-        <a href="modification_classe.php">Modifier</a>
+        <h6 class="h6"><?php echo strtr($donnee['classe'],$trans) ?></h6>
+        <a href="modification_eleve\form_modif_classe.php">Modifier</a>
       </div>
       <div class="">
         <a class="text"href="mon_compte.php">Retour</a>
