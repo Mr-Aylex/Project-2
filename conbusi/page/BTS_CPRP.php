@@ -9,10 +9,12 @@
   </head>
   <link rel="stylesheet" href="../css/page_formations.css">
   <body>
-    <img src="..\img\case\cprp.jpg" alt="">
+
+
+    <img style="width:1350px;"src="..\img\banner\cprp.jpg" alt="">
     <div class="">
-      <h2>BTS CPRP</h2>
-      <h3 id="st">(Conception de Processus de Réalisation de Produits)</h3>
+      <h2 style="text-align:center;">BTS CPRP</h2>
+      <h3 style="text-align:center;" id="st">(Conception de Processus de Réalisation de Produits)</h3>
     </div>
     <div class="">
       <div class="elements">
