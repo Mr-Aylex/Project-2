@@ -106,5 +106,13 @@ Les industries mécaniques, premier employeur industriel de France placent leur
       </div>
     </div>
   </div>
+
+  </div>
+
+  <div>
+      <a  href="formulaire_inscription_eleve.php">S'inscrire</a>
+  </div>
+
+
 </body>
 </html>
