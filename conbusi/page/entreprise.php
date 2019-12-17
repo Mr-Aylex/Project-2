@@ -54,13 +54,44 @@
     </div>
   </div>
   <!--/ bradcam_area  -->
-
-  <div class="">
-    <div class="">
-      <p>Vous êtes une entreprise et vous voulez nous faire une offre d'alternance ou de stage.</p>
-      <a href="formulaire_entreprise.php">Cliquer ici</a>
+  <!-- about_info_area start  -->
+  <div class="about_info_area">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-6">
+          <div class="about_text">
+            <h4>Vous êtes une entreprise et vous voulez nous faire une offre d'alternance ou de stage ?</h4>
+            <p>Inscrivez vous en cliquant ci-dessous.</p>
+            <a href="formulaire_entreprise.php" class="boxed-btn3">Inscription</a>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="about_thumb">
+            <div class="carroussel1" style="margin-top:60px;">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active"style="border-radius:12px;width:670; height:400px;">
+                    <img class="d-block w-100" class="image" src="..\img\banner\banner.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item"style="border-radius:12px;width:670; height:400px;">
+                    <img class="d-block w-100"  class="image" src="..\img\banner\banner_2.png" alt="Second slide">
+                  </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <!-- /about_info_area end  -->
 
   <!-- footer start -->
   <?php include "footer.php" ?>

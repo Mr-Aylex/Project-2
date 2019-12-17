@@ -13,7 +13,10 @@ $modification = $req->execute(array('mail'=>$mail,'id'=>$id));
 
 
 if($modification ==  true){
-  header("Location:../page/mon_compte.php");
+  header("Location: ../page/mon_compte.php");
+}
+else {
+  header("Location: ../page/modification_mail.php");
 }
 
 

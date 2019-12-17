@@ -36,10 +36,12 @@
       <div class="element">
         <h4>Age</h4>
         <h6><?php echo $donnee['age'] ?></h6>
+        <a href="modification_age.php">Modifier</a>
       </div>
       <div class="element">
         <h4>Classe</h4>
         <h6><?php echo strtr($donnee['classe'],$trans) ?></h6>
+        <a href="modification_classe.php">Modifier</a>
       </div>
       <div class="">
         <a class="text"href="mon_compte.php">Retour</a>

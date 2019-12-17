@@ -111,47 +111,47 @@ label{
         <td>
           <label  style="color:#1B9CFC;text-align:center;">Nom</label>
           <div class="inputbox">
-            <input type="text" name="nom" placeholder="Nom"/>
+            <input type="text" name="nom" placeholder="Nom" required=""/>
           </div>
 
 
           <label style="color:#1B9CFC;text-align:center;">Prenom</label>
           <div class="inputbox">
 
-            <input type="text" name="prenom" placeholder="Prenom"/>
+            <input type="text" name="prenom" placeholder="Prenom" required=""/>
           </div>
 
 
 
           <label   style="color:#1B9CFC;text-align:center;">Mail</label>
           <div class="inputbox">
-            <input type="text" name="mail"  placeholder="Mail"value=""/>
+            <input type="text" name="mail"  placeholder="Mail"value="" required=""/>
           </div>
 
 
           <label  style="color:#1B9CFC;text-align:center;">Adresse</label>
           <div class="inputbox">
 
-            <input type="text" name="adresse" placeholder="Adresse">
+            <input type="text" name="adresse" placeholder="Adresse" required="">
           </div>
         </td>
         <td >
           <label  style="color:#1B9CFC;margin-left:140px;">Profession</label>
           <div class="inputbox" style="margin-left:200px;">
-            <input type="text" name="profession" placeholder="Profession"/>
+            <input type="text" name="profession" placeholder="Profession" required=""/>
           </div>
 
 
           <label  style="color:#1B9CFC;margin-left:140px;">Numéro de téléphone</label>
           <div class="inputbox" style="margin-left:200px;">
-            <input type="text" name="numero" placeholder="Numéro"/>
+            <input type="text" name="numero" placeholder="Numéro" required=""/>
           </div>
 
 
 
           <label  style="color:#1B9CFC;margin-left:110px;">Mot de passe</label>
           <div class="inputbox" style="margin-left:200px;">
-            <input type="password" name="mdp" placeholder="Mot de passe"/>
+            <input type="password" name="mdp" minlength="8" placeholder="Mot de passe" required=""/>
           </div>
 
 

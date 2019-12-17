@@ -23,16 +23,16 @@ header("Location: formulaire_connexion.php");
 
         <label class="label" for="">Nom</label>
         <div class="inputbox">
-          <input type="text" name="nom" placeholder="Nom"/>
+          <input type="text" name="nom" placeholder="Nom" required=""/>
         </div>
         <label class="label" for="">Prenom</label>
         <div class="inputbox">
 
-          <input type="text" name="prenom" placeholder="Prenom"/>
+          <input type="text" name="prenom" placeholder="Prenom" required=""/>
         </div>
         <label class="label" for="" >Age</label>
         <div class="inputbox">
-          <input type="number" name="age" placeholder="Age"/>
+          <input type="number" name="age" placeholder="Age" required=""/>
         </div>
       </div>
       <div class="d">

@@ -14,6 +14,8 @@ $modification = $req->execute(array('numero'=>$numero,'id'=>$id));
 if($modification ==  true){
   header("Location:../page/mon_compte.php");
 }
-
+else {
+  header("Location: ../page/modification_numero.php");
+}
 
  ?>
