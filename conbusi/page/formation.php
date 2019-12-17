@@ -154,7 +154,7 @@
                 <div class="col-xl-4 grid-item cat3">
                     <div class="single_case">
                         <div class="case_thumb">
-                            <img src="../img/case/9.png" alt="">
+                            <img src="../img/banner/secourisme.jpg" alt="">
                         </div>
                         <div class="case_heading">
                             <h3><a href="formation_sst.php">Formation SST</a></h3>
