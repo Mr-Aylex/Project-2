@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <?php include "header.php" ?>
+  <?php include "../header.php" ?>
   <link rel="stylesheet" href="../css/page_formations.css">
   <body>
     <div class="banner">

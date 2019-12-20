@@ -77,7 +77,7 @@
                             <img src="../img/case/sti2d.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="bac_sti2d.php">Bac STI2D</a></h3>
+                            <h3><a href="classe/bac_sti2d.php">Bac STI2D</a></h3>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                             <img src="../img/case/tu.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="bac_pro_tu.php">Bac Pro TU</a></h3>
+                            <h3><a href="classe/bac_pro_tu.php">Bac Pro TU</a></h3>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                             <img src="../img/case/sn.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="bac_pro_sn.php">Bac Pro SN</a></h3>
+                            <h3><a href="classe/bac_pro_sn.php">Bac Pro SN</a></h3>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                             <img src="../img/case/mei.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="bac_pro_mei.php">Bac Pro MEI</a></h3>
+                            <h3><a href="classe/bac_pro_mei.php">Bac Pro MEI</a></h3>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                             <img src="../img/case/prepa_pro.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="3eme_prepa_pro.php">3ème Prepa Pro</a></h3>
+                            <h3><a href="classe/3eme_prepa_pro.php">3ème Prepa Pro</a></h3>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                             <img src="../img/case/slam.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="bts_sio_slam.php">BTS SIO option SLAM</a></h3>
+                            <h3><a href="classe/bts_sio_slam.php">BTS SIO option SLAM</a></h3>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                             <img src="../img/case/sisr.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="bts_sio_sisr.php">BTS SIO option SISR</a></h3>
+                            <h3><a href="classe/bts_sio_sisr.php">BTS SIO option SISR</a></h3>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                             <img src="../img/case/cprp.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="BTS_CPRP.php">BTS CPRP</a></h3>
+                            <h3><a href="classe/BTS_CPRP.php">BTS CPRP</a></h3>
                         </div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                             <img src="../img/banner/secourisme.jpg" alt="">
                         </div>
                         <div class="case_heading">
-                            <h3><a href="formation_sst.php">Formation SST</a></h3>
+                            <h3><a href="classe/formation_sst.php">Formation SST</a></h3>
                         </div>
                     </div>
                 </div>

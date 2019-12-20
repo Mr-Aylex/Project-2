@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../css/page_formations.css">
     <meta charset="utf-8">
     <title>3eme prepa pro</title>
-    <?php include "header.php" ?>
+    <?php include "../header.php" ?>
   </head>
   <body>
     <div class="box">

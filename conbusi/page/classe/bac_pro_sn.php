@@ -20,7 +20,7 @@
     <meta charset="utf-8">
     <title>Bac pro sn</title>
   </head>
-  <?php include "header.php" ?>
+  <?php include "../header.php" ?>
   <body>
     <div class="box">
       <h2>BAC PRO SN</h2>

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <?php include "header.php" ?>
+  <?php include "../header.php" ?>
 </head>
 <link rel="stylesheet" href="../css/page_formations.css">
 <body>

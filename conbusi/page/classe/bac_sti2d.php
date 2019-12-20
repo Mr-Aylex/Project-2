@@ -3,7 +3,7 @@
 <?php session_start() ?>
 <html lang="en" dir="ltr">
   <head>
-    <?php include "header.php" ?>
+    <?php include "../header.php" ?>
     <meta charset="utf-8">
     <title></title>
   </head>

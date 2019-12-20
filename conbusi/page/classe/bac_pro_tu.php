@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="../css/slicknav.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/page_formations.css">
-  <?php include "header.php" ?>
+  <?php include "../header.php" ?>
   <meta charset="utf-8">
   <title></title>
 </head>
