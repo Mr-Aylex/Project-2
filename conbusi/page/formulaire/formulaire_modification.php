@@ -4,6 +4,7 @@ header("Location: formulaire_connexion.php");
   }
   else {
     ?>
+    <!-- si la session est vide on redirige vers le formulaire de connexion -->
 <!DOCTYPE html>
 <?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
@@ -11,12 +12,12 @@ header("Location: formulaire_connexion.php");
     <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/formulaire_inscription_eleve.css">
     <!-- <?php include "..header.php";?> -->
-
+    <!-- header -->
     <meta charset="utf-8">
 
     <title>Modification</title>
   </head>
-
+<!-- début de la page -->
   <body class="fond">
     <form class="box" action="..\..\traitement\traitement_modification.php" method="post">
       <div class="g">
@@ -71,6 +72,7 @@ header("Location: formulaire_connexion.php");
       </div>
     </form>
 
+    <!-- footer -->
     <?php include "footer.php" ?>
   </body>
 </html>

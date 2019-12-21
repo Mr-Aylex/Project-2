@@ -33,9 +33,7 @@
   <![endif]-->
 
   <!-- header-start -->
-  <header>
     <?php include "header.php" ?>
-  </header>
   <!-- header-end -->
 
   <!-- slider_area_start -->
@@ -205,6 +203,7 @@
               </div>
             </div>
           </div>
+          <!-- footer -->
           <?php include "footer.php" ?>
 
         </body>

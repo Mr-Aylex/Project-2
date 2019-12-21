@@ -8,9 +8,11 @@
     <meta charset="utf-8">
 <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
 
-    <title></title>
+    <title>modification classe</title>
   </head>
+  <!-- header  -->
   <?php include "../header.php" ?>
+  <!-- début de la page  -->
   <body class="fond">
     <form class="box" action="../../traitement/modif_eleve/modification_classe.php" method="post">
       <h1 style="color:#1B9CFC;">Modification</h1>
@@ -32,8 +34,8 @@
             $donne = $reponse->fetchall();
 
             foreach ($donne as $key => $value) {
-                $trans=array(" "=>"_");
-                  echo "<option value=". strtr($value['nom_classe'],$trans) . ">".$value['nom_classe']."</option>";
+              $trans=array(" "=>"_");
+              echo "<option value=". strtr($value['nom_classe'],$trans) . ">".$value['nom_classe']."</option>";
             } ?>
           </select>
         </div>
@@ -43,17 +45,18 @@
       </div>
     </form>
     <div class="copy-right_text">
-        <div class="container">
-            <div class="footer_border"></div>
-            <div class="row">
-                <div class="col-xl-12">
+      <div class="container">
+        <div class="footer_border"></div>
+        <div class="row">
+          <div class="col-xl-12">
 
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
 
 
   </body>
+  <!-- footer  -->
   <?php include "../footer.php" ?>
 </html>

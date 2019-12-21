@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" href="../../CSS/formulaire.css">
     <title>Mot de passe oublié</title>
+    <!-- Le style est ici car dans un fichier annex ça fonctionne pas  -->
 <style>
 .fond{
   font-family: sans-serif;
@@ -84,10 +85,11 @@ h1{
 
 </style>
 
+<!-- header  -->
+<?php include "../header.php" ?>
   </head>
   <body class="fond">
-    <?php include "../header.php" ?>
-
+<!-- début de la page   -->
     <form class="box" action="..\..\traitement\traitement_mot_de_passe_oublie.php" method="post">
       <h1 style="color:#1B9CFC;">Mot de passe oublié</h1>
 

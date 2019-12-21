@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <?php $mon_compte=0 ?>
+  <!-- header -->
   <?php include "../header.php" ?>
 
   <meta charset="utf-8">
@@ -12,6 +13,7 @@
   <!--<link rel="stylesheet" href="..\css\formulaire_inscription_parent.css">
   <link rel="stylesheet" href="..\css\formulaire_inscription.css">-->
 </head>
+<!-- Le style est ici car dans un fichier annex ça fonctionne pas  -->
 <style media="screen">
 .fond{
   background-image: url(../img/banner/dev3.jpg);
@@ -90,7 +92,7 @@ label{
 }
 </style>
 <body class="fond">
-
+<!-- début de la page -->
   <form class="box" action="../../traitement/traitement_inscription_parent.php" method="post">
 
     <table>

@@ -3,12 +3,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- header -->
     <?php include "../header.php" ?>
     <meta charset="utf-8">
     <title>Mon Compte</title>
     <link rel="stylesheet" href="../../css/mon_compte.css">
   </head>
   <body class="fond">
+    <!-- si le compte est Admin -->
     <?php
     if ($_SESSION['id']==1){
       try
@@ -35,6 +37,7 @@
           <input class="boutton"type="submit" name="" value="Choisir">
         </form>
       </div>
+      <!-- Sinon le compte est standard -->
      <?php
      } else {
        try
@@ -47,7 +50,7 @@
        }
     $req = $bdd->prepare('SELECT * FROM profil_parent WHERE id=:id');
     $req->execute(array('id'=>$_SESSION['id']));
-    $donne=$req->fetch();
+    $donne=$req->fetch();// on recupère le donnée du parents
      ?>
 
      <div class="box">
@@ -91,6 +94,7 @@
            <a href="/Projet_Site/Project-2/conbusi/page/modification_parent/modification_metier">Modifier</a>
          </div>
        </div>
+       <!-- On recupère les infos des enfant inscrit par le parent si il y en a -->
        <?php $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
        $reponse->execute(array('id'=>$_SESSION['id']));
        $donnee=$reponse->fetch(); ?>

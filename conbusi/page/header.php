@@ -1,4 +1,4 @@
-
+<!-- style des pages -->
 <link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/bootstrap.min.css">
 <link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/owl.carousel.min.css">
 <link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/magnific-popup.css">
@@ -91,6 +91,7 @@
         </div>
         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
           <div class="Appointment">
+            <!-- variante du boutton connexion selon la variable $mon_compte et la presence de la session -->
             <?php
             if (empty($_SESSION['id']) and $mon_compte==0) {?>
               <div class="book_btn d-none d-lg-block">

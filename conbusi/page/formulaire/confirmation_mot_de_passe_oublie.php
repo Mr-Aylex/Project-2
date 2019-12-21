@@ -7,7 +7,8 @@
     <meta charset="utf-8">
 
         <link rel="stylesheet" href="../../CSS/formulaire.css">
-    <title></title>
+    <title>Mot de passe oublié</title>
+    <!-- Le style est ici car dans un fichier annex ça fonctionne pas  -->
     <style>
     .fond{
       font-family: sans-serif;
@@ -85,9 +86,11 @@
     }
 
     </style>
-  </head>
-  <body class="fond">
+    <!-- header -->
     <?php include "header.php" ?>
+  </head>
+  <!-- début de la page -->
+  <body class="fond">
 
     <form class="box" action="..\traitement\traitement_confirmation_mot_de_passe.php" method="post">
       <h1 style="color:#1B9CFC;">Réinitialiser mot de passe</h1>
@@ -112,6 +115,6 @@
     </form>
 
     <?php include "footer.php"  ?>
-
+    <!-- footer -->
   </body>
 </html>

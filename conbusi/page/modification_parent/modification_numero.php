@@ -8,9 +8,11 @@
     <meta charset="utf-8">
 <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
 
-    <title></title>
+    <title>Modification numéro</title>
+    <!-- header -->
+    <?php include "../header.php" ?>
   </head>
-  <?php include "../header.php" ?>
+  <!-- début de la page -->
   <body class="fond">
     <form class="box" action="../../traitement/traitement_modification_numero.php" method="post">
       <h1 style="color:#1B9CFC;">Modification</h1>
@@ -43,5 +45,6 @@
 
 
   </body>
+  <!-- fooer -->
   <?php include "../footer.php" ?>
 </html>

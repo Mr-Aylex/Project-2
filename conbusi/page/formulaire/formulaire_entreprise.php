@@ -6,9 +6,11 @@
     <meta charset="utf-8">
     <title>Entreprise</title>
     <?php include "../header.php" ?>
+    <!-- header -->
     <link rel="stylesheet" href="../../css/formulaire_inscription_eleve.css">
   </head>
   <body class="fond">
+    <!-- début de la page -->
     <form class="box" action="..\..\traitement\traitement_entreprise.php" method="post">
       <div class="el">
         <label for="">Nom de l'entreprise</label>
@@ -28,6 +30,7 @@
       <div class="">
         <label for="">Pour quelle formation ?</label>
         <select class="" name="formation">
+          <!-- affichage des classes contenue dans la base de données -->
           <?php try
           {
             $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
@@ -40,7 +43,7 @@
           $donne = $reponse->fetchall();
 
           foreach ($donne as $key => $value) {
-              $trans=array(" "=>"_");
+              $trans=array(" "=>"_");// on remplace les espaces par des _ pour pouvoir transmettre la chaine de caractere sans qu'elle soit coupé
                 echo "<option value=". strtr($value['nom_classe'],$trans) . ">".$value['nom_classe']."</option>";
           } ?>
         </select>
