@@ -51,7 +51,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/silicon_valley_2.jpg");
+    background-image:url("../../img/banner/silicon_valley_2.jpg");
 }
 
 .div:hover
@@ -65,7 +65,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/silicon_valley.png");
+    background-image:url("../../img/banner/silicon_valley.png");
 }
 
 .div2:hover

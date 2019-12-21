@@ -50,7 +50,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/carroz.jpg");
+    background-image:url("../../img/banner/carroz.jpg");
 }
 
 .div:hover
@@ -64,7 +64,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/carroz_7.jpg");
+    background-image:url("../../img/banner/carroz_7.jpg");
 }
 
 .div2:hover
@@ -139,13 +139,13 @@
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/carroz_6.jpg" alt="First slide">
+                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../../img/banner/carroz_6.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/carroz_3.jpg" alt="Second slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../../img/banner/carroz_3.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/carroz_4.jpg" alt="Third slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../../img/banner/carroz_4.jpg" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -220,7 +220,7 @@ Le beau temps était au RDV. Quelques nuages nous cachaient la vue mais cela ne 
 
     <!-- Information_area  -->
     <div style="background-color:white; width:100px; height:300px ;"> </div>
-     <div class="overlay" style="background-image:url(../img/banner/information.jpg);
+     <div class="overlay" style="background-image:url(../../img/banner/information.jpg);
      background-size: cover;
      background-position: center center;
      padding: 180px 0 150px 0;

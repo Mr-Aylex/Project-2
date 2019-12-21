@@ -93,7 +93,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
                         </p>
 
                             <div style="color:white; width:400px; height:50px;"></div>
-                            <a href="archive_2018.php" class="boxed-btn3">Archives voyage scolaire 2018</a>
+                        
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -142,7 +142,7 @@ Les activités pratiquées à l’occasion d’une sortie scolaire viennent néc
                     </div>
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_service text-center">
-                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(../../san_francisco.jpg);">
+                            <div class=""style="width:300px; margin-left:-15px; height:100px; background-image:url(san.jpg);">
                             </div>
                             <h3>San franciso</h3>
                             <p>2016</p>

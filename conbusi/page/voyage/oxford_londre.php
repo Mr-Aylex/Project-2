@@ -64,7 +64,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/londre_6.jpg");
+    background-image:url("../../img/banner/londre_6.jpg");
 }
 
 .div:hover
@@ -78,7 +78,7 @@
     margin: 100px;
     width: 300px;
     height: 100px;
-    background-image:url("../img/banner/londre_7.jpg");
+    background-image:url("../../img/banner/londre_7.jpg");
 }
 
 .div2:hover
@@ -103,7 +103,7 @@
     <div >
 
     </diV>
-    <div class="bradcam_area" style="background-image: url(../img/banner/londre_8.jpg);">
+    <div class="bradcam_area" style="background-image: url(../../img/banner/londre_8.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -154,13 +154,13 @@ Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/londre_9.jpg" alt="First slide">
+                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../../img/banner/londre_9.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/tour.jpg" alt="Second slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../../img/banner/tour.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/londre_10.jpg" alt="Third slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../../img/banner/londre_10.jpg" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -234,7 +234,7 @@ Enfin nous nous sommes promenés devant la tour de Londres avant de reprendre le
 
     <!-- Information_area  -->
     <div style="background-color:white; width:100px; height:300px ;"> </div>
-     <div class="overlay" style="background-image:url(../img/banner/information.jpg);
+     <div class="overlay" style="background-image:url(../../img/banner/information.jpg);
      background-size: cover;
      background-position: center center;
      padding: 180px 0 150px 0;
