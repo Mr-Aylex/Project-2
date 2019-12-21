@@ -240,7 +240,7 @@
             </div>
             <div class="case_heading">
               <span>Journée d'intégration des secondes et des premières STI2D Octobre 2018</span>
-              <h3><a href="#">Base de loisir de Cergy Pontoise</a></h3>
+              <h3><a href="cergy.php">Base de loisir de Cergy Pontoise</a></h3>
             </div>
           </div>
         </div>
@@ -251,7 +251,7 @@
             </div>
             <div class="case_heading">
               <span>Cerfal</span>
-              <h3><a href="#">Engagée Cerfal</a></h3>
+              <h3><a href="https://youtu.be/rwr9YnhVY0w">Engagée Cerfal</a></h3>
             </div>
           </div>
         </div>
@@ -262,7 +262,7 @@
             </div>
             <  <div class="case_heading">
               <span>Tennis de table</span>
-              <h3><a href="#">Tournoi de tennis de table</a></h3>
+              <h3><a href="tennis.php">Tournoi de tennis de table</a></h3>
             </div>
           </div>
         </div>
