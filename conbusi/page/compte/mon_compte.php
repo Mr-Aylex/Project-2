@@ -3,25 +3,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <?php include "header.php" ?>
+    <?php include "../header.php" ?>
     <meta charset="utf-8">
     <title>Mon Compte</title>
-    <link rel="stylesheet" href="../css/mon_compte.css">
+    <link rel="stylesheet" href="../../css/mon_compte.css">
   </head>
   <body class="fond">
     <?php
-    try
-    {
-      $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
-    }
-    catch(Exception $e)
-    {
-      die('Erreur:'.$e->getMessage());
-    }
+    if ($_SESSION['id']==1){
+      try
+      {
+        $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
+      }
+      catch(Exception $e)
+      {
+        die('Erreur:'.$e->getMessage());
+      }
+      $req = $bdd->prepare('SELECT * FROM profil_parent');
+      $req->execute(array('id'=>$_SESSION['id']));
+      $donne=$req->fetchall();
+      ?>
+      <div class="box">
+        <form class="" action="admin_parent.php" method="post">
+
+          <select class="custum-select" name="id">
+            <?php
+            foreach ($donne as $key => $value) {
+              echo "<option value=". $value['id']. ">".$value['nom']." ".$value['prenom']."</option>";
+            } ?>
+          </select>
+          <input class="boutton"type="submit" name="" value="Choisir">
+        </form>
+      </div>
+     <?php
+     } else {
+       try
+       {
+         $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
+       }
+       catch(Exception $e)
+       {
+         die('Erreur:'.$e->getMessage());
+       }
     $req = $bdd->prepare('SELECT * FROM profil_parent WHERE id=:id');
     $req->execute(array('id'=>$_SESSION['id']));
     $donne=$req->fetch();
      ?>
+
      <div class="box">
        <div class="element">
          <h4>Nom</h4>
@@ -80,14 +108,6 @@
 
              <div class="">
                <?php
-               try
-               {
-                 $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
-               }
-               catch(Exception $e)
-               {
-                 die('Erreur:'.$e->getMessage());
-               }
                $reponse = $bdd->prepare('SELECT * FROM profil_eleve WHERE id_parent=:id');
                $reponse->execute(array('id'=>$_SESSION['id']));
                $donnee=$reponse->fetchall();
@@ -107,8 +127,7 @@
              </div>
            </div>
      </div>
-     <?php } ?>
+   <?php }} ?>
 
   </body>
-
 </html>

@@ -3,25 +3,13 @@
 <?php $mon_compte=2 ?>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/magnific-popup.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/themify-icons.css">
-    <link rel="stylesheet" href="../css/nice-select.css">
-    <link rel="stylesheet" href="../css/flaticon.css">
-    <link rel="stylesheet" href="../css/gijgo.css">
-    <link rel="stylesheet" href="../css/animate.css">
-    <link rel="stylesheet" href="../css/slick.css">
-    <link rel="stylesheet" href="../css/slicknav.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/formulaire_connexion.css">
+    <link rel="stylesheet" href="../../css/formulaire_connexion.css">
     <meta charset="utf-8">
 <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
 
     <title></title>
   </head>
-  <?php include "header.php" ?>
+  <?php include "../header.php" ?>
   <body class="fond">
     <form class="box" action="../traitement/traitement_connexion.php" method="post">
       <h1 style="color:#1B9CFC;">Connexion</h1>
@@ -62,5 +50,5 @@
 
 
   </body>
-  <?php include "footer.php" ?>
+  <?php include "../footer.php" ?>
 </html>

@@ -12,10 +12,10 @@ $modification = $req->execute(array('numero'=>$numero,'id'=>$id));
 
 
 if($modification ==  true){
-  header("Location:../page/mon_compte.php");
+  header("Location:../../page/compte/mon_compte.php");
 }
 else {
-  header("Location: ../page/modification_numero.php");
+  header("Location: ../../page/modification_parent/modification_numero.php");
 }
 
  ?>

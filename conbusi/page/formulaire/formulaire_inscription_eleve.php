@@ -9,8 +9,8 @@ header("Location: formulaire_connexion.php");
 <html lang="en" dir="ltr">
   <head>
     <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/formulaire_inscription_eleve.css">
-    <?php include "header.php";?>
+    <link rel="stylesheet" href="../../css/formulaire_inscription_eleve.css">
+    <?php include "../header.php";?>
 
     <meta charset="utf-8">
 
@@ -18,7 +18,7 @@ header("Location: formulaire_connexion.php");
   </head>
 
   <body class="fond">
-    <form class="box" action="..\traitement\traitement_inscription_eleve.php" method="post">
+    <form class="box" action="..\..\traitement\traitement_inscription_eleve.php" method="post">
       <div class="g">
 
         <label class="label" for="">Nom</label>
@@ -66,7 +66,7 @@ header("Location: formulaire_connexion.php");
       </div>
     </form>
 
-    <?php include "footer.php" ?>
+    <?php include "../footer.php" ?>
   </body>
 </html>
 <?php } ?>

@@ -58,7 +58,7 @@
                              le nombre des sujets d’étude ou des activités pratiquées peuvent durer jusqu’à une semaine.</p>
                             <a href="voyage/archive2016_2017.php" class="boxed-btn3">Archives voyage scolaire 2016-2017</a>
                             <div style="color:white; width:400px; height:50px;"></div>
-                            <a href="voyage/archive2018.php" class="boxed-btn3">Archives voyage scolaire 2018</a>
+                            <!--<a href="voyage/archive2018.php" class="boxed-btn3">Archives voyage scolaire 2018</a>-->
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">

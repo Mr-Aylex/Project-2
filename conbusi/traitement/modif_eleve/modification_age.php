@@ -12,9 +12,9 @@ $modification = $req->execute(array('age'=>$age,'id'=>$id));
 
 
 if($modification ==  true){
-  header("Location:../page/profil_eleve.php");
+  header("Location: ../../page/compte/mon_compte.php");
 }
 else{
-  header("Location:../page/modification_age.php");
+  header("Location: ../page/modification_age.php");
 }
  ?>

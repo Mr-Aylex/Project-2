@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <?php $mon_compte=0 ?>
 <?php session_start() ?>
-<?php include "header.php" ?>
+<?php include "../header.php" ?>
 <?php $id=$_POST['id'] ?>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="../css/mon_compte.css">
+    <link rel="stylesheet" href="../../css/mon_compte.css">
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -36,12 +36,12 @@
       <div class="element">
         <h4>Age</h4>
         <h6 class="h6"><?php echo $donnee['age'] ?></h6>
-        <a href="modification_age.php">Modifier</a>
+        <a href="/Projet_Site/Project-2/conbusi/page/modification_eleve/modification_age.php">Modifier</a>
       </div>
       <div class="element">
         <h4>Classe</h4>
         <h6 class="h6"><?php echo strtr($donnee['classe'],$trans) ?></h6>
-        <a href="modification_eleve\form_modif_classe.php">Modifier</a>
+        <a href="/Projet_Site/Project-2/conbusi/page/modification_eleve/form_modif_classe.php">Modifier</a>
       </div>
       <div class="">
         <a class="text"href="mon_compte.php">Retour</a>

@@ -12,7 +12,7 @@
   </head>
   <?php include "../header.php" ?>
   <body class="fond">
-    <form class="box" action="../traitement/traitement_modification_numero.php" method="post">
+    <form class="box" action="../../traitement/traitement_modification_numero.php" method="post">
       <h1 style="color:#1B9CFC;">Modification</h1>
 
       <label style="color:#1B9CFC;" >Nouveau numéro : </label>

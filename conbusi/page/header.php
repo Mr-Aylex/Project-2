@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/slick.css">
 <link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/slicknav.css">
 <link rel="stylesheet" href="/Projet_Site/Project-2/conbusi/css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
 
 <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
 <header>
@@ -93,10 +94,10 @@
             <?php
             if (empty($_SESSION['id']) and $mon_compte==0) {?>
               <div class="book_btn d-none d-lg-block">
-                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire_connexion.php">Se connecter</a>
+                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire/formulaire_connexion.php">Se connecter</a>
               </div>
               <div class="book_btn d-none d-lg-block">
-                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire_inscription_parent.php">S'Inscrire</a>
+                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire/formulaire_inscription_parent.php">S'Inscrire</a>
               </div>
             <?php }
             elseif($mon_compte==1){?>
@@ -106,12 +107,12 @@
             <?php }
             elseif($mon_compte==2){?>
               <div class="book_btn d-none d-lg-block">
-                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire_inscription_parent.php">S'Inscrire</a>
+                <a  href="/Projet_Site/Project-2/conbusi/page/formulaire/formulaire_inscription_parent.php">S'Inscrire</a>
               </div>
             <?php }
             else {?>
               <div class="book_btn d-none d-lg-block">
-                <a  href="/Projet_Site/Project-2/conbusi/page/mon_compte.php">Mon Compte</a>
+                <a  href="/Projet_Site/Project-2/conbusi/page/compte/mon_compte.php">Mon Compte</a>
               </div>
               <div class="book_btn d-none d-lg-block">
                 <a  href="/Projet_Site/Project-2/conbusi/traitement/se_deconnecter.php">Se déconnecter</a>

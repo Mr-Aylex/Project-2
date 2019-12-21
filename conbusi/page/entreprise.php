@@ -62,7 +62,7 @@
           <div class="about_text">
             <h4>Vous êtes une entreprise et vous voulez nous faire une offre d'alternance ou de stage ?</h4>
             <p>Inscrivez vous en cliquant ci-dessous.</p>
-            <a href="formulaire_entreprise.php" class="boxed-btn3">Inscription</a>
+            <a href="formulaire/formulaire_entreprise.php" class="boxed-btn3">Inscription</a>
           </div>
         </div>
         <div class="col-xl-6 col-lg-6">

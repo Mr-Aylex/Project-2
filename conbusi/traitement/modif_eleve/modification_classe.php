@@ -12,9 +12,9 @@ $modification = $req->execute(array('classe'=>$classe,'id'=>$id));
 
 
 if($modification ==  true){
-  header("Location:../page/profil_eleve.php");
+  header("Location: ../../page/compte/mon_compte.php");
 }
 else{
-  header("Location:../page/modification_classe.php");
+  header("Location: ../../page/form_modif_classe.php");
 }
  ?>

@@ -5,8 +5,8 @@
   <head>
     <meta charset="utf-8">
     <title>Entreprise</title>
-    <?php include "header.php" ?>
-    <link rel="stylesheet" href="../css/formulaire_inscription_eleve.css">
+    <?php include "../header.php" ?>
+    <link rel="stylesheet" href="../../css/formulaire_inscription_eleve.css">
   </head>
   <body class="fond">
     <form class="box" action="..\traitement\traitement_entreprise.php" method="post">

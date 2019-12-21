@@ -9,7 +9,7 @@ header("Location: formulaire_connexion.php");
 <html lang="en" dir="ltr">
   <head>
     <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/formulaire_inscription_eleve.css">
+    <link rel="stylesheet" href="../../css/formulaire_inscription_eleve.css">
     <!-- <?php include "..header.php";?> -->
 
     <meta charset="utf-8">

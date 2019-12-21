@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
 
-        <link rel="stylesheet" href="../CSS/formulaire.css">
+        <link rel="stylesheet" href="../../CSS/formulaire.css">
     <title></title>
     <style>
     .fond{

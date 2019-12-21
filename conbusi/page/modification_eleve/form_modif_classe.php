@@ -12,7 +12,7 @@
   </head>
   <?php include "../header.php" ?>
   <body class="fond">
-    <form class="box" action="../traitement/traitement_modification_adresse.php" method="post">
+    <form class="box" action="../../traitement/modif_eleve/modification_classe.php" method="post">
       <h1 style="color:#1B9CFC;">Modification</h1>
 
       <label style="color:#1B9CFC;" >Nouvelle classe : </label>
@@ -55,5 +55,5 @@
 
 
   </body>
-  <?php include "/Projet_Site/Project-2/conbusi/page/footer.php" ?>
+  <?php include "../footer.php" ?>
 </html>
