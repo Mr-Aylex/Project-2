@@ -1,6 +1,6 @@
 <?php
 session_start();
-$mailto = $_POST['mail'];
+$mailto = $_POST['mail'];// on recupère les donnée du formulaire
 $_SESSION['mail']=$_POST['mail'];
 try {
   $bdd = new PDO('mysql:host=localhost;dbname=projet_site_lycee;charset=utf8','root','');
@@ -40,10 +40,11 @@ if(isset($connexion)){
     $mail->AltBody = 'This is the body in plain text for non-HTML mail client';
     $mail->send();
     header("Location: ../page/index.php");
-
+// on redirige vers le menu
 }
 }
 else{
+  // on redirige vers le formulaire
   header("Location: ../page/mot_de_passe_oublie.php");
 }
 }

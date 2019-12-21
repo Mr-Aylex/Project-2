@@ -97,12 +97,12 @@
        <div class="">
          <?php if (empty($donnee)) {?>
            <div class="lien">
-             <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
+             <a class="text" href="../formulaire/formulaire_inscription_eleve.php">Inscrire mes enfants</a>
            </div>
          <?php }
          else {?>
            <div class="lien">
-             <a class="text" href="formulaire_inscription_eleve.php">Inscrire mes enfants</a>
+             <a class="text" href="../formulaire/formulaire_inscription_eleve.php">Inscrire mes enfants</a>
              <h5 class="text">Voir les profiles de mes enfants</h6>
              </div>
 
