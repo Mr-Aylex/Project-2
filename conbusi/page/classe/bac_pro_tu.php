@@ -3,25 +3,13 @@
 <?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
 <head>
-
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/owl.carousel.min.css">
-  <link rel="stylesheet" href="../css/magnific-popup.css">
-  <link rel="stylesheet" href="../css/font-awesome.min.css">
-  <link rel="stylesheet" href="../css/themify-icons.css">
-  <link rel="stylesheet" href="../css/nice-select.css">
-  <link rel="stylesheet" href="../css/flaticon.css">
-  <link rel="stylesheet" href="../css/gijgo.css">
-  <link rel="stylesheet" href="../css/animate.css">
-  <link rel="stylesheet" href="../css/slick.css">
-  <link rel="stylesheet" href="../css/slicknav.css">
-  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../../css/page_formations.css">
   <?php include "../header.php" ?>
   <meta charset="utf-8">
-  <title></title>
+  <title>Bac pro TU</title>
 </head>
 <body>
+  <!-- bloc principal -->
   <div class="box">
     <div class="">
       <h2>BAC PRO T.U</h2>
@@ -108,7 +96,7 @@
                 </div>
 
               </div>
-
+              <!-- boutton de inscription -->
               <div class="about_text">
                 <h4>Comment inscrire son enfant ?</h4>
                 <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
@@ -117,5 +105,6 @@
 
 
             </body>
+            <!-- footer -->
             <?php include "../footer.php" ?>
-            </html>
+</html>

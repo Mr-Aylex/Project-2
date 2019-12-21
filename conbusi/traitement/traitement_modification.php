@@ -23,8 +23,4 @@ else{
   //on redirige vers le formulaire
   header("Location: ../page/formulaire_modification.php");
 }
-
-
-
-
  ?>

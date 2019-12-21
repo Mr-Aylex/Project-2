@@ -5,10 +5,12 @@
   <head>
     <link rel="stylesheet" href="../../css/page_formations.css">
     <meta charset="utf-8">
-    <title>Bac pro sn</title>
+    <title>Bac pro SN</title>
   </head>
+  <!-- header -->
   <?php include "../header.php" ?>
   <body>
+    <!-- bloc principal -->
     <div class="box">
       <h2>BAC PRO SN</h2>
       <h3>(Systèmes Numériques)</h3>
@@ -63,6 +65,7 @@
       <div class="elements">
         <h3>Contenu de la formation – Epreuves</h3>
       </div>
+      <!-- boutton de Connexion -->
       <div class="about_text">
         <h4>Comment inscrire son enfant ?</h4>
         <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
@@ -70,5 +73,6 @@
       </div>
     </div>
   </body>
+  <!-- footer -->
   <?php include "../footer.php" ?>
 </html>

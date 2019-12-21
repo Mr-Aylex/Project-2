@@ -3,12 +3,14 @@
 <?php session_start() ?>
 <html lang="en" dir="ltr">
   <head>
+    <!-- header -->
     <?php include "../header.php" ?>
     <meta charset="utf-8">
-    <title></title>
+    <title>Bac STI2D</title>
   </head>
   <link rel="stylesheet" href="../../css/page_formations.css">
   <body>
+    <!-- bloc principal -->
     <div class="banner">
       <img src="..\..\img\banner\STI2D.jpg" alt="" style="height: 500px">
     </div>
@@ -85,5 +87,6 @@
       </div>
     </div>
   </body>
+  <!-- footer -->
   <?php include "../footer.php" ?>
 </html>

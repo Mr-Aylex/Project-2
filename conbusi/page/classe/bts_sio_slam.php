@@ -4,11 +4,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>BTS SIO SLAM</title>
+    <!-- header -->
     <?php include "../header.php" ?>
   </head>
   <link rel="stylesheet" href="../../css/page_formations.css">
   <body>
+    <!-- bloc principal -->
     <div class="banner">
       <img class=""src="..\..\img\banner\slam_calendrier.jpg" alt="">
     </div>
@@ -114,12 +116,14 @@
           <img src="#" alt="image">
         </div>
       </div>
+      <!-- boutton d'inscription -->
       <div class="about_text">
         <h4>Comment inscrire son enfant ?</h4>
         <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
         <a href="../formulaire/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
       </div>
     </div>
+    <!-- footer -->
     <?php include "../footer.php" ?>
   </body>
 </html>

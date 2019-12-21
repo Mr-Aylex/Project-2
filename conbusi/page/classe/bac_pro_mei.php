@@ -4,11 +4,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Bac pro MEI</title>
   </head>
+  <!-- header -->
   <?php include "../header.php" ?>
   <link rel="stylesheet" href="../../css/page_formations.css">
   <body>
+    <!-- bloc principal -->
     <div class="banner">
       <img src="..\..\img\banner\Atelier.jpg" alt="">
     </div>
@@ -59,6 +61,7 @@
       <div class="elements">
         <h3>Contenu de la formation – Epreuves</h3>
       </div>
+      <!-- boutton du formulaire d'inscription -->
       <div class="about_text">
         <h4>Comment inscrire son enfant ?</h4>
         <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
@@ -66,5 +69,6 @@
       </div>
     </div>
   </body>
+  <!-- footer -->
   <?php include "../footer.php" ?>
 </html>

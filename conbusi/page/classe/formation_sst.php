@@ -4,11 +4,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Formation SST</title>
     <link rel="stylesheet" href="../../css/page_formations.css">
   </head>
+  <!-- header -->
   <?php include "../header.php" ?>
   <body>
+    <!-- bloc principal -->
     <div class="banner">
       <img src="..\..\img\banner\SISR.jpg" alt="">
     </div>

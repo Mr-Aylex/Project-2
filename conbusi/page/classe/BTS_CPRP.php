@@ -4,12 +4,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>BTS CPRP</title>
+    <!-- header -->
     <?php include "../header.php" ?>
   </head>
   <link rel="stylesheet" href="../../css/page_formations.css">
   <body>
-
+    <!-- bloc principal -->
 
     <img style="width:1350px;"src="..\..\img\banner\cprp.jpg" alt="">
     <div class="">
@@ -132,12 +133,14 @@ Le titulaire du BTS peut concevoir les processus de fabrication et intervenir to
           <li>Les épreuves de Culture générale, Conception Préliminaire, Projet Industriel de Conception sont ponctuelles.</li>
         </ul>
       </div>
+      <!-- boutton d'inscription -->
       <div class="about_text">
         <h4>Comment inscrire son enfant ?</h4>
         <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
         <a href="../formulaire/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
       </div>
     </div>
+    <!-- footer -->
     <?php include "../footer.php" ?>
   </body>
 </html>

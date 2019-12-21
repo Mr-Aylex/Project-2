@@ -6,9 +6,11 @@
   <link rel="stylesheet" href="../../css/page_formations.css">
   <meta charset="utf-8">
   <title>3eme prepa pro</title>
+<!-- header -->
   <?php include "../header.php" ?>
 </head>
 <body>
+  <!-- div globale-->
   <div class="box">
 
 
@@ -95,6 +97,7 @@
                 <li>Visite du site AIRBUS HELICOPTERS et séances de formation aux comportements professionnels par une responsable de l’entreprise.</li>
               </ul>
             </div>
+            <!-- emplacement du boutton pour s'inscrire -->
             <div class="about_text">
               <h4>Comment inscrire son enfant ?</h4>
               <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
