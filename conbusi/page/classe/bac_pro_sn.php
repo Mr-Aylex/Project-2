@@ -3,20 +3,7 @@
 <?php $mon_compte=0 ?>
 <html lang="en" dir="ltr">
   <head>
-
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/magnific-popup.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/themify-icons.css">
-    <link rel="stylesheet" href="../css/nice-select.css">
-    <link rel="stylesheet" href="../css/flaticon.css">
-    <link rel="stylesheet" href="../css/gijgo.css">
-    <link rel="stylesheet" href="../css/animate.css">
-    <link rel="stylesheet" href="../css/slick.css">
-    <link rel="stylesheet" href="../css/slicknav.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/page_formations.css">
+    <link rel="stylesheet" href="../../css/page_formations.css">
     <meta charset="utf-8">
     <title>Bac pro sn</title>
   </head>
@@ -27,7 +14,7 @@
       <h3>(Systèmes Numériques)</h3>
 
       <div class="banner">
-        <img src="..\img\banner\bac_pro_sn.jpg" alt="" style="height: 500px; width:1400px;">
+        <img src="..\..\img\banner\bac_pro_sn.jpg" alt="" style="height: 500px; width:1400px;">
       </div>
       <div class="elements">
         <h3>Objectifs de la formation</h3>
@@ -76,6 +63,12 @@
       <div class="elements">
         <h3>Contenu de la formation – Epreuves</h3>
       </div>
+      <div class="about_text">
+        <h4>Comment inscrire son enfant ?</h4>
+        <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
+        <a href="../formulaire/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
+      </div>
     </div>
   </body>
+  <?php include "../footer.php" ?>
 </html>

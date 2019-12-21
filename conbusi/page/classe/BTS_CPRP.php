@@ -7,11 +7,11 @@
     <title></title>
     <?php include "../header.php" ?>
   </head>
-  <link rel="stylesheet" href="../css/page_formations.css">
+  <link rel="stylesheet" href="../../css/page_formations.css">
   <body>
 
 
-    <img style="width:1350px;"src="..\img\banner\cprp.jpg" alt="">
+    <img style="width:1350px;"src="..\..\img\banner\cprp.jpg" alt="">
     <div class="">
       <h2 style="text-align:center;">BTS CPRP</h2>
       <h3 style="text-align:center;" id="st">(Conception de Processus de Réalisation de Produits)</h3>
@@ -131,9 +131,13 @@ Le titulaire du BTS peut concevoir les processus de fabrication et intervenir to
           <li>Le candidat passe : Anglais, Mathématiques, Sciences Physiques et Réponse à une Affaire – Gestion de Production sous forme de CCF.</li>
           <li>Les épreuves de Culture générale, Conception Préliminaire, Projet Industriel de Conception sont ponctuelles.</li>
         </ul>
-        <img src="#" alt="image">
+      </div>
+      <div class="about_text">
+        <h4>Comment inscrire son enfant ?</h4>
+        <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
+        <a href="../formulaire/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
       </div>
     </div>
-    <?php include "footer.php" ?>
+    <?php include "../footer.php" ?>
   </body>
 </html>

@@ -7,10 +7,10 @@
     <title></title>
   </head>
   <?php include "../header.php" ?>
-  <link rel="stylesheet" href="../css/page_formations.css">
+  <link rel="stylesheet" href="../../css/page_formations.css">
   <body>
     <div class="banner">
-      <img src="..\img\banner\Atelier.jpg" alt="">
+      <img src="..\..\img\banner\Atelier.jpg" alt="">
     </div>
     <div class="">
       <h2>BAC PRO M.E.I</h2>
@@ -59,6 +59,12 @@
       <div class="elements">
         <h3>Contenu de la formation – Epreuves</h3>
       </div>
+      <div class="about_text">
+        <h4>Comment inscrire son enfant ?</h4>
+        <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
+        <a href="../formulaire/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
+      </div>
     </div>
   </body>
+  <?php include "../footer.php" ?>
 </html>

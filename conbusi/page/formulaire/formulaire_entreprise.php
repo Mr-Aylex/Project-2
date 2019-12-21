@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../../css/formulaire_inscription_eleve.css">
   </head>
   <body class="fond">
-    <form class="box" action="..\traitement\traitement_entreprise.php" method="post">
+    <form class="box" action="..\..\traitement\traitement_entreprise.php" method="post">
       <div class="el">
         <label for="">Nom de l'entreprise</label>
         <input type="text" name="nom" value="">

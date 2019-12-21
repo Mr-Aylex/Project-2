@@ -91,7 +91,7 @@ label{
 </style>
 <body class="fond">
 
-  <form class="box" action="../traitement/traitement_inscription_parent.php" method="post">
+  <form class="box" action="../../traitement/traitement_inscription_parent.php" method="post">
 
     <table>
       <h1 style="color:#1B9CFC;text-align:center;">Inscription</h1>

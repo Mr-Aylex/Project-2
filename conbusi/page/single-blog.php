@@ -135,25 +135,25 @@
                             <h4 class="widget_title">Categorie</h4>
                             <ul class="list cat-list">
                                 <li>
-                                    <a href="3eme_prepa_pro.php" class="d-flex">
+                                    <a href="classe/3eme_prepa_pro.php" class="d-flex">
                                         <p>3ème Prépa Pro</p>
                                         <p>(37)</p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="BTS_CPRP.php" class="d-flex">
+                                    <a href="classe/BTS_CPRP.php" class="d-flex">
                                         <p>BTS CPRP</p>
                                         <p>(10)</p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="bts_sio_sisr.php" class="d-flex">
+                                    <a href="classe/bts_sio_sisr.php" class="d-flex">
                                         <p>BTS SIO SISR</p>
                                         <p>(03)</p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="bts_sio-slam.php" class="d-flex">
+                                    <a href="classe/bts_sio_slam.php" class="d-flex">
                                         <p>BTS SIO SLAM</p>
                                         <p>(11)</p>
                                     </a>

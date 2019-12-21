@@ -10,7 +10,7 @@
 <style>
 .fond{
   font-family: sans-serif;
-  background-image:url(../img/banner/mot_de_passe.jpg);
+  background-image:url(../../img/banner/mot_de_passe.jpg);
   height: 750px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,9 +19,8 @@
 
 
 .box{
-  margin-left: 600px;
+  margin: 250px auto;
   margin-top:400px;
-  transform:translate(-50%,-50%);
   width:400px;
   padding:20px;
   padding:20px 30px;
@@ -87,9 +86,9 @@ h1{
 
   </head>
   <body class="fond">
-    <?php include "header.php" ?>
+    <?php include "../header.php" ?>
 
-    <form class="box" action="..\traitement\traitement_mot_de_passe_oublie.php" method="post">
+    <form class="box" action="..\..\traitement\traitement_mot_de_passe_oublie.php" method="post">
       <h1 style="color:#1B9CFC;">Mot de passe oublié</h1>
 
       <label style="color:#1B9CFC;" >Entrez votre adresse mail : </label>

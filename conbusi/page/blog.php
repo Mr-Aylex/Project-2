@@ -135,25 +135,25 @@
                             <h4 class="widget_title">Categorie</h4>
                             <ul class="list cat-list">
                                 <li>
-                                    <a href="3eme_prepa_pro.php" class="d-flex">
+                                    <a href="classe/3eme_prepa_pro.php" class="d-flex">
                                         <p>3ème Prépa Pro</p>
                                         <p>(37)</p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="BTS_CPRP.php" class="d-flex">
+                                    <a href="classe/BTS_CPRP.php" class="d-flex">
                                         <p>BTS CPRP</p>
                                         <p>(10)</p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="bts_sio_sisr.php" class="d-flex">
+                                    <a href="classe/bts_sio_sisr.php" class="d-flex">
                                         <p>BTS SIO SISR</p>
                                         <p>(03)</p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="bts_sio-slam.php" class="d-flex">
+                                    <a href="classe/bts_sio-slam.php" class="d-flex">
                                         <p>BTS SIO SLAM</p>
                                         <p>(11)</p>
                                     </a>
@@ -166,7 +166,7 @@
                             <div class="media post_item">
                                 <img style="width:50px; height:50px;"src="../img/banner/voyagenormandie.jpg" alt="post">
                                 <div class="media-body">
-                                    <a href="normandie.php">
+                                    <a href="voyage/normandie.php">
                                         <h3>Voyage en Normandie</h3>
                                     </a>
                                     <p>04 avril  2019</p>
@@ -175,7 +175,7 @@
                             <div class="media post_item">
                                 <img style="width:50px; height:50px;" src="../img/banner/boutton.jpg" alt="post">
                                 <div class="media-body">
-                                    <a href="rentrée.php">
+                                    <a href="voyage/rentrée.php">
                                         <h3>Actualités rentrée des classes</h3>
                                     </a>
                                     <p>30 août 2017</p>

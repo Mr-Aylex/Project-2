@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="../css/slick.css">
   <link rel="stylesheet" href="../css/slicknav.css">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/page_formations.css">
+  <link rel="stylesheet" href="../../css/page_formations.css">
   <?php include "../header.php" ?>
   <meta charset="utf-8">
   <title></title>
@@ -30,7 +30,7 @@
 
 
     <div class="banner">
-      <img src="..\img\banner\bac_pro_tu.jpg" alt="" style="height: 600px; width:1400px;">
+      <img src="..\..\img\banner\bac_pro_tu.jpg" alt="" style="height: 600px; width:1400px;">
     </div>
     <div class="elements">
       <h3 style="margin-top:20px;">Objectifs de la formation</h3>
@@ -51,68 +51,71 @@
     <div class="elements">
       <h3 style="margin-top:20px;">Formation en entreprise</h3>
       <p>Les élèves effectuent 22 semaines de stages en milieu professionnel (PFMP) sur
-         les trois ans en partenariat avec nos entreprises.</p>
-      <p>Formation de 2 jours au centre de ressources et techniques avancées (En partenariat avec RENAULT)</p>
-    </div>
-    <div class="elements">
-      <h3 style="margin-top:20px;">Poursuite d’études</h3>
-      <p>Il est possible de préparer un BTS (Diplôme BAC+2) puis une licence dans le domaine du Génie Mécanique.
-        Exemples : BTS CPRP (Conception des Processus de Réalisation de produits) (Ex BTS IPM), BTS CPI (Conception de Produits Industriels),
-        BTS TC (Technico- Commercial), Licence Professionnelle ICP (Ingénierie de la Conception et Prototype),…</p>
-    </div>
-    <div class="elements">
-      <h3 style="margin-top:20px;">Les débouchés</h3>
-      <p>Le titulaire du Bac Pro exerce ses activités dans différentes entreprises industrielles et de services dans des secteurs
-         en plein développement: l’énergie, l’aéronautique, le ferroviaire, l’automobile, le naval, les équipements mécaniques,
-          la mécatronique, la robotique, le secteur médical…</p>
-        <p>Les industries mécaniques, premier employeur industriel de France placent
-           leur savoir-faire au cœur de leur compétitivité et ont besoin de personnel qualifié et compétent :</p>
-           <ul style="margin-top:20px;">
-             <li>Technicien Méthodes FAO et Opérateur Machines-Outils (CN)</li>
-             <li>Technicien Contrôleur</li>
-             <li>Chefs de projets</li>
-             <li>Ingénieurs spécialisés</li>
-           </ul>
-    </div>
-    <div class="elements">
-      <h3 style="margin-top:20px;">Les débouchés</h3>
-      <p>Le titulaire du Bac Pro exerce ses activités dans différentes entreprises industrielles et de services dans des secteurs en plein développement:
-         l’énergie, l’aéronautique, le ferroviaire, l’automobile, le naval, les équipements mécaniques, la mécatronique, la robotique, le secteur médical…
-
-Les industries mécaniques, premier employeur industriel de France placent leur
- savoir-faire au cœur de leur compétitivité et ont besoin de personnel qualifié et compétent :</p>
- <ul>
-   <li>Technicien Méthodes FAO et Opérateur Machines-Outils (CN)</li>
-   <li>Technicien Contrôleur</li>
-   <li>Chefs de projets</li>
-   <li>Ingénieurs spécialisés</li>
- </ul>
-    </div>
-    <div class="elements">
-      <h3 style="margin-top:20px;">Les projets de l’établissement</h3>
-      <ul>
-        <li>Conception et réalisation de pièces moto par exemple :</li>
-        <li>Module AERONAUTIQUE: Construction et étude d’un « gyroscope » en PARTENARIAT AVEC AIRBUS HELICOPTERS
-           (Un professionnel de l’entreprise viendra accompagner les élèves sur les moments forts du projet)
-           et PLANETE SCIENCES (3 séances avec un animateur spécialisé).</li>
-        <li>Module VEHICULE: La société DSF Moto a sollicité le Lycée Robert Schuman pour concevoir des pièces pour motos.
-           Les élèves de Seconde et de Première TU ont eu le privilège de participer à ce projet.
-           Cliquez sur l’image pour voir la galerie photos.</li>
-        <li>Visite d’entreprises dans la vallée de l’Arve en Haute Savoie pour les élèves de 2nde</li>
-        <li>Étude, conception et réalisation de pièces de karting (Course sur circuit en fin d’année avec le karting du lycée)</li>
-      </ul>
-      <div class="elements">
-        <h3 style="margin-top:20px;">Contenu de la formation – Epreuves</h3>
+        les trois ans en partenariat avec nos entreprises.</p>
+        <p>Formation de 2 jours au centre de ressources et techniques avancées (En partenariat avec RENAULT)</p>
       </div>
-    </div>
-  </div>
+      <div class="elements">
+        <h3 style="margin-top:20px;">Poursuite d’études</h3>
+        <p>Il est possible de préparer un BTS (Diplôme BAC+2) puis une licence dans le domaine du Génie Mécanique.
+          Exemples : BTS CPRP (Conception des Processus de Réalisation de produits) (Ex BTS IPM), BTS CPI (Conception de Produits Industriels),
+          BTS TC (Technico- Commercial), Licence Professionnelle ICP (Ingénierie de la Conception et Prototype),…</p>
+        </div>
+        <div class="elements">
+          <h3 style="margin-top:20px;">Les débouchés</h3>
+          <p>Le titulaire du Bac Pro exerce ses activités dans différentes entreprises industrielles et de services dans des secteurs
+            en plein développement: l’énergie, l’aéronautique, le ferroviaire, l’automobile, le naval, les équipements mécaniques,
+            la mécatronique, la robotique, le secteur médical…</p>
+            <p>Les industries mécaniques, premier employeur industriel de France placent
+              leur savoir-faire au cœur de leur compétitivité et ont besoin de personnel qualifié et compétent :</p>
+              <ul style="margin-top:20px;">
+                <li>Technicien Méthodes FAO et Opérateur Machines-Outils (CN)</li>
+                <li>Technicien Contrôleur</li>
+                <li>Chefs de projets</li>
+                <li>Ingénieurs spécialisés</li>
+              </ul>
+            </div>
+            <div class="elements">
+              <h3 style="margin-top:20px;">Les débouchés</h3>
+              <p>Le titulaire du Bac Pro exerce ses activités dans différentes entreprises industrielles et de services dans des secteurs en plein développement:
+                l’énergie, l’aéronautique, le ferroviaire, l’automobile, le naval, les équipements mécaniques, la mécatronique, la robotique, le secteur médical…
 
-  </div>
+                Les industries mécaniques, premier employeur industriel de France placent leur
+                savoir-faire au cœur de leur compétitivité et ont besoin de personnel qualifié et compétent :</p>
+                <ul>
+                  <li>Technicien Méthodes FAO et Opérateur Machines-Outils (CN)</li>
+                  <li>Technicien Contrôleur</li>
+                  <li>Chefs de projets</li>
+                  <li>Ingénieurs spécialisés</li>
+                </ul>
+              </div>
+              <div class="elements">
+                <h3 style="margin-top:20px;">Les projets de l’établissement</h3>
+                <ul>
+                  <li>Conception et réalisation de pièces moto par exemple :</li>
+                  <li>Module AERONAUTIQUE: Construction et étude d’un « gyroscope » en PARTENARIAT AVEC AIRBUS HELICOPTERS
+                    (Un professionnel de l’entreprise viendra accompagner les élèves sur les moments forts du projet)
+                    et PLANETE SCIENCES (3 séances avec un animateur spécialisé).</li>
+                    <li>Module VEHICULE: La société DSF Moto a sollicité le Lycée Robert Schuman pour concevoir des pièces pour motos.
+                      Les élèves de Seconde et de Première TU ont eu le privilège de participer à ce projet.
+                      Cliquez sur l’image pour voir la galerie photos.</li>
+                      <li>Visite d’entreprises dans la vallée de l’Arve en Haute Savoie pour les élèves de 2nde</li>
+                      <li>Étude, conception et réalisation de pièces de karting (Course sur circuit en fin d’année avec le karting du lycée)</li>
+                    </ul>
+                    <div class="elements">
+                      <h3 style="margin-top:20px;">Contenu de la formation – Epreuves</h3>
+                    </div>
+                  </div>
+                </div>
 
-  <div>
-      <a  href="formulaire_inscription_eleve.php">S'inscrire</a>
-  </div>
+              </div>
+
+              <div class="about_text">
+                <h4>Comment inscrire son enfant ?</h4>
+                <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
+                <a href="../formulaire/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
+              </div>
 
 
-</body>
-</html>
+            </body>
+            <?php include "../footer.php" ?>
+            </html>

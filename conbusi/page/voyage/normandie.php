@@ -103,7 +103,7 @@
     <div >
 
     </diV>
-    <div class="bradcam_area" style="background-image: url(../img/banner/normandie_1.jpg);">
+    <div class="bradcam_area" style="background-image: url(../../img/banner/normandie_1.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -159,13 +159,13 @@ Ce matin, en raison d’un problème de car, nous avons quitté le lycée avec u
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../img/banner/normandie_4.jpg" alt="First slide">
+                    <img class="d-block w-100"style="border-radius:12px; width:670; height:300px;"class="image" src="../../img/banner/normandie_4.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/normandie_5.jpg" alt="Second slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../../img/banner/normandie_5.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../img/banner/normandie_6.jpg" alt="Third slide">
+                    <img class="d-block w-100" style="border-radius:12px; width:670; height:300px;" class="image" src="../../img/banner/normandie_6.jpg" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -242,7 +242,7 @@ Les élèves n’ont pas très envie de rentrer à Dugny, les enseignants un peu
 
     <!-- Information_area  -->
     <div style="background-color:white; width:100px; height:300px ;"> </div>
-     <div class="overlay" style="background-image:url(../img/banner/information.jpg);
+     <div class="overlay" style="background-image:url(../../img/banner/information.jpg);
      background-size: cover;
      background-position: center center;
      padding: 180px 0 150px 0;

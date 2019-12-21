@@ -11,7 +11,7 @@
   </head>
   <?php include "../header.php" ?>
   <body class="fond">
-    <form class="box" action="../traitement/traitement_connexion.php" method="post">
+    <form class="box" action="../../traitement/traitement_connexion.php" method="post">
       <h1 style="color:#1B9CFC;">Connexion</h1>
 
       <label style="color:#1B9CFC;" >Entrez votre adresse mail : </label>

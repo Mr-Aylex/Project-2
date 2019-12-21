@@ -7,10 +7,10 @@
   <title></title>
   <?php include "../header.php" ?>
 </head>
-<link rel="stylesheet" href="../css/page_formations.css">
+<link rel="stylesheet" href="../../css/page_formations.css">
 <body>
   <div class="banner">
-    <img src="..\img\banner\SISR.jpg" alt="">
+    <img src="..\..\img\banner\SISR.jpg" alt="">
   </div>
   <div class="box">
     <div class="elements">
@@ -122,7 +122,12 @@
             <img src="#" alt="image">
           </div>
         </div>
+        <div class="about_text">
+          <h4>Comment inscrire son enfant ?</h4>
+          <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
+          <a href="../formulaire/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
+        </div>
       </div>
-      <?php include "footer.php" ?>
+      <?php include "../footer.php" ?>
     </body>
   </html>

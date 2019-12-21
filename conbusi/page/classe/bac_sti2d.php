@@ -7,10 +7,10 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <link rel="stylesheet" href="../css/page_formations.css">
+  <link rel="stylesheet" href="../../css/page_formations.css">
   <body>
     <div class="banner">
-      <img src="..\img\banner\STI2D.jpg" alt="" style="height: 500px">
+      <img src="..\..\img\banner\STI2D.jpg" alt="" style="height: 500px">
     </div>
     <div class="">
       <h2>BAC STI2D</h2>
@@ -78,6 +78,12 @@
       <div class="elements">
         <h3>Les enseignements (environ 35 heures) – Examen</h3>
       </div>
+      <div class="about_text">
+        <h4>Comment inscrire son enfant ?</h4>
+        <p>Inscrivez votre enfant dès maintenant en cliquant ci-dessous.</p>
+        <a href="../formulaire/formulaire_inscription_eleve.php" class="boxed-btn3">Inscrire son enfant</a>
+      </div>
     </div>
   </body>
+  <?php include "../footer.php" ?>
 </html>

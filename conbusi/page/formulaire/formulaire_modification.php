@@ -18,7 +18,7 @@ header("Location: formulaire_connexion.php");
   </head>
 
   <body class="fond">
-    <form class="box" action="..\traitement\traitement_modification.php" method="post">
+    <form class="box" action="..\..\traitement\traitement_modification.php" method="post">
       <div class="g">
         <label class="label" for="">ID</label>
         <div class="inputbox">

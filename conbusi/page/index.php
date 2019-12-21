@@ -11,22 +11,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/e1924a5c8f.js" crossorigin="anonymous"></script>
   <!-- <link rel="manifest" href="site.webmanifest"> -->
-  
-  <!-- Place favicon.ico in the root directory -->
 
-  <!-- CSS here -->
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/owl.carousel.min.css">
-  <link rel="stylesheet" href="../css/magnific-popup.css">
-  <link rel="stylesheet" href="../css/font-awesome.min.css">
-  <link rel="stylesheet" href="../css/themify-icons.css">
-  <link rel="stylesheet" href="../css/nice-select.css">
-  <link rel="stylesheet" href="../css/flaticon.css">
-  <link rel="stylesheet" href="../css/gijgo.css">
-  <link rel="stylesheet" href="../css/animate.css">
-  <link rel="stylesheet" href="../css/slick.css">
-  <link rel="stylesheet" href="../css/slicknav.css">
-  <link rel="stylesheet" href="../css/style.css">
+
   <!-- <link rel="stylesheet" href="css/responsive.css"> -->
   <style>
 
@@ -151,13 +137,6 @@
                         </a>
                       </div>
                     </div>
-
-
-
-
-
-
-
                   </div>
                 </div>
               </div>
@@ -174,7 +153,7 @@
                     <div class="counter_icon">
                       <img src="../img/svg_icon/group.svg" alt="">
                     </div>
-                    <h3> <span class="counter">200</span> <span> +</span> </h3>
+                    <h3> <span class="counter">100</span> <span> +</span> </h3>
                     <p>Nombre d'entreprise en partenariat</p>
                   </div>
                 </div>
@@ -183,7 +162,7 @@
                     <div class="counter_icon">
                       <img src="../img/svg_icon/cart.svg" alt="">
                     </div>
-                    <h3> <span class="counter">97</span> <span>%</span> </h3>
+                    <h3> <span class="counter">95</span> <span>%</span> </h3>
                     <p>Reussite au Bac</p>
                   </div>
                 </div>
@@ -192,7 +171,7 @@
                     <div class="counter_icon">
                       <img src="../img/svg_icon/heart.svg" alt="">
                     </div>
-                    <h3> <span class="counter">5628</span></h3>
+                    <h3> <span class="counter">239</span></h3>
                     <p>Nombre d'élves</p>
                   </div>
                 </div>
@@ -220,88 +199,14 @@
                 <div class="col-xl-8">
                   <div class="info_text text-center">
                     <h3>Pour plus d'information :</h3>
-                    <a class="boxed-btn3" href="#"> Tel : 01 48 37 74 26</a>
+                    <p class="boxed-btn3" > Tel : 01 48 37 74 26</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- /Information_area  end -->
+          <?php include "footer.php" ?>
 
-          <!-- footer start -->
-          <!--<footer class="footer">
-          <div class="footer_top">
-          <div class="container">
-          <div class="row">
-          <div class="col-xl-3 col-md-6 col-lg-3">
-          <div class="footer_widget">
-          <div id="fils">
-          <div class="footer_logo">
-          <a href="#">
-          <img style="padding-top:20px;"src="../img/logo.png" height="80px" width="100px" alt="">
-        </a>
-      </div>
+        </body>
 
-
-      E-mail : administration@lyceerobertschuman.com
-
-      Numéro : 01 48 37 74 26<br>
-      Adressse : 5 avenue du Général de Gaulle<br>
-      Ville : 93440 Dugny
-    </div>
-
-  </div>
-</div>
-<div class="col-xl-2 col-md-6 col-lg-3">
-
-</div>
-<div class="col-xl-2 col-md-6 col-lg-2">
-  <div class="footer_widget">
-    <h3 style="margin-left:-35px;" class="footer_title">Lien utile :</h3>
-    <ul>
-
-      <li><img href="https://0931573e.index-education.net/pronote/" style='margin-left:-40px;'src="../img/banner/pronote.png" height="40px " width="40px" alt=""><a style="margin-left:10px;" href="https://0931573e.index-education.net/pronote/">  Pronote</a></li>
-      <li><img style='margin-left:-40px;'src="../img/banner/contact.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="#"> Contact</a></li>
-
-
-
-      <li>  <img href="https://www.facebook.com/robertschumandugny" style='margin-left:-40px;'src="../img/banner/facebook.png" height="40px " width="40px" alt=""><a style="margin-left:10px;"href="https://www.facebook.com/robertschumandugny">  Facebook</a></li>
-
-
-
-
-    </ul>
-  </div>
-</div>
-<div class="col-xl-4 col-md-6 col-lg-4">
-  <div class="footer_widget">
-
-  </div>
-</div>
-</div>
-</div>
-<div class="copy-right_text">
-  <div class="container">
-    <div class="footer_border"></div>
-    <div class="row">
-      <div class="col-xl-12">
-        <p class="copy_right text-center">
-
-          Copyright &copy;<script>document.write(new Date().getFullYear());</script> Micromagic<i class="fa fa-heart-o" aria-hidden="true"></i><a href="index.php" target="_blank">Tous droits réservés</a>
-
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-</footer> -->
-<?php include "footer.php" ?>
-<!--/ footer end  -->
-
-<!-- link that opens popup -->
-
-
-<!-- JS here -->
-</body>
-
-</html>
+        </html>
